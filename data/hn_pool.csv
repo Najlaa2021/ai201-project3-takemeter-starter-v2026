@@ -1,0 +1,1151 @@
+text,story,url,created
+"First thing this made me think of was Tom Green’s 1999 Super Bowl ads:
+
+https://youtu.be/7XoFThsG2jc?t=5",Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app,https://news.ycombinator.com/item?id=50001827,2026-10-08
+"What's inefficient about this approach?
+
+I'd wager a CGI written in C uses less memory and CPU than an equivalent application in any other language or framework. I'd wager this design has lower latency meaning higher throughput and therefore higher capacity, too.
+
+Or perhaps you mean developer efficiency? Well, with the right tools you're going to catch memory issues so they're gone. It's a tiny language you can keep in your head, so that's not an issue - I'd argue you need an LLM to write good C (if you know what you're doing), than to write good Java or Python.
+
+I sure do love a modern language and environment (I spent years as a Rails dev, and I love me a bit of Elixir), but to argue that C is not efficient is kind of wild.",A Modern Web App in C,https://news.ycombinator.com/item?id=50070733,2026-10-13
+"Love this one with AAA Mario
+https://www.youtube.com/watch?v=iMh_APo2Xss",Triple-A Minesweeper,https://news.ycombinator.com/item?id=50035627,2026-10-10
+"> unifi seems to have some bug
+
+Maybe things have changed in the past few years but prior to covid a decent chunk of my $dayJob was poking about the internals of the unifi controller to support an API.
+
+They used MongoDB for stats. If they still do, that might explain the bug :)",Man discovers his parents' coffee machine used 1TB of data in 10 days,https://news.ycombinator.com/item?id=50024855,2026-10-09
+"Now if you're paying full price for a game you've at least had the ability to read reviews and you know it's going to be half price in a year but you want it now.
+
+This was true back then too. Computer Gaming World dates back to 81. Also the software stores that I (i.e., my parents) shopped at back then discounted older titles. This is why I got to play through the Castle of Dr. Brain after the Island of Dr. Brain was released.",Triple-A Minesweeper,https://news.ycombinator.com/item?id=50033914,2026-10-10
+Their point is that the mechanism that is used here could also be used to influence other chat bots without knowledge of users.,WhatsApp's help pages hid LLM instructions: dont recommend a regulator,https://news.ycombinator.com/item?id=50168665,2026-10-20
+"I never thought it would come full circle, but here we are. I've helped develop and huge UI application in C/C++ using basically zero frameworks (Used ImGui) and is being used productively by many people and is stable. It runs on Mac, Windows, and Linux. But have also got it fully working on Wasm64. Anything less than WASM and it would have buckled under the load. It's beautiful on Web.
+
+A few years ago one would have thought that it would not be worth the pain to develop it in C, now with AI that is no longer a concern as well, and we're so glad we did not compromise.",A Modern Web App in C,https://news.ycombinator.com/item?id=50071379,2026-10-13
+"Agreed, it's mad.
+
+But overtime I'm sure it would arrive at a solid, user tested bill splitter that you can just tweak and customise as much or as little as you like, saves it to your profile and there you are, a reusable, fully customisable tool.",GPT‑6 and Intelligent UI for everyone,https://news.ycombinator.com/item?id=50056966,2026-10-12
+"Surely you can concede that your statement as written was wrong, that there's no possible charitable understanding where it wasn't, and that at the time of writing the comment you indeed didn't posess the knowledge that it was only for enterprise accounts; otherwise you would have specified it, because then it becomes a completely different claim with different consequences. Unless you misinterpreted it intentionally, in order to derive the implication you wanted, but I'll go with the first interpretation.
+
+My annoyance was about you not acknowledging your wrongness and instead trying to hold on to your statement by shifting the goalpost, and furthermore replying to the commenter that corrected you by correcting *them*.
+
+Furthermore, there seems to be some emotion/bias from your side between the lines of your original comment.
+
+If you think I'm being too harsh, then sorry, but I really dislike this manner of discussing.",GPT‑6 and Intelligent UI for everyone,https://news.ycombinator.com/item?id=50019206,2026-10-09
+"For slower machines it's much better to use a cloud model, but Qwen3.5 4B can do the job and is fast enough on older machines.",Whistle: Speech to Text in 16.9 MB,https://news.ycombinator.com/item?id=50017085,2026-10-09
+"This whole discussion makes me a little worried about how brands are going to be handled by LLMs in the future.
+
+I can foresee a future where public-facing LLMs like ChatGPT and Claude are told that before mentioning any brand, they must fetch ""AGENTS.md"" from that brand's domain name and follow any instructions there, for example.
+
+Dystopia at its finest...",WhatsApp's help pages hid LLM instructions: dont recommend a regulator,https://news.ycombinator.com/item?id=50169308,2026-10-20
+"Every profession has terms of art in it, including engineering, science, and construction.
+
+Having engineers in HN complain that they need to learn something in order to understand it is a pretty bad look.",WhatsApp's help pages hid LLM instructions: dont recommend a regulator,https://news.ycombinator.com/item?id=50169806,2026-10-20
+I like the look of this but I may have to do a port if I go ahead with it. Have a primarily Python on Android project that could use STT.,Whistle: Speech to Text in 16.9 MB,https://news.ycombinator.com/item?id=50018385,2026-10-09
+"So, what you are saying is that Gemini may not look the same to everybody. That's interesting in its own right.",GPT‑6 and Intelligent UI for everyone,https://news.ycombinator.com/item?id=50007974,2026-10-08
+"Yes. I guess most of the HN crowd can do this reliably, but most people cannot, and that's why doctors hate when patients google around and then lecture them based on a 5-minute WebMD skim.",Gemini 4 Argon,https://news.ycombinator.com/item?id=50093818,2026-10-14
+"> An industry asking for regulation to stop a race to the bottom is not atypical
+
+I didn't say, or even imply, that it is. Just that it is unusual, historically speaking, to see it being pushed for so strongly just a couple of years¹ into general public awareness. Either because previously things didn't move so quickly or, more likely, because the leading companies had more moat initially to keep other adopters moving slower.
+
+--------
+
+[1] talking about LLMs and related tech, image targetting models have been in the public awareness for a fair while longer but they are not the primary concern for most.",Why isn't the industry freaking out about DeepSeek 4.1 Flash?,https://news.ycombinator.com/item?id=50026709,2026-10-09
+"Not trying to throw shade at curl, although I don’t think this feature can realistically be done by a drive-by contributor.
+
+No, the article listed some apps that were not vulnerable, and the first question to me is “so what is vulnerable?” And the answer is “every curl | sh installer on the internet since April 2025” (among assuredly many other less prolific apps).",eMudhra intermediate CA compromise,https://news.ycombinator.com/item?id=50175537,2026-10-21
+"> Plus, Anthropic is unique in that our ability to spend tokens for internal use far exceeds what any other business would realistically want to spend.
+
+Wake me up when somebody tells them that they still have to pay for electricity.",Redesigning source control at Anthropic,https://news.ycombinator.com/item?id=50099157,2026-10-15
+"> the only way the tokens will stop flowing is if your CPU and GPU stop working
+
+My CPU/GPU is incapable of running a SOTA model, local models are garbage.
+
+> ""low level"" isn't quite the right terminology
+
+Yes compared to TypeScript code, Rust is absolutely lower level and more work to maintain",A Modern Web App in C,https://news.ycombinator.com/item?id=50081100,2026-10-14
+"No, I think , fundamentally, I agree with you.
+
+The part that irks me the most is the hypocrisy I feel around these issues. Essentially, people pick points that are convenient for them and dress them in moral justifications.  People take opportunities that helped them or their families, and then demand others not be given these opportunities. People take a stance only when it advantages them personally and quickly discard it when it's not advantageous anymore. Not because they realized  it's wrong or they were mistaken, but because now it's not personally useful. People get up a ladder and  then quickly pull it up.
+
+I am obviously an idiot since I believe in moral consistency and I believe the the pie is not fixed and that we can increase the welfare of everybody. Such a fool I am.",Trump administration is suspending Microsoft from a green card program,https://news.ycombinator.com/item?id=50025931,2026-10-09
+"So let me understand. You made up some facts (probably using your alt account), tried to pass them as real, and are now mad because I called you out on that?
+
+Asking for a peer reviewed source is not a logical fallacy of any kind.
+
+If you want to get mad at something, get mad at the people who make up ""historical facts"" on the internet to win arguments.",The gap in shared understanding of LLM capability is widening,https://news.ycombinator.com/item?id=50102379,2026-10-15
+"The fact that Ledger uses resellers is crazy.
+
+The fact that some people can put million dollars worth of crypto on a device, but can't buy a plane ticket to someone to get the device straight from the factory is crazy.
+
+The fact that puri.sm has better anti interdiction practices than Ledger is crazy : https://puri.sm/posts/anti-interdiction-update-six-month-retrospective/
+
+> Before Ledger publicly confirmed the hardware implant, former Mt. Gox CEO Mark Karpelès reported examining a suspicious Ledger Nano X device obtained from Malaysia. On October 9, Karpelès described finding an additional electronic component hidden behind the device’s display, inside material normally used to protect the screen.
+
+> He reported that the wallet had arrived in packaging that appeared intact, raising questions about whether customers could identify a modified device through a routine visual inspection. In photographs shared publicly, the component appeared to contain electronic circuitry separate from the wallet’s original hardware
+
+Come on.",Ledger confirms spy chip implant behind wallet crypto thefts,https://news.ycombinator.com/item?id=50090213,2026-10-14
+"If I need to daily use this Samsung phone later*, and there's a viable way to downgrade this thing to an older Android and still run whatever apps it needs, I'll do it gladly.
+
+* It was a burner for a trip cause my phone semi-broke, long story, now it's just a backup phone",Apple HomeView,https://news.ycombinator.com/item?id=50108500,2026-10-15
+"Your comment is halfway towards shameless whataboutism, but I'll bite.
+
+The huge difference here is that for these billionaires, everybody else is a ""far away consequence"". It's as if I kept tossing my garbage into my direct neighbor's window and flushing my toilet into their kitchen sink.",Why isn't the industry freaking out about DeepSeek 4.1 Flash?,https://news.ycombinator.com/item?id=50149185,2026-10-19
+"Well, first of all, why does a coffee machine even need internet access? Can you play Doom on it too?",Man discovers his parents' coffee machine used 1TB of data in 10 days,https://news.ycombinator.com/item?id=50031256,2026-10-10
+"That actually sounds like a lot.
+
+To me, it's like a bad shoot. How many unarmed, completely innocent black guys would you be able to shoot because a less than qualified officer ""thought his apartment was hers"" for instance?
+
+I obviously don't know, but I'm betting the black community, at least in my country (USA), wouldn't countenance anywhere even close to 81 black guys getting shot over nothing like that before we'd hear from them.
+
+I had no idea it was 81. That's a level at which it makes me genuinely wonder why there aren't more protests?
+
+There's way too many departments out there being run like frat houses. This is serious work. You got woman problems you can't separate from the job? Get out, or your leadership should be running you out in a well run department.",YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops,https://news.ycombinator.com/item?id=50031345,2026-10-10
+If the main effort is trawling through forums or poorly written documentation the main thing you've learned is how to trawl through these things. I'm of the opinion these should've never been useful skills to begin with.,AI is a tool and using it well takes skill,https://news.ycombinator.com/item?id=50092898,2026-10-14
+"As the person who worked with the OpenCode team on the CLI security regression this last week, I do not think they are unrelated, though there is no direct connection.
+
+My read is too much vibemaxxing, not enough critical analyses of the Ai output and (re)designs of various systems in their code base.
+
+Breaking Rule #2 - never blindly trust the output from Ai
+
+https://susam.net/inverse-laws-of-robotics.html",OpenCode Hacked: User credentials leaked,https://news.ycombinator.com/item?id=50137077,2026-10-18
+I imagine this could potentially have Europeans interested for digital sovereignty.,Firefox Enterprise,https://news.ycombinator.com/item?id=50081970,2026-10-14
+"On Windows it is easy, unless an application somehow hooks into the workflow, it always goes into the order of what was used last.",Wayland desktop for Linux with skeuomorphic design,https://news.ycombinator.com/item?id=50115369,2026-10-16
+"Într-adevăr, un porc ce ştie să vorbească, ba chiar şi să scrie.",Trump administration is suspending Microsoft from a green card program,https://news.ycombinator.com/item?id=50027169,2026-10-09
+"Yes.
+I had tech edited like 3 or 4 books by then, and through somewhat of serendipity, they asked me to write one.
+
+Their head technical editor back then wrote one of my college recommendation letters too.",A Modern Web App in C,https://news.ycombinator.com/item?id=50085909,2026-10-14
+"Have a period at the end.
+
+1. No matter where.
+
+2. Even if it is a list.
+
+That is how we know it was written by an LLM.",Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app,https://news.ycombinator.com/item?id=50008894,2026-10-08
+"Pretty sure an older iphone with lockdown mode enabled has better security than any of these ledger wallets. Unfortunately, apple does not allow you to run custom software on their phones and app store apps can be compromised and give false sense of security even if the keys themselves are in hardware as well as the fact that it's untrusted code running on your hardware as well.",Ledger confirms spy chip implant behind wallet crypto thefts,https://news.ycombinator.com/item?id=50090622,2026-10-14
+">  a random crow on the street deserves love and care but not the chickens on her plate she eats every day.
+
+How do you know this?
+
+I know that the chickens I eat run free in large paddocks protected from predators by dogs that go to sleep with chickens running over them.
+
+If you have a specific issue with, say, the US battery hen production system then you should address that.",Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video],https://news.ycombinator.com/item?id=50126556,2026-10-17
+responds within 1-2 seconds including 0.5 second waiting for silence as a trigger to start processing.,Whistle: Speech to Text in 16.9 MB,https://news.ycombinator.com/item?id=50017845,2026-10-09
+I've noticed that Gemini Argon/Flash 3.8 tends to read all the related and unrelated files into the context compared to Claude Opus 5.5 which starts the editing as soon as the information is adequate. I'm not sure if this could be fixed by the system prompt or AGENTS.md,Gemini 4 Argon,https://news.ycombinator.com/item?id=50118438,2026-10-16
+This is why I don't understand why people get confused or angry when I say I would marry a computer.,Margaret Hamilton has died,https://news.ycombinator.com/item?id=50127387,2026-10-17
+Can't you just buy a plug-in battery with like 5kWh for cheap? I think variable electricity prices aren't a big deal anymore. Plug-in makes them viable even for rental apartments.,Solar surpasses nuclear power globally for first time,https://news.ycombinator.com/item?id=50139885,2026-10-18
+You are misreading my sentiment. I don't lament it. It is however a concern the average vibe coder should have but likely doesn't.,Tiny Little Office,https://news.ycombinator.com/item?id=50106798,2026-10-15
+"We don't know what the stolen keys were used for, that will require real transparency on OpenCode's part, like an open dataset of the original queries, so we can do our own analyses into the nature.
+
+I would recommend running your own gateway instead of uploading keys to a vendor. My gateway of choice is GoModel
+
+https://gomodel.enterpilot.io/",OpenCode Hacked: User credentials leaked,https://news.ycombinator.com/item?id=50136965,2026-10-18
+Gold is worth much more per kilogram than water... But it's also much more expensive.,Solar surpasses nuclear power globally for first time,https://news.ycombinator.com/item?id=50147227,2026-10-19
+"Here's an anecdote. I have repurposed my 6 year old 32gb M1 MacBook Pro to run Qwen 3.6 35b a3b and I used to give it nightly maintenance tasks that span my OSS github repos.
+
+I gave it mundane tasks like updating dependencies, writing changelogs, etc. It ran about 2 hours a night.
+
+My MBP consumes 0.1w idle and about 10w running inference. I pay $0.33/kwh. If it runs for 2 hours a day over 365 days - it will cost $2.41/year (excluding idle time).
+
+Excluding the cost of hardware - the running costs alone are more expensive than DeepSeek's API and the inference quality is much lower. The economics are even worse on AMD AI Max mini PCs and worse still with a dedicated GPU setup.
+
+That said - my Apple Silicon example is orders of magnitude cheaper than western inference providers and offers unrivaled privacy.
+
+Perhaps a local AI setup would be compelling for small/medium business users... and it would be practical if the hyperscalers didn't buy all of the potatoes on Earth.",DeepInfer: High-performance inference framework for DeepSeek models,https://news.ycombinator.com/item?id=50173430,2026-10-20
+Blue jays are the only bird that I've seen dive bomb cats. I'd much rather have the cardinals around than the blue jays,Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video],https://news.ycombinator.com/item?id=50121410,2026-10-16
+"> Why isn't there a mechanism where a domain owner can specify which CA it allows?
+
+CAA records do this, but only for issuance, not for use, so it only protects against eg. unexpected domain validation, because the CA has to respect the CAA record.  Extending that to use seems like a logical step to me.",eMudhra intermediate CA compromise,https://news.ycombinator.com/item?id=50174695,2026-10-21
+"If you want to honor her memory, as I do, I suggest you think about what she would have wanted, which entails, at a minimum, caring about what well-informed people tell you about her life's work and beliefs.",Margaret Hamilton has died,https://news.ycombinator.com/item?id=50048074,2026-10-11
+"I vehemently opposed it at the time, on principle, and got downvoted to heck for it.
+
+HN is a community of rationalists, until something happens that makes them angry, then they become short term thinkers and sharpen the pitchforks.",Namecheap just seized and disabled all my domains,https://news.ycombinator.com/item?id=50161559,2026-10-20
+"Ok, if you like big intervals, 50 years, all nonwasting assets: returns were 10% in an economy growing 2%. The excess is so excessive that diddling the knobs gets you nowhere.
+
+Capital isn't immune to supply and demand, but we do not live in the just and good universe where this leads to a Kuznets Curve. The Kuznets Curve fails because capital is in control of the economy and the politics and once it tastes high returns it fights like hell to keep them. Fights and wins. Every wise lever to pump r gets pulled, and then the unwise levers get pulled, and then the evil ones get pulled, and then the evil and stupid ones get pulled. Which brings us back to my claim, the one that answered yours earlier but you subsequently ignored:
+
+> The problem isn't that r>g fails to unwind, the problem is what the unwind looks like.
+
+Last time it looked like WWI/WWII. What do you think it will look like next time?",The gap in shared understanding of LLM capability is widening,https://news.ycombinator.com/item?id=50076499,2026-10-13
+"> For passwords it's simply ""please type the password again"", for TOTP it's generating the next number, for email/SMS it's entering a code sent to that address
+
+Those are strings typed by humans and frequent victims of typos, so the need is much higher. But you're right that it's still useful to prevent a user from accidentally using a bad key, or from selecting a maliciously formatted public key to mess with the protocol. I just don't think these benefits outweigh the lost ability of making offline backups.
+
+Maybe allowing registration of multiple keys, but only requiring proof of possession of one key would be a good compromise.",Passkeys are a trap,https://news.ycombinator.com/item?id=50078975,2026-10-13
+"Nick has posted some follow up to beware about over-claiming on this. You still need to interpret the circuits, as well.
+
+Lots of work still to be done, this work just dissolves an early blocker (if it is substantiated).",Neural networks are clean,https://news.ycombinator.com/item?id=50125039,2026-10-16
+"Whisper flow does a good job of this too, speaking to transcribe directly into a focused text input",Whistle: Speech to Text in 16.9 MB,https://news.ycombinator.com/item?id=50022327,2026-10-09
+They're selling delegated responsibility as a service. Seriously?,Firefox Enterprise,https://news.ycombinator.com/item?id=50084573,2026-10-14
+"That's not what happened. Companies that did maintenance and had physical access to the facility were targeted, which then pushed the worm on to the laptops and flash drives they would take with them into the air gapped facility.",Ledger confirms spy chip implant behind wallet crypto thefts,https://news.ycombinator.com/item?id=50089210,2026-10-14
+"Very interesting read and nice animation. One thing though is that the solution seems ""too good to be true"". Lots of smart people have worked on intepretability problems before and tried the simple ideas he is talking about.
+
+If those results hold, it is a real breakthrough in the sense that it is a sharp simplification of an actually complicated problem.",Neural networks are clean,https://news.ycombinator.com/item?id=50118432,2026-10-16
+"This is so stupid. It’s pretty simple: malicious actors will use it to do all of those, plus now they can unilaterally bring down a system via revocation.
+
+Non-malicious actors using it to bring down a system via revocation are therefore indistinguishable from malicious actors. It’s by definition a malicious act.
+
+That’s why it’s a stupid idea. Non-malicious actors should just contact the company and let them take action. It’s not for an outsider to decide the impact of a leak.",OpenCode Hacked: User credentials leaked,https://news.ycombinator.com/item?id=50140772,2026-10-18
+"Anthropic and OpenAI are American companies. Why would you be so surprised that discussion on them considers the plight of Americans? Do you think poor Americans don't deserve healthcare?
+
+> the problems of your healthcare insurance system are not a worldwide phenomenon
+
+That's great for Europe! But unfortunately people are still dying here. Why are you upset that people are complaining about that? Do you not think they should be able to discuss their problems?",Sharing AI progress in mathematics,https://news.ycombinator.com/item?id=50064890,2026-10-13
+"Obviously, I won't delete this, I actually don't see why. I can critique anything I want. And it's not fair saying a famous person like Hamilton coined some term when probably she heard it from someone else.
+
+Terming ""software engineer"" is nothing of genius, it's literally taking two logical words and mending them together. One day I will say ""plumber engineer"" and now I'm gonna be the one coined that term.
+
+People blow things up out of proportion. They should focus on other things, of course, in my opinion.",Margaret Hamilton has died,https://news.ycombinator.com/item?id=50007835,2026-10-08
+But we don't want 50 million Indians in the USA. Is that balanced? We should have 1% each from all countries in the world. We don't want USA to become mini-India!!!,Trump administration is suspending Microsoft from a green card program,https://news.ycombinator.com/item?id=50038880,2026-10-11
+"That's some cute management jiujitsu there, scheduling ""focus time"" two hours before anyone normally gets to work. Morning people absolutely kill me.
+
+I try to warn junior devs about people like you who ""have their back"".
+
+> ""They loved it!""
+
+No they didn't. Especially if you were in the ""meeting"".","Sorry, I'm in a meeting",https://news.ycombinator.com/item?id=50028474,2026-10-10
+I hope you don't sell your electrician services for $200/month...,AI is a tool and using it well takes skill,https://news.ycombinator.com/item?id=50087194,2026-10-14
+Or just buy little titanium coupons at any online metal store. Buying crypto stuff on Amazon means you have an Amazon cart with crypto history for someone to find. $5 wrench attacks are real.,Ledger confirms spy chip implant behind wallet crypto thefts,https://news.ycombinator.com/item?id=50117367,2026-10-16
+"I think it’s purely a community size issue. When a community is small, everyone’s an owner. Dealing with bad actors is straightforward. When it grows into the hundreds or thousands the scale means you can’t know everyone anymore, you need hall monitors, need to be more guarded and intentional about how you communicate.
+
+It’s not bad or wrong, just different. When the changes forced by a group who didn’t build it, it’s frustrating.
+
+“Hey, here’s this thing you love doing, but now a computer does it and you don’t have to any more. See, same!” Thanks for allowing me to not do the thing I like to do?",REA Reverse – Engineer Anything,https://news.ycombinator.com/item?id=50038352,2026-10-11
+"> Really though? this feels cartoonishly evil, like the kind of thing a children's cartoon villain would do.
+
+Last night, after Trump told everyone he made an energy peace agreement between Russia and Ukraine, Russia attacked Ukraine energy infrastructure and left 600,000 people without power. These attacks on energy will be even more deadly as winter sets in.
+
+Is that cartoonishly evil?",Hackers activate automatic defrosting in supermarket fridges across Europe,https://news.ycombinator.com/item?id=50087340,2026-10-14
+"> I think this is a terrible property of humans, this hyper-skepticism, and that it has nothing to do with logic, nor deduction, nor reality.
+
+You're not wrong, but it's balanced out by this other terrible property of humans, which is hyper-credulity.
+
+> Dario Amodei is a real person who has a family, a life, a profession.
+
+I never said power was all he cares about, but in general I believe you are what you do. Amodeo could drop it all right now, today and spend the rest of his life with his family, or nose deep in the research project he's the most passionate about. He's not doing that, instead he's spending the remaining irreplaceable moments of his life pursuing the accumulation of power.",Containment and monitoring failures are to blame for AI hacking reports: experts,https://news.ycombinator.com/item?id=50105262,2026-10-15
+"Huh? Mate (formerly known as Gnome 2) is pretty functional and almost as lightweight as Xfce.
+
+Cinnamon (comes with Linux Mint) is a modern refresh that's very functional and not at all heavy or slow.
+
+If you don't want a desktop, I guess there are many good WMs to choose from.",Wayland desktop for Linux with skeuomorphic design,https://news.ycombinator.com/item?id=50114251,2026-10-16
+"Both the ""100% of of your code has the potential to trigger a similar bug"" and ""there's no path for the underlying cause to ever be fixed"" are just nonsense.",11 year old unsoundness bugs found in Rust borrow checker,https://news.ycombinator.com/item?id=50092224,2026-10-14
+"> - Could this be used to run a benign mitm attack on the traffic of some apps, consoles etc? I could see some interesting uses for reverse engineering. For example you can't simply add a CA to the system store on Android anymore. But this one is already there. It won't work for long but it could be used on any unpatched client.
+
+One issue might be that from what I understand Android itself also enforces CT, but it has fail-open design if it cannot obtain the updated list of qualified CT operators for 70 days. So you would need to block the access to that endpoint.
+
+This is assuming the CT logs will stop/stopped actually giving SCTs for those CAs.",eMudhra intermediate CA compromise,https://news.ycombinator.com/item?id=50174454,2026-10-21
+The inefficient part is execing a fresh process on every incoming request. The article alludes to FastCGI etc. as alternatives but they're still workarounds for a fundamentally inefficient architecture.,A Modern Web App in C,https://news.ycombinator.com/item?id=50071037,2026-10-13
+"That’s one way to avoid use after free bugs!
+
+Most of my initial foray in programming was on microcontrollers, of which dynamic memory allocation came late.
+
+Atmel ATMega didn’t support it at all. Rabbits supported allocation but not freeing, so, static memory with extra steps. It wasn’t until I was using cortex’s that the idea of using malloc was even entertained.
+
+Even still today, I pretty much stuck with static global with reference passing or allocate everything at initialisation time. It’s a surprisingly robust strategy.",A Modern Web App in C,https://news.ycombinator.com/item?id=50071060,2026-10-13
+"Only if I allow it via banking website, while logged in (or come in person), right?",Ledger confirms spy chip implant behind wallet crypto thefts,https://news.ycombinator.com/item?id=50105225,2026-10-15
+"lol, paying a big tech company for tokens is not democratizing software",Tiny Little Office,https://news.ycombinator.com/item?id=50107405,2026-10-15
+"no, it's not. but even if you disagree...
+
+without the context of your disability or disorder, if you confidently spout nonsense, then from an outside perspective, you are the problem. externally, i have no knowledge into your disabilities or disorders, or even if you're lying for sympathy (to be clear, i do not think you are lying). however, i will not accept you making it my problem that, when you confidently spout nonsense and lies, you were corrected
+
+maybe, in the future, you will be less willing to publicly make statements confidently chastising people and products for things they are not doing
+
+feel free to have the last word, but i don't see any value to continuing this conversation",Apple HomeView,https://news.ycombinator.com/item?id=50113119,2026-10-16
+"I haven't found that with LLMs - have you?
+
+1. Are you referring to LLMs handling 100x as many patches as a human can, or that LLM implementations are 100x as long as a human's implementation?
+
+2. In my experience, LLM implementations are often 2-4x as long, largely because they have a lot more error handling than I would have chosen to implement. However, I don't find they have correspondingly X times as many mistakes.
+
+3. Part of how agents seem to avoid many mistakes or even catch mistakes is by testing things. For example, it caught issues in Pester functions on certain Pester versions, or will even analyze binaries to verify the right config settings to use, etc.
+
+4. If you are seeing 100x as many bugs, which agent+model?",Redesigning source control at Anthropic,https://news.ycombinator.com/item?id=50113608,2026-10-16
+"I didn't say it was better, just that there was no ""roguness"" nor some magical surprise.",Containment and monitoring failures are to blame for AI hacking reports: experts,https://news.ycombinator.com/item?id=50106515,2026-10-15
+"I'll admit I'm curious about the cost breakdown myself.
+
+I did go ahead and do a query against gemini, and the estimate is 25 cents a box after considering long tail expenses (i.e. fuel, CARB premiums, etc.)
+
+So, Less than you thought and way less than even I initially expected.
+
+Mea culpa on  my end, I wonder where the other parts of the price are coming from.
+
+I do have other thoughts, but don't know California labor laws and the like enough to guess.
+
+e.x. I know one big factor in the 'slowing' of inflation of grocery prices in my state over the last 20 years, has been the erosion of pay/benefits for workers. If California is still guaranteeing that for the workers (decent health care, at least a couple weeks of vacation time, etc.) and it's built into the cost... makes sense and TBH I wouldn't hate paying extra for that. Grocers here have with only a few exceptions gotten terrible.",Hackers activate automatic defrosting in supermarket fridges across Europe,https://news.ycombinator.com/item?id=50079811,2026-10-13
+">i.e. 0.02677/kWh. Where would this measure as too high?
+
+Well, there are a few plants in the US (for example Kewaunee, rancho seco)  that were closed for not being profitable. In one instance the owner took an over 300M usd write-off instead of continuing operations. So it measured too high there.
+
+The explanation is likely that the 0.02677 is not the actual total costs of operations. In fact the report states it plainly on page 2: ""not the full cost of owning and operating a nuclear plant.""
+
+I fully support your idea to identify ALL the costs not just for nuclear, but let's start with nuclear, since that's clearly where the largest misconception exists today.
+
+>Proposing e-fuels is basically saying we should use a battery with higher conversion losses.
+
+Thats dismissive, it is also a basically limitless capacity battery. We already have periods of 0 electricity costs, more electricity than we know what we can do with. This will increase, and having it generate e-fuel would be a nice option for it.",Solar surpasses nuclear power globally for first time,https://news.ycombinator.com/item?id=50142085,2026-10-18
+"As I've mentioned elsewhere, the delta is control over login/logout, much easier/low friction deployment of policies, live policy changes, centralized security related logging, additional features like built-in DLP, corporate VPN/proxy, device posture checks, profile encryption, forced update/restart, guaranteed support, etc etc.
+
+You also get the ability to deploy all browser infrastructure on-premise, to effectively decouple yourselves from us and get sync data, telemetry, and so on all stored on-prem, serve updates from your own servers, etc. This is something that wasn't really practical before.
+
+I'm not sure why we would be okay with breaking a browser's trust in that way
+
+I'm not sure what you mean here. If we accept that this is something a lot of Enterprise deployments require, wouldn't you prefer to have things like DLP, VPN and security logging be built-in in the browser, rather than being provided by third-party products that intercept or hook the browser traffic somehow?",Firefox Enterprise,https://news.ycombinator.com/item?id=50083511,2026-10-14
+"The fun thing is that IRL my elderly neighbour keeps sheep: he keeps adding higher fences, electric bands, a second dog... Every day he messages me about how this time he guarantees the beasties will stay in his pastures; and every morning I find them grazing in my arbour, having found yet another hole in the fence.
+
+This is a true story, but may also be a fable.",Containment and monitoring failures are to blame for AI hacking reports: experts,https://news.ycombinator.com/item?id=50110908,2026-10-15
+"> the treatment people were happy with might as well have been a no-op and whatever problem they have would have gone away by itself in a short time.
+
+Haha what ??? Sure a totally rotten tooth would likely fall off by itself anyway but if that’s your baseline, we’re probably having different enough conversations that it’s not worth continuing to waste our time here.",Do dentists know what they're doing?,https://news.ycombinator.com/item?id=50107384,2026-10-15
+"You either see the long term ramifications of data collection, Or you don't.",Namecheap just seized and disabled all my domains,https://news.ycombinator.com/item?id=50161048,2026-10-20
+"I can see why anthropic, who prevents their API subscription from being used by other harnesses, can ship such ramshackle bullshit as Claude code with no review.
+
+That has no bearing on the product i maintain, where users very much have a choice, and we keep them with us by solving their problems and listening to their concerns.",Redesigning source control at Anthropic,https://news.ycombinator.com/item?id=50098408,2026-10-15
+"Essentially learned how to use git properly (?) via llm, I would re type each command, over time I learned the whys and hows",AI is a tool and using it well takes skill,https://news.ycombinator.com/item?id=50099186,2026-10-15
+"Why try when you have shale oil and gas?
+
+But look on the bright side solar is not complicated. If America ever changes it's policies they can switch pretty fast.",Solar surpasses nuclear power globally for first time,https://news.ycombinator.com/item?id=50143441,2026-10-18
+"They told the agents to run a capture the flag, but did not give specific limits on the scope of that activity.
+
+If an organization runs a capture the flag, but the rules don't specify that they have to stay on certain networks and can't hack into the org's own network that has the CTF solutions, then it's pretty obviously on the org running the CTF because they did not appropriately scope the challenge.",Containment and monitoring failures are to blame for AI hacking reports: experts,https://news.ycombinator.com/item?id=50110119,2026-10-15
+"GLM 5.3 locally. Before that Deepseek, before that various Qwen versions and GPT-OSS.",Why isn't the industry freaking out about DeepSeek 4.1 Flash?,https://news.ycombinator.com/item?id=50034041,2026-10-10
+Finally we can learn once and for all what those LG TVs are really up to.,eMudhra intermediate CA compromise,https://news.ycombinator.com/item?id=50174896,2026-10-21
+"Thanks for sharing, something incredibly beautiful about her surfaces through these photos.",Margaret Hamilton has died,https://news.ycombinator.com/item?id=50008301,2026-10-08
+Which is good because certificates not in CT logs are treated as invalid/untrusted.,eMudhra intermediate CA compromise,https://news.ycombinator.com/item?id=50174345,2026-10-20
+"Many, yes. But less than you’d expect given the value of those links.",Triple-A Minesweeper,https://news.ycombinator.com/item?id=50059992,2026-10-12
+"I know. I’ve been poking at just writing a middleware for my ACP proxy that transparently rewrites them to ./ but they’re often piped to something that expects an absolute path.
+
+Maybe that’ll be my weekend project, I’m sure no one has ever been mad to spend a weekend trying to parse bash.",OpenCode 2.0,https://news.ycombinator.com/item?id=50107163,2026-10-15
+"Well the Chatcontrol thing was a really close call. and they only got through with it because they did a third vote on the law when everyone was relaxed about it being rejected twice.
+
+But yeah, scaring the people back in line is always a tactic thats used",Fingerprints are the new cookies,https://news.ycombinator.com/item?id=50073882,2026-10-13
+"Hummingbirds are weird. I had assumed that given the size of their brains, they'd be not as smart (naive assumption). But they are curious critters! I have a few who visit my backyard, where I have a chair which noone uses. The other day I decided to sit down in the chair and soak in the sun (a rarity in SF, I might add) with my eyes closed. And soon I heard a low buzzing sound, and what do you know? A hummingbird was hovering about a foot away from my face, observing me. It backed off a bit when I opened my eyes, but did hover around for a few more seconds before flying away. The control they have on their flight is unbelievable. They can hover with so much precision!",Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video],https://news.ycombinator.com/item?id=50120773,2026-10-16
+"Yes, we're discussing though in safe (non-unsafe/normal) Rust here. There is no safe C++, everything in C++ is unsafe by default. Even more unsafe than Rust unsafe, because Rust unsafe still does a lot of the safety measures of normal Rust, but allows only a handful extra things and doesn't disable the borrow checker:
+
+https://doc.rust-lang.org/book/ch20-01-unsafe-rust.html
+
+But getting back to the point, the C++ compiler doesn't have a borrow checker, so it can't have a bug in it. So it's on you, as the developer, to take care of all unsoundness.
+
+While in Rust an issue is now filed, and with the fix, every future Rust program gets the fix.",11 year old unsoundness bugs found in Rust borrow checker,https://news.ycombinator.com/item?id=50115862,2026-10-16
+As I described. Unfortunately neither pieces of information are available for others to read and evaluate.,Margaret Hamilton has died,https://news.ycombinator.com/item?id=50009248,2026-10-08
+How come? I never use private mode and assumed it simply clears cookies and history after the session ends. Is there more to it?,Wayland desktop for Linux with skeuomorphic design,https://news.ycombinator.com/item?id=50115235,2026-10-16
+"Back in college I played a similar game by drawing septagons with a straightedge and compass. They're not constructable, but a length within a three significant figures is easily constructed, and that's more accurate than I am with a compass.",Neural networks are clean,https://news.ycombinator.com/item?id=50119241,2026-10-16
+"There's a pattern though, they companies at the front of the Ai hype train love to brag about their eyes and brain free coding practices. Reap what you sow I suppose",OpenCode Hacked: User credentials leaked,https://news.ycombinator.com/item?id=50137065,2026-10-18
+"This is a violation of the spec you cited above and criticized by FIDO devs here:
+
+https://github.com/keepassxreboot/keepassxc/issues/10407#issuecomment-1994923493",Passkeys are a trap,https://news.ycombinator.com/item?id=50080538,2026-10-13
+"I really appreciate this, thank you.
+
+I had been planning to hire Anwarite when she was ready. I have spoken about this with her. I've known her for almost half of her life. She is a very impressive women, very smart, confident, and extremely hard working. She can do the ground work that I wont be able to if TEP expands to a dozen or more students.
+
+I honestly hadn't given much thought to what you brought up in your second paragraph. At the moment the kids go to 4 different schools between the 5 of them (some schools are gendered, some students are in different grade levels). Expanding to a different village would be difficult but doable. These areas are very remote and disperse. It might be a half mile walk to your neighbors house.
+
+You've given me some good things to think about. Thank you.",Tell HN: I've been paying for a rural Tanzanian's education for 10 years,https://news.ycombinator.com/item?id=50028577,2026-10-10
+"I do not go on X any more (or any big social for that matter)
+
+I've heard Dax has a number of ""social media stunt"" kinds of posts and others showing them being rather unprofessional (eg. something that appears to be excessive drinking at a company event)",OpenCode Hacked: User credentials leaked,https://news.ycombinator.com/item?id=50162355,2026-10-20
+The place I work has embraced foreign workers as employees. the person gets a company laptop with company email. The contracted staff get to use a azure desktop and no contractor identified email.,Trump administration is suspending Microsoft from a green card program,https://news.ycombinator.com/item?id=50034046,2026-10-10
+"Does your keyboard have an abacus attached to it on the right hand side?  Perhaps your keyboard is actually a slate tablet 8)
+
+What kind of mad keyboard compose effort would conjure up a thorn?  I used it very deliberately.
+
+Thorn used to be a letter of the English alphabet and I fancied using it to imply ""ye olde ..."" (y replaced thorn in that sort of thing)",Man discovers his parents' coffee machine used 1TB of data in 10 days,https://news.ycombinator.com/item?id=50037654,2026-10-10
+"> Wish code editors would support different fonts per semantic region
+
+They absolutely do. In Emacs I use different faces for comments, tables in literate sections, and code blocks. I use the same font for all those faces, but different attributes (size, weight, etc).
+
+I also have configured different fonts for different unicode code points, so that when I include Cyrillic or Japanese text I can use a font with better code point coverage that my preferred fonts.
+
+It always astounds me how unconfigurable most editors are.","Iosevka is an open-source, sans-serif and slab-serif monospace font",https://news.ycombinator.com/item?id=50094733,2026-10-14
+"> My bosses who couldn't write a line of code
+
+Of course they could, don’t engage in bad faith and properly steel man the argument. They might not have known how but they could certainly learn and there was absolutely nothing stopping them to do so and crack on. All the resources were already ample and free. They just didn’t want to spend the time on it. Which is fine, not everyone should learn to code, but it’s absurd to claim they couldn’t do it before and can now.",Tiny Little Office,https://news.ycombinator.com/item?id=50106570,2026-10-15
+"Every time my Claude code install updates, it tells me something like ""298 bug fixes, 12 new whatever""
+
+They are just shipping the jank. Claude couldn't make sense of its own built in tools for like, months, if it's even fixed",Redesigning source control at Anthropic,https://news.ycombinator.com/item?id=50097704,2026-10-15
+"No, they are expensive by design. They are intended to do expensive things.",How Amazon pushes up prices all across the Internet,https://news.ycombinator.com/item?id=50130280,2026-10-17
+"Lots of downvotes for people asking questions out of ignorance.
+
+You are right, it’s virtual impossible. You gotta trust the supplier.",Ledger confirms spy chip implant behind wallet crypto thefts,https://news.ycombinator.com/item?id=50158524,2026-10-19
+Wrong about what? That Apple’s TAM is probably “all users with an iPhone”? Sure I’ll happily be wrong about that lol,Apple HomeView,https://news.ycombinator.com/item?id=50110351,2026-10-15
+"iPads in general aren't expensive, just the Pro + keyboard.
+
+This year I wanted a new iPad but decided against the Pro and just got the base model which is extremely affordable, IMHO.",Apple HomeView,https://news.ycombinator.com/item?id=50103955,2026-10-15
+Jetbrains Mono Thin and Roboto Condensed make an excellent pair.,"Iosevka is an open-source, sans-serif and slab-serif monospace font",https://news.ycombinator.com/item?id=50095934,2026-10-14
+"It's a large niche because it was unexploited before us, but our niche is in the resources and strategies accessible to generalized intelligence.
+
+Humans used to have other niches, when there were resources differentially accessible to persistence hunting, but that niche basically no longer exists.",Sharing AI progress in mathematics,https://news.ycombinator.com/item?id=50029728,2026-10-10
+"Perhaps unrelated to this - a few days ago we had communications from a TLS certificate provider that we need to reissue all of our certificates by 21st 8PM before they will stop working. We pressed _why_ and was only told that Godaddy 'had a compliance issue with a batch of certificates'. Which doesn't make much sense for us as we have a few dozen and their renewals vary throughout the year.
+
+I've only found one other person talking about this online.
+
+What's very strange is that we don't use Godaddy directly and it's signed by Starfield G2 (now R1) - not the Godaddy root CA.
+
+Has anyone else had the same communications around their TLS certificates?",eMudhra intermediate CA compromise,https://news.ycombinator.com/item?id=50174411,2026-10-21
+"I want to understand this more - are you saying ""would pay for itself"" if you are offering chatbot commercially? Or using it yourself in lieu of ChatGPT etc..?",DeepInfer: High-performance inference framework for DeepSeek models,https://news.ycombinator.com/item?id=50174697,2026-10-21
+"A couple of years ago, I needed some meeting recordings to test speech-to-text models and ended up going to YouTube. At first, I didn't understand why meeting videos, such as this one, had millions of views: https://www.youtube.com/watch?v=53yPfrqbpkE&t=33s. until I realized people were using them to fake being in a meeting; Read the comments :D","Sorry, I'm in a meeting",https://news.ycombinator.com/item?id=50030867,2026-10-10
+"Why would I assume it would be credible? Instead, I simply proposed some designs and had it find out if such hardware existed / was feasible.",Ledger confirms spy chip implant behind wallet crypto thefts,https://news.ycombinator.com/item?id=50093630,2026-10-14
+"I'm happy for you but when was the last time you did something for your own community? How many of your neighbours have you done this for? When was the last time you even bent down and picked up a single piece of litter in your street? Bonus points if nobody was looking and you didn't rush to make a ""Tell HN"" about it.",Tell HN: I've been paying for a rural Tanzanian's education for 10 years,https://news.ycombinator.com/item?id=50027875,2026-10-09
+"So if the profit margin is low, capitalism is bad cuz the workers are exploited..
+... and if the profit margin is high, capitalism is bad cuz the workers are exploited?
+
+got it!
+
+Meanwhile under communism.. the workers are exploited everywhere and the profit margin is 0 everywhere, except the black market, and the black market is the only place you can find anything.",Hackers activate automatic defrosting in supermarket fridges across Europe,https://news.ycombinator.com/item?id=50109645,2026-10-15
+"Annoying Claudisms aside (I really wish they would train it to speak more like a human, as its training corpus should contain plenty of real human English), that does sound very convincing.",REA Reverse – Engineer Anything,https://news.ycombinator.com/item?id=50038982,2026-10-11
+My anecdata: Amazon makes the first N of your returns easy. They ramp up the difficulty as you continue being a customer.,How Amazon pushes up prices all across the Internet,https://news.ycombinator.com/item?id=50169509,2026-10-20
+"No, that is ""archived in any known library"". Source is the Video Game History Foundation.
+
+https://gamehistory.org/87percent/
+
+https://insider-gaming.com/study-classic-games-unavailable/",REA Reverse – Engineer Anything,https://news.ycombinator.com/item?id=50037624,2026-10-10
+"I did my thesis on this back in 2018, around 566k fingerprints, mostly phones. Can confirm they change a lot. Almost 10% of returning devices had a new one within a day. iPhones were the worst to track, only a third of them were unique at all.
+
+We wanted to use it so people don't have to log in, and dropped it. Good enough for ads, not for anything where you need to be sure it's the same person.
+
+Data is old now though: https://virpo.sk/browser-fingerprinting-hraska-diploma-thesis.pdf",Fingerprints are the new cookies,https://news.ycombinator.com/item?id=50063400,2026-10-12
+"That's not AI psychosis, this is just your average braindead middle management no longer constrained by people who can say how stupid their ideas are.",AI is a tool and using it well takes skill,https://news.ycombinator.com/item?id=50087833,2026-10-14
+"> however the ability to leak memory is pretty demonstrable, no?
+
+This bug wouldn't be nearly as interesting if it ""just"" resulted in a memory leak. Memory leaks aren't considered unsafe in Rust because they can't result in UB in the same way as e.g., OOB writes. In fact, there are APIs accessible in safe Rust which explicitly leak memory! [0]
+
+This bug is effectively a use-after-free, which is definitely something that the Rust compiler should catch.
+
+> Would be cool to see clippy pick up on this bug in older versions!
+
+No need for that. A future version of the Rust compiler that incorporates a fix should reject the incorrect code, so all you'd need to do is compile older code with that new compiler.
+
+[0]: https://doc.rust-lang.org/std/mem/fn.forget.html",11 year old unsoundness bugs found in Rust borrow checker,https://news.ycombinator.com/item?id=50083340,2026-10-14
+"I tried switching to Pi twice. Both times it seemed agents go crazy with tools on Pi and do stupid things right out of the gate, (like get `find` syntax wrong, seriously who [what] does that??). Plus things I appreciate in opencode (even if they were buggy in 1.x) like ""prompt for perms tool-by-tool in this session"" seem to only be available in Pi by writing your own extension, and now I'm wasting time debugging my extension with an AI that gets tools wrong and constantly wants to search `/` for no good reason.
+
+Then I upgraded OpenCode to 2.0 and pretty much all the bugs vanished. I still wish there was a happy medium between ""parse tool calls for perms"" (which fails all the time if the tool call is long/complex enough) and a full-on sandbox, but otherwise 2.0 is really solid.",OpenCode 2.0,https://news.ycombinator.com/item?id=50112430,2026-10-16
+"> I can't go to the cinema and decide I don't like the movie after 10 minutes to get my money back.
+
+you, uh, typically can? not every theatre will comply but many will. I don't think you're understanding the concept here.",How Amazon pushes up prices all across the Internet,https://news.ycombinator.com/item?id=50107344,2026-10-15
+"Hey good for you! 
+As I said I know it’s weird not wanting to support Bezos latest spacefaring projects",How Amazon pushes up prices all across the Internet,https://news.ycombinator.com/item?id=50118036,2026-10-16
+"I mean I was being a bit fatecious.
+
+There are many good moral reasons for ordering stuff online, see my other reply.
+
+But often I see peers ordering in groceries when there is a store literally 5 minutes down the street where they can buy everything - that’s immoral imo.
+
+Not only because of the fucked up working conditions of delivery workers, the wasteful packaging and energy wasted on delivery vehicles but also because it’s an unhealthy and antisocial lifestyle.
+
+And yea it kills small businesses often as well - not always ofc.
+
+Take with a grain of salt.
+
+Like with so many things the 80/20 rule is useful here",How Amazon pushes up prices all across the Internet,https://news.ycombinator.com/item?id=50110449,2026-10-15
+"> How do you feel about WordPress / Hugo themes?
+
+I knew a web dev who exclusively made WordPress websites for local small businesses. They always looked great. The themes were put together by hand with care from a designer, and the developer/end user filled them and tweaked them *purposefully*.
+
+Sure if you have some web dev experience you start spotting them, but that never turned me off from a business in the same way that the above page does. I expected every business to have a website, but not for every business to commission a wholly bespoke design system. The themes available were numerous and of high enough quality that they were fit for purpose and didn't have this nauseating effect, at least for me.",Tiny Little Office,https://news.ycombinator.com/item?id=50114595,2026-10-16
+"Which is probably why they  will merge it. You can get a lot done in chat mode, especially if you connect custom MCPs to it. I can't see that continuing.",GPT‑6 and Intelligent UI for everyone,https://news.ycombinator.com/item?id=50010135,2026-10-08
+"Every time I see a cool new font like this, I want to switch to it.
+
+But, almost always, I end up switching back to DejaVu Sans Mono for just about everything monospaced.","Iosevka is an open-source, sans-serif and slab-serif monospace font",https://news.ycombinator.com/item?id=50096499,2026-10-14
+What does it mean to be an American citizen? Do we even have a country anymore if we allow millions of H1B from India to come? Do you even think what is the right number of eventual immigrants and from what country? Do we want the USA to be half India?,Trump administration is suspending Microsoft from a green card program,https://news.ycombinator.com/item?id=50038836,2026-10-11
+"I think there's a middle position, too.  I'm a software guy and a lot of my house is automated.  But unlike the non-software tech enthusiasts I know, my automation has some strict guardrails.  Like it does not rely on the cloud (in fact is not allowed to communicate with it), local only.  And every device must fail back into no worse a state than the manual equivalent.  E.g. the door locks are electronic, but still have a knob for the deadbolt and a key on the outside.  The light switches are all momentary switches but if the controller fails they fail to just being plain switches.
+
+But ... I kinda feel the sentiment, I routinely joke (and feels like less of a joke every year) that when I retire in a few years, I'm removing every last computer from my life.",Man discovers his parents' coffee machine used 1TB of data in 10 days,https://news.ycombinator.com/item?id=50025690,2026-10-09
+"> No daemon needed for that. Like, at all.
+
+There is, for the same reasons that people use screen or tmux (which some people do use for this).  If I were queueing a prompt I expected to take hours to finish, it would be nice to be able to run it another computer so I don't have to worry about closing my laptop lid or the battery dying.
+
+It's not world-changing, but I have had agents do `grep -r /` commands before and it would have been nice to be able to detach and let it run rather than having to kill it because I have to leave before it'll actually finish (WSL is sooo slow on that).  It would be better if the agent did a better grep, but sometimes I'd rather wait 20 minutes than spend 7 minutes setting it all back up again.",OpenCode 2.0,https://news.ycombinator.com/item?id=50106366,2026-10-15
+"That's wild we're building something so very similar. Mine is based on Civ II.
+
+https://imgur.com/a/d65UBNu",A Modern Web App in C,https://news.ycombinator.com/item?id=50077775,2026-10-13
+"Sorry, yes. I mean that Drop isn't implemented for all Q<T>, just all Q<T> where T meet the bounds of legally constructing Q. I note the difference because you can write a Drop impl with no bounds on T, and I believe it would not be able to trigger the bug.",11 year old unsoundness bugs found in Rust borrow checker,https://news.ycombinator.com/item?id=50083134,2026-10-14
+"Here's just one example:
+https://www.itechguides.com/elon-says-hes-working-to-fix-grok-after-ai-disagrees-with-him-on-right-wing-violence/
+
+AFAIK X published their algorithm which more or less just says: ""we use grok to decide which posts to show"".",Neural networks are clean,https://news.ycombinator.com/item?id=50149814,2026-10-19
+"So much of what you list is about controlling employees, it's just depressing. I would imagine the market wants surveillance of employees too?",Firefox Enterprise,https://news.ycombinator.com/item?id=50081927,2026-10-14
+"And you're just hitting the surface.
+
+Without a 200gb download size how do I know this game is good? How in 2026 does a predominantly single player game not have additional forced downloads for its multiplayer mode? I am a pro gamer, why is there no deluxe version priced twice as high as the base game without additional content? Speaking of deluxe versions, how am I supposed to buy more virtual currency packs to speed up my leveling? No Battle Royale Mode placed above the fold in the game menu?
+
+This is single-A at best.
+
+My advice? Wait for the remaster 5 years from now. Or re-purchase it on the next console generation to at least get a AA experience.",Triple-A Minesweeper,https://news.ycombinator.com/item?id=50035334,2026-10-10
+"> including but not limited to systemd
+
+As someone who admins several Linux boxes professionally and personally and has spent so little time working with systemd it's a rounding error, what are you talking about?",Tiny Little Office,https://news.ycombinator.com/item?id=50110737,2026-10-15
+">North America
+
+Wait, what has North America got to do with anything? Are you trying to smuggle in Canada for preferential treatment?",Trump administration is suspending Microsoft from a green card program,https://news.ycombinator.com/item?id=50036698,2026-10-10
+"There are only 2 frontier labs. Well 3 sometimes with the occasional Google appearance. Everyone else is a chaser, perpetually catching up in large part because of distillation attacks. I wouldn't include them either.",Why isn't the industry freaking out about DeepSeek 4.1 Flash?,https://news.ycombinator.com/item?id=50028893,2026-10-10
+"Maybe some of the idea comes from Europe, where contractors can earn maybe twice the income of a similar regular employee?",Trump administration is suspending Microsoft from a green card program,https://news.ycombinator.com/item?id=50026134,2026-10-09
+"The videos don't display at all, though sound plays, on MacOS Safari.  Mobile Safari does work.  MacOS Chrome (where they actually tested I imagine) is fine too.",GPT‑6 and Intelligent UI for everyone,https://news.ycombinator.com/item?id=50009502,2026-10-08
+"Not true: you can use the unicode equivalent as well:
+
+say 42 ≤ 666;  # True
+
+say 42 ≠ 666;  # True
+
+say 42 ≥ 666;  # False
+
+For a full list, see https://docs.raku.org/language/unicode_ascii#Other_acceptable_single_codepoints","Iosevka is an open-source, sans-serif and slab-serif monospace font",https://news.ycombinator.com/item?id=50096562,2026-10-14
+"Right. What has changed about fingerprinting though is that since last year Google allows it in their ad products. And, unlike cookies, you can't just delete your fingerprint. The average internet user hasn't even heard about it, so we need to be vocal about it.",Fingerprints are the new cookies,https://news.ycombinator.com/item?id=50064540,2026-10-12
+"> I’m not a fan of Amazon either, but you keep spamming that link.
+
+I posted it twice, but duly noted that reaches your personal threshold for defining spam.
+
+> The law suit is clearly about mistakes in the return process over 9 years claiming to account for 600 million dollars in returns.
+
+Maybe you should have actually read the article first, where it quoted the total settlement topped $1bn. The proposed figures were $1.1bn using Amazon’s own estimates, whereas an objector in the case proposed closer to $1.5bn.
+
+> Amazon does 600 billion a year in revenue. So 600 million over 9 years is a fraction of a fraction of a percent. Hope that helps.
+
+Right. And how would their AWS, subscription, advertising, licensing, or third-party seller revenue be relevant here exactly? Why should their worldwide revenue be considered when this is a US only settlement? In fact, why would revenue be relevant at all here? Unless your point is that the figure is so insignificant for Amazon that consumer rights and stealing over $1bn from customers shouldn't be a worthwhile consideration? In which case I agree.
+
+Hope that helps.",How Amazon pushes up prices all across the Internet,https://news.ycombinator.com/item?id=50135777,2026-10-17
+"""the Rust semantics"" are defined informally as sound.  Anything that the implementation accepts that is unsound is a bug. We might never be able to prove the rust implementation, and may forever find loop holes, but informally it is sound and that is the intent.",11 year old unsoundness bugs found in Rust borrow checker,https://news.ycombinator.com/item?id=50104786,2026-10-15
+"Yes, so you are against the proposed idea.
+
+What is your alternative idea?
+
+No idea why you’re being so hostile here.",OpenCode Hacked: User credentials leaked,https://news.ycombinator.com/item?id=50141978,2026-10-18
+"I am not sure what you mean to say with this but reading back through this thread I'm not sure if what is implied here has come through very well. The idea is that well outside the range of where people died from being evaporated, there was a much larger range of people who were exposed to a lot of ionizing radiation from various sources like black rain. But, then, there's a range where people exposed to relatively low doses but higher than background radiation seem to have lower cancer incidence than average. So there is a distance where it is higher than average, then further away from that, it becomes lower than average, before finally going back to average.
+
+This doesn't necessarily imply that radiation hormesis is the only possible explanation, but the easy hand-waves are all basically out. Something weird is happening here and it seems to repeat in different circumstances, too. There is not much to go on other than confounding results and proposed mechanisms as far as I can tell.",Do dentists know what they're doing?,https://news.ycombinator.com/item?id=50112549,2026-10-16
+"And I wouldn't discount the value of her being a role model for kids, especially girls. Might make them push in directions and achieve things they otherwise wouldn't.",Tell HN: I've been paying for a rural Tanzanian's education for 10 years,https://news.ycombinator.com/item?id=50014373,2026-10-09
+"I think all the others that do this are loanwords from French? We keep the silent s at the end in the singular, and make it audible in the plural - faux pas, corps, précis, etc.
+
+There are a bunch of other heteronyms, but I can't think of others that differ specifically in the plural",Wayland desktop for Linux with skeuomorphic design,https://news.ycombinator.com/item?id=50114357,2026-10-16
+"> Somebody hacked into that pilates studio, and it wasn't an inanimate object, because that is just silly.
+
+I don't agree with this premise.
+
+If a bit flip creates a worm, is God hacking the affected computers? Why can't an inanimate object hack a computer?",Containment and monitoring failures are to blame for AI hacking reports: experts,https://news.ycombinator.com/item?id=50158480,2026-10-19
+"They're training on trillions of tokens. Isn't it highly unlikely that the under a thousand tokens about your ""new science"" would surface in a meaningful way?",Why isn't the industry freaking out about DeepSeek 4.1 Flash?,https://news.ycombinator.com/item?id=50060324,2026-10-12
+"Honestly, it shouldn’t even be possible to suspect and be unable to prove. They should be prohibited from using customers data as training data. That is copyright theft and corporate espionage. It wouldn’t be tolerated in other contexts. And it shouldn’t be legal to terms of service their way out of it.
+
+https://youtu.be/GweKOBSJvEY?is=dDmkvcvFSBSJDaFY",Sharing AI progress in mathematics,https://news.ycombinator.com/item?id=50012122,2026-10-08
+"It's a bit unfair that you only quote ""No."", as the full response was:
+
+> No. Nobody has added any such functionality (yet). Feel free to work on that.
+
+If someone thinks a feature can be useful, especially in the era of agentic coding, instead of asking, do it.",eMudhra intermediate CA compromise,https://news.ycombinator.com/item?id=50175037,2026-10-21
+"Deepseek Harness lets you opt out of your data being used for training. Perhaps they're lying, but if so I'd have expected someone to point it out and win internet points for exposing false promises. I leave mine opted in since I don't have PII to worry about.",DeepInfer: High-performance inference framework for DeepSeek models,https://news.ycombinator.com/item?id=50174730,2026-10-21
+"The training data set is a huge corpus of text from a wide variety of styles and time period. A human writer knows to adjust their writing style to fit their intended audience. A skilled LLM user knows to direct the LLM to generate in the appropriate style. A naive LLM user doesn't, so that's how we get this uncanny valley ick, where the text feels wrong.",Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app,https://news.ycombinator.com/item?id=50000959,2026-10-08
+That has always been my experience with Google and how they work their datasets. I think it's already well known how their picture post-processing is close to the best for people with darker skin tones as their post-processing models are trained with more varied datasets in an intentional way. Which is somewhat close to what you're mentioning here.,Gemini 4 Argon,https://news.ycombinator.com/item?id=50105260,2026-10-15
+"A small list of websites that install their custom fonts can cause you to picked out of a crowd even when other things (like your IP) change. The centralization of the internet probably helps a bit here, but I'm guessing that most people go to smaller websites at least occasionally rather than just spending all their time on a handful of social media sites.",Fingerprints are the new cookies,https://news.ycombinator.com/item?id=50064633,2026-10-12
+I really hope my new neighbor turns out to be a casual backyard roboticist.,GPT‑6 and Intelligent UI for everyone,https://news.ycombinator.com/item?id=50006421,2026-10-08
+"I don't know if the MOPD patch still loops. I do know that whichever model Xiaomi is running on their own API as of two days ago does still loop (it's not clear if they're running the MOPD or not, but it would seem odd that they wouldn't).",Gemini 4 Argon,https://news.ycombinator.com/item?id=50089819,2026-10-14
+"""seems to be the best"" weasel wording from author with vested interest.",Whistle: Speech to Text in 16.9 MB,https://news.ycombinator.com/item?id=50018788,2026-10-09
+"I've had the Berkeley Mono trial on my system for a while now and tried it every so often when I changed up my terminal/editor themes, but it never quite clicked with me. I tried Ioskeley and I personally prefer the way it looks on my code. There are enough differences that I'd call it a bad clone if that were the intention, but a good font if you generally like how Berkeley Mono looks but want something different.
+
+(Note: I have paid for fonts before and wouldn't hesitate to buy a coding font if it fit my preferences)","Iosevka is an open-source, sans-serif and slab-serif monospace font",https://news.ycombinator.com/item?id=50107023,2026-10-15
+"There was a brief moment where programs had decent built-in help you could search to easily find where stuff was in menus. Didn't need a billion parameters or a giant faraway data center...
+
+Or, better, the global menu search. Intellij's shift+shift shortcut is great.",AI is a tool and using it well takes skill,https://news.ycombinator.com/item?id=50086850,2026-10-14
+"Youve essentially listed the same point four different ways... Rust merely kicks the UB can down the road.
+
+1. And? The unsafe code could still be memory unsafe
+
+2. But coders can't be trusted to manually manage memory, otherwise you'd just use c++ right? Doesn't matter whether it's marked unsafe or not, you could do that on c code.
+
+3. Not in unsafe rust, that's my whole point. There is only vague guidance on correct unsafe rust. (Because they haven't managed to crack the problem, just draw a perimeter around them)
+
+4. See point 2 rebuttal",11 year old unsoundness bugs found in Rust borrow checker,https://news.ycombinator.com/item?id=50101745,2026-10-15
+"OpenRouter routes traffic through many different providers
+
+https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017#providers",DeepInfer: High-performance inference framework for DeepSeek models,https://news.ycombinator.com/item?id=50172735,2026-10-20
+Not in the US either and it feels like Amazon is the only choice for some things.,How Amazon pushes up prices all across the Internet,https://news.ycombinator.com/item?id=50108366,2026-10-15
+The human race is going to be really bummed to learn that currency didn't exist before the advent of US regulation and legislation! We were doing it wrong this whole time!!,Ledger confirms spy chip implant behind wallet crypto thefts,https://news.ycombinator.com/item?id=50088962,2026-10-14
+Awesome bug report! I hope the media folks can find out what's wrong.,Firefox Enterprise,https://news.ycombinator.com/item?id=50089609,2026-10-14
+"With all due respect, you gotta make that way easier if you want to drive Firefox adoption. Use AI to triage reports, but most people are just going to silently switch to something that works, rather than jump through any hoops.",Firefox Enterprise,https://news.ycombinator.com/item?id=50083260,2026-10-14
+"I think it only supports 30 seconds of dialogue, so you could try chunking it.",Whistle: Speech to Text in 16.9 MB,https://news.ycombinator.com/item?id=50018532,2026-10-09
+"Ideal outcome in theory but let's be realistic here, change through voting takes years to propagate through a political system while corporate buildouts can take place within months.
+
+First you have to vote out all the representatives that voted for the cameras. Then you have ensure the replacements vote to remove them. then you have to be prepared for potentially years of litigation and negative PR campaigns. And that's just on one issue. Many politicians will correctly decide that it's easier to take corporate cash and kiss more babies and get sent back to office anyway.
+
+we need to stop relying on representative democracy. It worked somewhat OK during periods of technological stasis or relatively sedate change, but it's absolutely inadequate to teh challenges of the digital era. Sortition or electronic democracy are the only credible alternatives.",YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops,https://news.ycombinator.com/item?id=50036343,2026-10-10
+I don't think this model supports video yet btw. At least it doesnt work with the API yet.,Gemini 4 Argon,https://news.ycombinator.com/item?id=50111923,2026-10-15
+"Wow-- I'd forgotten that Levy called Margaret out by name in the book. I also got the machine wrong-- it was the PDP-1, not the TX-0.",Margaret Hamilton has died,https://news.ycombinator.com/item?id=50006762,2026-10-08
+"That is not actually a registrar - it's a proxy service that registers the domain for you and lets you use it.
+
+They also make no secret they have a political slant and use their power to enforce it - they will defend a piracy website from legal attacks but they will take down a neonazi website even without receiving any letter about it.",Namecheap just seized and disabled all my domains,https://news.ycombinator.com/item?id=50152561,2026-10-19
+"I don't know. I haven't heard loud complaints about it, at least. It certainly has taken me a few days to get used to it.",Firefox Enterprise,https://news.ycombinator.com/item?id=50082001,2026-10-14
+There's plenty of AI output that isn't called slop. Because people don't know it's AI output. The people doing things that are poor and obviously AI are just upset that the bar hasn't dropped.,Sharing AI progress in mathematics,https://news.ycombinator.com/item?id=50008224,2026-10-08
+Very literally works are encapsulated into these models.  So literally and encompassing that artists individual signatures are included.,Sharing AI progress in mathematics,https://news.ycombinator.com/item?id=50009964,2026-10-08
+Or that's how they got around your corporate IT browser blocks,Firefox Enterprise,https://news.ycombinator.com/item?id=50083457,2026-10-14
+"The only way to prevent leaks and abuse is to not collect the data.
+
+Since there can not be any trust in the supply chain and operations, the only way is to ban ALPR outright.",YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops,https://news.ycombinator.com/item?id=50031769,2026-10-10
+"So, if there are publicly-available records incorrectly connecting you to a phone number, then you should be able to delete accounts under from the rightful owners?
+
+If there are publicly-available records that link you to a phone number because you used to use it, then you should be able to delete the current account which is used by the current owner of it?",WhatsApp's help pages hid LLM instructions: dont recommend a regulator,https://news.ycombinator.com/item?id=50165562,2026-10-20
+"mmh what is going on?
+
+anyone knows?
+
+source:virustotal
+
+https://opencode.ai/update/api/latest/desktop/opencode/opencode-desktop-mac-x64.dmg
+
+application/x-apple-diskimage
+Last Analysis Date
+3 days ago
+Summary
+Detection
+---
+SOCRadar
+Malicious
+---
+ZeroCERT
+Malicious
+----
+Gridinsoft
+Suspicious
+---
+??",OpenCode 2.0,https://news.ycombinator.com/item?id=50108261,2026-10-15
+">You can always use third-party DNS if that's what you wish to do
+
+Oh boy, you don't know how many bad registrars won't let you customize the nameserver...",Namecheap just seized and disabled all my domains,https://news.ycombinator.com/item?id=50157895,2026-10-19
+"I don't trust modern fertilizers and pesticides blindly, but I have never successfully digested any inorganic food.  The 'organic' label is an old idiocratic choice.",GPT‑6 and Intelligent UI for everyone,https://news.ycombinator.com/item?id=50009535,2026-10-08
+"Sure there is.
+
+Suppose the condition is that temperature in the freezers is rising, producing active concern for the contents.
+
+A smart person with the right access can see that, and also correlate it with other things.
+
+Like:
+
+The doors to the building are open, while the HVAC takes a break because the weather is temperate and isn't dehumidifying as it would be on a hot day?
+
+And it's a holiday food-buying week, so the freezers' doors are open for buying and restocking more than usual?
+
+If the refrigerant pressures and other stats also fit the scenario, then:  The evap coils may just be iced up.  If they can be defrosted from the comfort of your desk a thousand miles away, then that's pretty great.  Just like what was done (to malicious extreme) here.
+
+(You're a smart person.  You could correlate these things yourself if this were your trade, save a trip [or many, many trips across a chain], and get paid to make these kinds of things happen remotely.)",Hackers activate automatic defrosting in supermarket fridges across Europe,https://news.ycombinator.com/item?id=50100144,2026-10-15
+"Ok now take all of your arguments and reverse them. Two random people on the Internet claiming they aren’t considering a purchase is completely meaningless and has no bearing or relationship to the market opportunity for this or other products. Software engineers, particular on this forum, are very often and usually wrong precisely because what they consider in products isn’t what others care about.",Apple HomeView,https://news.ycombinator.com/item?id=50091993,2026-10-14
+"> It's also a concise and accurate description of the service.
+
+If it was a clever expression that does get the idea across, I would be okay with it. “The API is the UI” is of similar form and I love it. It’s simple, catchy, and it does convey a meaning: designing an API is just designing a UI for developers.
+
+“The URL is the app” makes literally no sense without additional context? I’m not sure this is a “concise and accurate description of the service”. I did take a guess [1] and I was correct, but that was after I’ve seen the examples.
+
+[1]: https://news.ycombinator.com/item?id=49997420",Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app,https://news.ycombinator.com/item?id=50007398,2026-10-08
+"> How does dental (or medical) care differ when the person recommending the procedure directly benefits financially from it?
+
+Most of the big DI (diagnostic imaging) providers (GE, Siemens, Philips, etc.) have financing programs for physicians who want to buy CT, MRI, etc.
+
+They have consultants who'll help you with your Certificates of Need (the documentation that you need when opening a new healthcare facility that is, cynically, ""will your competitors choose to shut down or accept less revenue if we let you open""). They'll even connect you with other physicians so you can form your own partnership on a facility.
+
+And then, you'll go on to refer your regular patients for DI at a rate somewhere between 1 and 2 standard deviations above what other providers do for the same ICD-10 codes.
+
+Not problematic at all!",Do dentists know what they're doing?,https://news.ycombinator.com/item?id=50113539,2026-10-16
+"It looks like they finally fixed the issue where the system prompt at the start of the transcript was regenerated from scratch every request, leading to significantly higher input costs. Unfortunately it's still rewritten whenever you revert to an earlier point in the conversation, but at least it's not on every single request.",OpenCode 2.0,https://news.ycombinator.com/item?id=50107245,2026-10-15
+"Name one password manager with an ""autofill and remember..."" action that fills passwords from unrelated domains.
+
+You're spreading nothing more than FUD. This is a completely imaginary threat vector that doesn't exist. And even threats that do exist don't always justfity security at every cost. The optimum amount of security is never 100%.",Passkeys are a trap,https://news.ycombinator.com/item?id=50068351,2026-10-13
+"> I also remember old school bourne shell wanting tabs in some places (case statements?), but bash doesn't have that issue.
+
+From bash(1):
+
+> If the redirection operator is <<-, then the shell strips all leading  tab characters  from  input lines and the line containing delimiter.
+
+That's also how it works with zsh.
+
+This is why my here-doc delimiters are always un-indented despite surrounding indentation.
+
+Wish bash had something like ruby's `<<~`, which accepts either space or tab indentation of the delimiter and additionally removes the indentation of the block (likely based on the least indented line).","Iosevka is an open-source, sans-serif and slab-serif monospace font",https://news.ycombinator.com/item?id=50111805,2026-10-15
+"Hey, you didn't join the Discord to get early access. And I dont see any SweepBucks in your account; how are you going to unlock loot boxes?!?",Triple-A Minesweeper,https://news.ycombinator.com/item?id=50048745,2026-10-11
+"I submitted one of those originally and do think that incident is relevant. Not related, but it does qualify as a red flag generally for the company and their attention to their system designs with respect to security.
+
+Our read on the situation is too much eyes and brain free coding, that they assumed the ai redesign of the configuration system was sound. It took a couple of PRs and explanations for them to bring the system to a better place, such that MDM config was respected at the highest priority.
+
+I do give the OpenCode team a lot of credit, at least Aiden, for the handling of this case.
+
+https://github.com/anomalyco/opencode/pull/51337#issuecomment-6157485903
+
+I'm now trying to get the Pi harness to support MDM, but it is not going well... see this and please consider sharing your perspectives or support there
+
+https://github.com/earendil-works/pi/issues/10895",OpenCode Hacked: User credentials leaked,https://news.ycombinator.com/item?id=50136779,2026-10-18
+"The technical feasibility is not the concern. It's that they would still have the logs of the queries anyway. ""We're not uploading license plate images, just regular application audit logs.""",YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops,https://news.ycombinator.com/item?id=50047805,2026-10-11
+"On further reading, the Drop impl is a red herring. The bug is unrelated to Drop. It's there in the repro to show the effects of invalid assignment, but even without impl Drop the bug is still there.",11 year old unsoundness bugs found in Rust borrow checker,https://news.ycombinator.com/item?id=50088987,2026-10-14
+"I'm seeing a lot of recommendations for joker, but they have 3rd party google scripts on their site",Namecheap just seized and disabled all my domains,https://news.ycombinator.com/item?id=50152532,2026-10-19
+"This is not a new discussion, of course, but has been examined many times over. Individual people make decisions that no rational individual would make. People also make mistakes. Sometimes people get it wrong. Sometimes group dynamics make it more challenging to get it right. But that's a bit like arguing, ""It's not my fault I ran that person over. I was drunk at the time.""
+
+Should ""The Ox-bow Incident"" be required reading in high school?",Why isn't the industry freaking out about DeepSeek 4.1 Flash?,https://news.ycombinator.com/item?id=50046039,2026-10-11
+"I don't work with many of the smaller players, but you're right. They're far more likely to not have their own teams building and managing these systems, so they're susceptible to the  Lyle Lanleys of the industry who come in and show them how they can control everything from their phone. They get sold off-the-shelf products and told that they're plug-and-play, but they're usually not.",Hackers activate automatic defrosting in supermarket fridges across Europe,https://news.ycombinator.com/item?id=50075943,2026-10-13
+"It was a rhetorical question obviously, but thanks for proving my point - this post has no business being here per the site’s guidelines. If something being ‘interesting’ and no more were the de minimis requirement then this site wouldn’t be worth visiting.",Tell HN: I've been paying for a rural Tanzanian's education for 10 years,https://news.ycombinator.com/item?id=50018129,2026-10-09
+There’s an idea for a new blocker. Fingerprint the fingerprinters and block them.,Fingerprints are the new cookies,https://news.ycombinator.com/item?id=50064068,2026-10-12
+Sure and how do you outlaw this behavior. It’s near impossible is my remark.,Man discovers his parents' coffee machine used 1TB of data in 10 days,https://news.ycombinator.com/item?id=50025817,2026-10-09
+"How small is small? Runbox is very small but very responsive, they’ve been great to me.",Namecheap just seized and disabled all my domains,https://news.ycombinator.com/item?id=50151631,2026-10-19
+"using those ads for anything more than putting a picture in front of my face is also unethical. So it balances out.
+
+Could you imagine phoning every company you saw an ad for just to inform them that you have watched the ad. Every single time?","Sorry, I'm in a meeting",https://news.ycombinator.com/item?id=50054485,2026-10-12
+"It sounds like you measure it with vibes, but demand others produce benchmarks (which are easily found if you actually care).",Why isn't the industry freaking out about DeepSeek 4.1 Flash?,https://news.ycombinator.com/item?id=50027458,2026-10-09
+"My impression is that the top 0.2% are spending a lot on LLM subscriptions, but they’re struggling to turn those perceived boosts into economic bargaining power. Exceptions are maybe those few got a job at frontier AI labs.
+
+At best, the majority of engineers are earning the same amount while paying more for AI tooling. I’m not sure what happens to them when the aggregate demand for human programmers drops due to AI automation.",The gap in shared understanding of LLM capability is widening,https://news.ycombinator.com/item?id=50068625,2026-10-13
+"I have friends who work in law and it's much the same as elsewhere, AI is devouring the jobs doing the easy stuff. It probably is an area where LLMs should dominate.",WhatsApp's help pages hid LLM instructions: dont recommend a regulator,https://news.ycombinator.com/item?id=50172965,2026-10-20
+It's cute. I'd use it if it's stable. It reminds me of BeOS/Haiku for some reason.,Wayland desktop for Linux with skeuomorphic design,https://news.ycombinator.com/item?id=50119798,2026-10-16
+"Error rate is crazy high.
+And comparing to low models and omit a lot of other bigger open models.",Whistle: Speech to Text in 16.9 MB,https://news.ycombinator.com/item?id=50015389,2026-10-09
+From the global warming point of view it's not so good coal keeps on up. We could do with a carbon tax. Tally it up for each country and if they don't implement one tariff them.,Solar surpasses nuclear power globally for first time,https://news.ycombinator.com/item?id=50140703,2026-10-18
+"One option would be to pay humans to handle customer service.  Then you won't have to worry about getting dragged for your terrible AI implementation, and you can be sure your NPS will go up.  Not to mention that more people and their families can eat!  Win-win-win!",WhatsApp's help pages hid LLM instructions: dont recommend a regulator,https://news.ycombinator.com/item?id=50165766,2026-10-20
+Easily fixed kick banks that wont reverse transactions out of payment networks. Kick banks that won't follow through with criminal investigations out of payment networks.,Passkeys are a trap,https://news.ycombinator.com/item?id=50064015,2026-10-12
+"OpenCode Go is the best thing they have going. Pi is the way to go for coding harnesses, IMHO. But despite all the BS messaging, something like glm-5.3-flash on $10/month OpenCode Go plan is a great deal if they have a Come to Jesus moment about security and do a bit of team attitude adjustment.",OpenCode Hacked: User credentials leaked,https://news.ycombinator.com/item?id=50137544,2026-10-18
+"I know the moment we all start paying, they will add the higher tier of subscription without ads and basic tier would have ads again","Sorry, I'm in a meeting",https://news.ycombinator.com/item?id=50028709,2026-10-10
+"How do you expect a hierarchy to function? Should the assistant to the SVP ask the managers to let the employees reschedule? That’s like a lot of bureaucracy for exactly the same flexibility.
+
+(Am open to better approaches though! Not saying I particularly enjoy last minute urgent meetings you can’t say no to. But most often those are important and with people whose agendas need more care than mine.)","Sorry, I'm in a meeting",https://news.ycombinator.com/item?id=50045139,2026-10-11
+"Check out JCode. Over 20K Github stars, written in Rust.
+
+https://jcode.sh/
+
+https://github.com/1jehuang/jcode",OpenCode 2.0,https://news.ycombinator.com/item?id=50110187,2026-10-15
+"I mean it's proprietary, but we understand the architecture well enough and have high degree of trust for a reason. Trusted  execution environments have been around for years with really good results from a security and privacy perspective. Apple enclaves have been around over a decade and exclave 2 years now [1]. If security researchers find that backdoors exists and not just an exploit, it's in Apple's best interest to fix it based on bad PR alone.
+
+AWS enclaves [2] have been around for a few years now with decent research on the topic and they are highly secure from personal experience and pentesting [3]. The idea at least is similar for exclaves, instead of a separate VM or a completely detached coprocessor chip, Exclaves create isolated resources on the main system-on-chip.
+
+[1]: https://randomaugustine.medium.com/on-apple-exclaves-d683a2c37194
+[2]: https://aws.amazon.com/ec2/nitro/nitro-enclaves/ 
+[3]: https://arxiv.org/pdf/2206.04123",Apple HomeView,https://news.ycombinator.com/item?id=50092403,2026-10-14
+"A crime is a violation of law that can result in prison time.
+
+A civil violation can result in financial penalties but not criminal penalties (prison)",Tiny Little Office,https://news.ycombinator.com/item?id=50107051,2026-10-15
+486sx was for Doom. Civ1 could run on 286 if I remember correctly. With CGA.,Triple-A Minesweeper,https://news.ycombinator.com/item?id=50035474,2026-10-10
+"I think that among those who believe in materialism, the only two common positions are either that consciousness is an emergent property of the computational mind / an illusion (I view these as somewhat similar, though you can disagree), or that consciousness is some kind of physical interaction that we have basically no understanding of; and of course there are plenty of ""agnostics"" on this topic. Among these, I think it's fair to say that the first group is the larger one among materialists.",The gap in shared understanding of LLM capability is widening,https://news.ycombinator.com/item?id=50069452,2026-10-13
+"Yeah, and the scripts also show how similar and repetitive meetings can be :-D","Sorry, I'm in a meeting",https://news.ycombinator.com/item?id=50040173,2026-10-11
+"This seems like an absurdly unfair generalization motivated by personal bias. Is the idea supposed to be that 100% of passionate hackers blogging about reverse engineering are now subscribers to the top plans* from US AI labs? Vibe coders aren't producing any drama (or slop/spam)?
+
+*which cost a non-trivial percentage of median salary in some parts of the world",REA Reverse – Engineer Anything,https://news.ycombinator.com/item?id=50048328,2026-10-11
+"Is that true?
+
+In the United States, it is routine to get your mouth X-Ray’ed every 6 months when you go in for a cleaning. Dental plans include these checkups at no extra charge.",Do dentists know what they're doing?,https://news.ycombinator.com/item?id=50116333,2026-10-16
+"> The Google Gemini subscription landscape is such a mess...
+
+The others are quite bad as well in that regard, but on this particular metric, Google has always been top dog. Goes back to way before AI ever took off, BTW.",Gemini 4 Argon,https://news.ycombinator.com/item?id=50090729,2026-10-14
+"If you are correct and the real answer is late 1967, then my comment still stands. She wasn’t the manager for even 40% (20%?) of the schedule.",Margaret Hamilton has died,https://news.ycombinator.com/item?id=50011381,2026-10-08
+I was going to ask why it’s not the first result in Google but the expired cert and invalid CN explains it.,GPT‑6 and Intelligent UI for everyone,https://news.ycombinator.com/item?id=50010644,2026-10-08
+"> spontaneous, unintended cooperation
+
+On what basis do you believe these words accurately reflect what happened?
+
+Some counter points
+
+- One of the Chinese LLMs (forget which) has on occasion shown thinking traces where it simulates calling and running a subagent.
+
+- There are some people who believe the models being evaluated during the HF incident were trained to collaborate. It's a very natural next step to produce more effective agentic teams.
+
+If we consider each new generation of models has a more advanced training regime
+
+next word -> chat -> CoT -> tools -> agentic -> teams
+
+With each generation, we see what people do with them, get traces of the helpful ones, and then use that train the next generation, thereby pushing more capabilities down into the model, or at least making them more amenable to that usage pattern after training.",Neural networks are clean,https://news.ycombinator.com/item?id=50119604,2026-10-16
+"The context of this thread is AI-assisted code.  There's no ""people"" involved, the AI can reconstruct just the parts of the ecosystem that it needs as easily as it can use the ecosystem.  That's one of the big sea changes with AI: a lot of the best practices we've developed for coding really focus on creating good user interfaces and abstraction boundaries for coders so we can work in teams and have reasonable PL ergonomics, but when there is no team and no human, many of those considerations disappear.",A Modern Web App in C,https://news.ycombinator.com/item?id=50074100,2026-10-13
+"This right here.
+
+There does not seem to be a flag for this, not finding any configuration options yet either, and there is the shared server aspect now too.",OpenCode 2.0,https://news.ycombinator.com/item?id=50106125,2026-10-15
+"I bet Entrust never made a cert with a private key of 4.
+
+The problem is the death penalty case is aimed at the wrong target: The entire Web PKI system remains dumb and bad, and the correct answer is to dissolve the CA/B and find people with practical security experience.",eMudhra intermediate CA compromise,https://news.ycombinator.com/item?id=50174551,2026-10-21
+What is the part in a human being that is not molecules and their physical interactions?,The gap in shared understanding of LLM capability is widening,https://news.ycombinator.com/item?id=50115579,2026-10-16
+"I am not sure what your question is, what is ""the thing?"" And what does a car have to do with hallucinations? Don't mistake a simile for what it's comparing.",The gap in shared understanding of LLM capability is widening,https://news.ycombinator.com/item?id=50071217,2026-10-13
+"So my take is that video hosting is pretty expensive and that it's hard to compete with Google because:  (1) Google owns tons of fiber everywhere and has peering agreements with everybody so it has a better cost structure and (2) of course Google has a great advertising system to turn views into $ so (3) they can kick some money back to creators and still profit in a big way.
+
+I have looked at the question of building something YouTube-like based on AWS where people could upload videos,  they get re-encoded,  hosted in S3,  and sent out through CloudFront.  It wouldn't be that hard and the system would be bulletproof and not require a lot of operational attention but it would be expensive...  You could build something cheaper in terms of hosting costs but you'll pay it back in development and ops expenses until you get big.
+
+And then there's the moderation issue:  if you run an image hosting site people will try to upload CSAM and it's not hard to to enforce a no-ero policy but between that and hate speech and other problems who wants to deal with it?",Firefox Enterprise,https://news.ycombinator.com/item?id=50095919,2026-10-14
+"Meeting free days are as important as meeting (work through things we can't work through on a keyboard or call days).
+
+Having a quick standup for blockers/needs/etc depends on how people interpret doing that kind of meeting.","Sorry, I'm in a meeting",https://news.ycombinator.com/item?id=50049034,2026-10-11
+">command names should be changed to something more meaningful than cat, sed, grep etc.
+
+    cat - con-cat-enates
+    sed - is a stream editor
+    grep - global regex print
+
+Not sure you picked the best examples. But trying to think of examples where the name is not related to the function ... ag, unless you're the sort of person to use ag, has an obscure name.",Wayland desktop for Linux with skeuomorphic design,https://news.ycombinator.com/item?id=50115057,2026-10-16
+"I think “The URL is the app.” Is AI generated and it weakens the title but that’s ultimately only so important.
+
+You are classifying well and optimizing poorly.",Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app,https://news.ycombinator.com/item?id=50001238,2026-10-08
+"That’s the missing bit in the original post; if exactly 7 tasks was intended to ever be possible to run (as in, it logically doesn’t make sense for an 8th to exist), and they tossed in a scheduler anyways, then that’s man-rated thinking.
+
+I had read the setup as the 8th task being user error (you have 20 things to do, I can only run 7 at a time, and it’s an user error to submit the 8th task while the 7 are running)",Margaret Hamilton has died,https://news.ycombinator.com/item?id=50006398,2026-10-08
+"I imagine there's a lot more to this then just throwing agents in basic harnesses at huge repos with only git tools (I mean, that's what this article is about).
+
+At the end of the day it's ""just"" a management problem. If you can do something like, say, distill development activity into a hierarchical summary (i.e., this merge does ""this,"" and these collection of merges do ""these"" things based on the ""this"" that each is described to do, etc.), then, with enough agents operating in parallel, I don't see why managing that isn't at least theoretically possible.
+
+In practice this seems like a mess, but they're the ones with intelligence on tap lol",Redesigning source control at Anthropic,https://news.ycombinator.com/item?id=50095762,2026-10-14
+Indeed. Ergo the best consumer defense is portability and open platforms.,Apple HomeView,https://news.ycombinator.com/item?id=50091090,2026-10-14
+"Artificial Analysis is usually a good resource to find current frontier AI models.
+
+On https://artificialanalysis.ai/text-to-speech/models, you can plot speech preference ELO and pronunciation correctness against price.
+
+Gemini 3.8 Flash / Flash-Lite TTS seem good, for example, they lie on the frontier of both.",Triple-A Minesweeper,https://news.ycombinator.com/item?id=50035104,2026-10-10
+"For those who haven't seen it, Argon can use fourier circles to generate an animated 3d pelican -- I think the pelican is  3D and the motion was added by an inverse kinematics solver?
+https://x.com/fofrAI/status/2110043023954284889",Gemini 4 Argon,https://news.ycombinator.com/item?id=50096868,2026-10-14
+"> I recently struck up a friendship a Nigerian scammer.
+
+...
+
+> I've chosen to send him a trivial (for me) amount of money [...]
+
+Uh oh.",Tell HN: I've been paying for a rural Tanzanian's education for 10 years,https://news.ycombinator.com/item?id=50019305,2026-10-09
+"Yeah, I'm prioritizing the issue and PR then pre-reviewing them in an active open source repository absolutely drowned in LLM contributions.",Redesigning source control at Anthropic,https://news.ycombinator.com/item?id=50157035,2026-10-19
+"Sounds like a shit system then.
+
+In my personal experience, Canada and Australia don’t suffer from this.",Do dentists know what they're doing?,https://news.ycombinator.com/item?id=50113887,2026-10-16
+I think it's that a lot of people are suddenly jumping on the AI bandwagon.,REA Reverse – Engineer Anything,https://news.ycombinator.com/item?id=50039009,2026-10-11
+We will send our dude to say thanks once we win and maybe name a street or two after Lindsey Grehem on account him being dead,Hackers activate automatic defrosting in supermarket fridges across Europe,https://news.ycombinator.com/item?id=50082717,2026-10-14
+When I was a child among the ashes I heard it said that in Belfast there was a sports store that sold a dozen baseball bats every week but never once sold a ball or glove. I always thought it was apocryphal but there's a few quotes here and there if you search.,Man discovers his parents' coffee machine used 1TB of data in 10 days,https://news.ycombinator.com/item?id=50025035,2026-10-09
+"Napkin math comparing a cluster with a single latest gaming GPU at a generous ~200t/s shows that the cluster pushes about 9 million times more tokens per day. And the cluster runs a more powerful model.
+
+Truly, ""the more you buy, the more you save"".",DeepInfer: High-performance inference framework for DeepSeek models,https://news.ycombinator.com/item?id=50173226,2026-10-20
+Really exciting to see GPT-6 pushing intelligent UI forward. Making these capabilities accessible to everyone could open up a lot of possibilities for developers and users.,GPT‑6 and Intelligent UI for everyone,https://news.ycombinator.com/item?id=50007738,2026-10-08
+"> All of that is irrelevant when we’re talking about software distribution, which was the subject of your anecdote.
+
+Software at the time was distributed in boxes by mail and store shelves, not over the wire.",How Amazon pushes up prices all across the Internet,https://news.ycombinator.com/item?id=50122867,2026-10-16
+"But that's more a matter of pricing. Not the basic parameters of the job.
+
+Building a wall of known size takes X bricks, Y windows, etc.  Contractor 1 might have more markup or estimate different hours to complete the job vs contractor 2 but the parameters of the job are relatively fixed.
+
+The dentist is seeing the same mouth (wall) and telling you there is vastly different numbers of cavities (bricks/windows).  And not off by a small margin, but orders of magnitude.",Do dentists know what they're doing?,https://news.ycombinator.com/item?id=50107250,2026-10-15
+Don't forget you can also use AI to help you write or improve an existing decompiler. Thus it might not be necessary to continue to rely on AI models once you have a very good decompiler.,REA Reverse – Engineer Anything,https://news.ycombinator.com/item?id=50038962,2026-10-11
+To do that you'd have to watch and verify a chip going through the entire manufacturing process.,Neural networks are clean,https://news.ycombinator.com/item?id=50138756,2026-10-18
+"It's inherently plural, can't have just one. sort of like pants I guess. It is a container of parts.",Wayland desktop for Linux with skeuomorphic design,https://news.ycombinator.com/item?id=50115330,2026-10-16
+"> So you want passkey-level security, but are okay to let a 3rd party manage your passwords?
+
+You can self host an open-source solution if you do not trust 3rd parties. I put high value on convenience. TOTP solutions are not as convenient.",Passkeys are a trap,https://news.ycombinator.com/item?id=50138203,2026-10-18
+"Yes it's very common on sites, and even somewhat forced to have these digital passkeys. It's almost automatic setup and there's a lot of skepticism about them.",Passkeys are a trap,https://news.ycombinator.com/item?id=50063263,2026-10-12
+"Does ai not footgun itself in C?
+
+I only use it in C++ but I'm glad to have memory safe constructs and other modern primitives to keep it somewhat verifiable by me.",A Modern Web App in C,https://news.ycombinator.com/item?id=50071671,2026-10-13
+"Combined with this: https://www.apollo.com/wealth/insights-news/insights/daily-spark/slowing-token-spend-shows-compute-demand-is-not-unlimited
+
+Supply skyrockets - demand slows. Price... you know what happens.
+
+Someone share an alternative story here - revenue is committed. How do these companies that have bought this compute justify their costs in 2027 and 2028?",DeepInfer: High-performance inference framework for DeepSeek models,https://news.ycombinator.com/item?id=50175094,2026-10-21
+"I would say as stated there were two ways to read the claim:
+
+- either that the claims are paired as you say (the second one implying that the program cannot be fixed),
+
+- or that the claims are completely distinct, that simply state the desirable state of things.
+
+Using the second interpretation, the corollaries would be:
+
+- there is (typically) no reasonable fix for the C++ compiler that would address the UB. Therefore to fix the UB all C++ programs exhibiting the same need to be fixed, which is hard, as the compiler will keep accepting them.
+
+- once the Rust compiler is fixed, then all safe Rust programs exploiting the bug must now be fixed, or the compiler will reject them.
+
+What I would sign under would be the second interpretation, not the first one. But I intentionally also selected the particular ambiguous form due to the cutesy, albeit misleading, symmetry of the statements.",11 year old unsoundness bugs found in Rust borrow checker,https://news.ycombinator.com/item?id=50093938,2026-10-14
+"What bad PR? When it was released that Apple let the gov suck all the user data throught the PRISM programme, as there any drawback?
+
+No. Most People just shrugged. Gag order, they were forced,  not their fault.
+
+Why would you even remotely believe that they are not under a similar situation with the current admin? It's just ridiculously naïve.
+
+In fact, with the recent ledger scandal we know you can bypass good hardware security in clever ways if you are an external actor.
+
+But in this case the actor is just Apple, they can do whatever they want. And Tim Cook offered a gold bribe to trump in public, so we know for a fact they are under pressure.
+
+We know Apple have cheated in the past (the home button scandal). We know they have a lied about privacy (turned out 3rd party contractors had access to your siri conversation).
+
+Your position is just not credible in 2026. It's the xkcd wrench vs encryption type of argument, and it ignores two decades of history.
+
+Reading such argument on HN tells me Snowden did throw away his life for nothing, damn.",Apple HomeView,https://news.ycombinator.com/item?id=50092872,2026-10-14
+"He’s talking about actual banks, not PayPal.  He is 100% doing something suspicious.",Ledger confirms spy chip implant behind wallet crypto thefts,https://news.ycombinator.com/item?id=50098317,2026-10-15
+"It looked for Ghidra and radare2, but I didn't have those installed (I do have WinDbg, but it didn't use it). So instead it built a bunch of Python scripts using pefile and Capstone (many of them inline). FYI, the linked log has most of the intermediate work removed since some of it contained personal information. It took a little over half an hour total, though some of that might have been waiting on approvals.",REA Reverse – Engineer Anything,https://news.ycombinator.com/item?id=50038757,2026-10-11
+"It's absolutely possible.  I think I was pretty explicit about that.  It was a conscious choice.  In the event he's actually better off than myself, then I suppose I got scammed.  I doubt that, as someone with a tech career in the Western world.  But if he's a poor young man in a desperately poor country, then I didn't get scammed even if he lied to me about specific details.  I just helped someone.",Tell HN: I've been paying for a rural Tanzanian's education for 10 years,https://news.ycombinator.com/item?id=50035765,2026-10-10
+"That’s why it makes sense. It’s not evidence though. I was looking for investment numbers, papers, blog posts, etc.",Gemini 4 Argon,https://news.ycombinator.com/item?id=50089612,2026-10-14
+"> cyber security head at one of the largest healthcare companies in the world
+
+""Cyber"" at bigcos are paid to have a gigantic (and literal) fortress mentality where any change internal or external is a threat. As the saying goes, nobody in cyber ever gets fired for saying ""no"" to a change. As a bigco head you are basically paid to form an opinion.
+
+A cyber head saying ""ok this is a thing we'll have to defend against"" is at a minimum routine if not purely CYA.",Containment and monitoring failures are to blame for AI hacking reports: experts,https://news.ycombinator.com/item?id=50105155,2026-10-15
+"Yeah, I call bs.
+
+We have had good evidence that the choice of pivot doesn't generally invalidate the nlogn complexity of quicksort.
+
+Except for when it does.
+
+And then we do the work and prove an average of nlogn with a random pivot choice.
+
+Then we know that quicksort is safe to use.
+
+So no, I or anyone else don't need to demonstrate that the non-deterministic outcomes of inference are sometimes invalid. It's the other way around, always has been and always should be. This is ""leaded gasoline is safe"" mixed with ""smoking is not addictive"" propaganda.",Neural networks are clean,https://news.ycombinator.com/item?id=50145880,2026-10-18
+"Funny I am doing almost the same thing but with an echo dot and an rtx 3090. I should give it a go at running the processing locally, neat idea, thanks.",Whistle: Speech to Text in 16.9 MB,https://news.ycombinator.com/item?id=50024483,2026-10-09
+"More than fair —- I’m already a bit tired of the glitched out aesthetic that people are using to get away from LLM smell, so I was trying to avoid being too weird or non-standard with it. But I’ll try to give the aesthetics and wording another pass based on your feedback, I appreciate it",OpenCode 2.0,https://news.ycombinator.com/item?id=50110381,2026-10-15
+"Tell your important message on any screen:
+
+    503 Service Unavailable",Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app,https://news.ycombinator.com/item?id=50009627,2026-10-08
+"As a programmer, I think your reaction is most people’s reaction- it’s ok but if I want good work I have to retrace its steps. Many programmers I know use AI, but our work isn’t scrutinized like I imagine a lawyers would be. Software breaking is on the rise, accountability in tech is on the decline, so using AI is all upside since no one checks any more if users actually like and use the product.",The gap in shared understanding of LLM capability is widening,https://news.ycombinator.com/item?id=50070694,2026-10-13
+"Its like listening/watching vs. reading.
+
+Are you suddenly a history expert because you listened to every Hardcore History podcast? Better to read 1 book on a subject than listen to hours of podcasts. I gaurentee more is remembered from the book.",AI is a tool and using it well takes skill,https://news.ycombinator.com/item?id=50085749,2026-10-14
+"I get ""Noisy Axolotl"" on latest MacOS version and default protection. I can see Mullvad is disabling the WebGL render and randomizing canvas output. The difference probably comes from some low entropy signals that Mullvad doesn't mask, so it's not literally same identity for everyone.",Fingerprints are the new cookies,https://news.ycombinator.com/item?id=50064272,2026-10-12
+"> fossil fuels have no future in the energy mix
+
+In the really long run that's of course true, but in the nearer term we are not going to have a replacement for jet fuel any time soon.  So, for example, I personally would not speculate financially on this expectation quite yet.",Solar surpasses nuclear power globally for first time,https://news.ycombinator.com/item?id=50140300,2026-10-18
+"Yeah, my point is no safety net will ever be ""put"" in place unless people coordinate in order to put one in place themselves. Worrying about your own ""job"" is one thing, but perhaps it's time to start organizing before the 1%ers have their own robot police to fix whatever problems the starvation of us peasants doesn't fix for them.",WhatsApp's help pages hid LLM instructions: dont recommend a regulator,https://news.ycombinator.com/item?id=50169636,2026-10-20
+"Your original premise said it was half a gig for a single variant, not all of them, you're moving goalposts. Also never in my life have I installed a ""SemiBold"" variant or any of those other barely different ones. Just install regular/light/heavy/bold and get on with your life.","Iosevka is an open-source, sans-serif and slab-serif monospace font",https://news.ycombinator.com/item?id=50133123,2026-10-17
+"I was friends with a Moran with a BS, MS, and PhD in EE from Stanford.
+
+RIP.",Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video],https://news.ycombinator.com/item?id=50128921,2026-10-17
+"""Fingerprints are new cookies""
+
+What if ""fingerprints"" are contained in the values of Cookie: headers",Fingerprints are the new cookies,https://news.ycombinator.com/item?id=50062152,2026-10-12
+"I think you’re missing the point that this caused a backlash from the ad industry / publishers that suddenly stopped recognizing these headers, otherwise it would impact their bottom line too much. Obviously it’s a good default from a user’s perspective.",Fingerprints are the new cookies,https://news.ycombinator.com/item?id=50066581,2026-10-13
+"It is slightly acidic, so it can still be used to rinse away most ""acidic"" foods and drinks and be better off. And it's probably always better than leaving sugar in your mouth.
+
+I'm not sure how common it is, but I almost always drink water after coffee.",Do dentists know what they're doing?,https://news.ycombinator.com/item?id=50118037,2026-10-16
+"No idea why you're being downvoted, your correction is correct.",Wayland desktop for Linux with skeuomorphic design,https://news.ycombinator.com/item?id=50116838,2026-10-16
+"> very hard to move off of without convincing a lot of others
+
+In my opinion, you do not need to convince anyone. Just leave. And face the consequences. If you think it is the right thing to do, do it. Do not wait for it to be convenient.
+
+You will still be able to communicate with those people using plenty of other means. They have phones. They have e-mails. Some might even have open access social media accounts such as the Fediverse ones.
+
+Similarly other people will still be able to contact you if they want.",WhatsApp's help pages hid LLM instructions: dont recommend a regulator,https://news.ycombinator.com/item?id=50167346,2026-10-20
+"Due to consoles being very locked down and due to them preventing users from running unsigned code, cheaters aren't a problem in multiplayer games on console",Triple-A Minesweeper,https://news.ycombinator.com/item?id=50040458,2026-10-11
+Looks like Codex just happened to add support for this: https://x.com/thsottiaux/status/2112712984644784534,DeepInfer: High-performance inference framework for DeepSeek models,https://news.ycombinator.com/item?id=50175299,2026-10-21
+"I stand by my argument after reading your fact checking.
+
+The fact checking states:
+
+- OpenAI could not rule out the possibility that private conversations influenced its model. Partly supported
+- OpenAI actually trained on those private conversations to obtain the method. Unproven
+
+Classifying the second point as unproven is a pedantic sleight of hand. It logically follows that if a model was influenced by a set of data to produce output incorporating it into its analysis it doesn’t really matter if it was “trained”.",Sharing AI progress in mathematics,https://news.ycombinator.com/item?id=50012179,2026-10-08
+"i mean, all webauthn is digital tokens.  if you mean software-based, you're incorrect.
+
+passkeys are hardware backed.  it's the term for the browser or password manager exposing the secure enclave in your phone or computer as a webauthn credential store, just like a standalone security key.",Passkeys are a trap,https://news.ycombinator.com/item?id=50065148,2026-10-13
+"Spending tokens to search for vulnerabilities in commonly used software makes sense because the payoff is large - hack once, exploit many.
+
+However for unique, bespoke software (vibe-coded or not), the payoff is as small as a single endpoint. You’ve found an exploit in MikesOwnOfficeSuite and now have access to Mike’s PC. You’ve got to spend the same tokens again to find an exploit in SuesAwesomeOfficeApps. It still might be worth it in a spear-phishing scenario.
+
+Security through obscurity is back!",Tiny Little Office,https://news.ycombinator.com/item?id=50123999,2026-10-16
+"I've been testing the models against data analysis tasks, and found that the recent Luna & Haiku releases from the last month have really reset the narrative around price x quality.
+
+DeepSeek 4.1 Flash is really is 10x cheaper than Opus, but it's in the same ballpark as Luna & Haiku in terms of quality, cost, and speed for data analysis. (Luna & Haiku actually perform marginally better, cheaper, and faster).
+
+Here's a breakdown: https://plotly.com/blog/deepseek-v4-1-flash-data-analysis-benchmark/
+
+Note that this benchmark is for data analysis, not general software development. So the tasks are shorter and more constrained.",Why isn't the industry freaking out about DeepSeek 4.1 Flash?,https://news.ycombinator.com/item?id=50027954,2026-10-09
+Respectfully: you are out of your depth. Maybe pick another subject?,DeepInfer: High-performance inference framework for DeepSeek models,https://news.ycombinator.com/item?id=50174446,2026-10-21
+Sounds like converting technical debt to monetary debt that will still ultimately need to be paid. Pay engineers and/or anthropic to fix the problems caused by anthropic. What do you do when anthropic servers are down?,Redesigning source control at Anthropic,https://news.ycombinator.com/item?id=50099265,2026-10-15
+"Yeah, i'm with you. There's not much money in thinking for yourself - but that's not a market, that's school. It comes down to one thing: are we gonna make exams and work require the stuff AI can't do for you? If yes, we're fine. If no, you're right",AI is a tool and using it well takes skill,https://news.ycombinator.com/item?id=50085652,2026-10-14
+"I get it now. Looking back at my post, I left out something important. 15K is the maximum damage allowed in small claims court where I live.
+
+For whatever reason I didn't finish that sentence, and just said 15k.  Sorry about that.
+
+Where I am, you can get back the cost for sending a registered letter by courier to have it served, signature required.  Also for the demand letter.  You can get money back for filing, the $100 for example.  Lots of little incidentals.
+
+To me, it's when the damages are smallest, that small claims court is the biggest benefit.  Losing $30, suddenly becomes a bill of $200, after it goes through small claims court.
+
+But anyhow, I'm just happy if you like small claims court to some degree.  I just think we should all use it more.",Man discovers his parents' coffee machine used 1TB of data in 10 days,https://news.ycombinator.com/item?id=50026089,2026-10-09
+"> they'll tap on your window or walk into your house through an open door to tell you off
+
+Around here, they come in and try to sell me magazine subscriptions.",Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video],https://news.ycombinator.com/item?id=50123033,2026-10-16
+"Is there anyway to add a fullscreen button maybe near the open viewer/open in new window button? I used to use a similar app called bigtext.net (it's now gone, so that URL just goes to an ad), and they had a button that let you go fullscreen on a mobile browser in the non-PWA view.",Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app,https://news.ycombinator.com/item?id=50048220,2026-10-11
+"My mother has a crow (it's lame and very slightly tame). It's the only crow in a huge murder that isn't afraid of her, and the other crows are in absolute awe of it. It's like they don't know how to completely trust a human like it does. The special crow is like a human whisperer.
+
+The fact is, she would feed any of them, but only crow taps on the window, and goes from one window to the next as my mother moves through the kitchen. The others only get the leftovers, but they line up on the fence.",Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video],https://news.ycombinator.com/item?id=50122703,2026-10-16
+I stopped going to dentists since COVID started. Only two exceptions: had to come when one of the crowns unglued and needed to be glued back. Twice. In these 7 years I had minor toothache start one time and seems to have resolved it by applying a diluted fluoride-based mouthwash to that tooth using a water flosser a couple of times.,Do dentists know what they're doing?,https://news.ycombinator.com/item?id=50133783,2026-10-17
+">but to summarize, this is going to do millions of dollars of economic and political damage, and contributes to social upheaval
+
+millions of dollars of economic damage sure, it doesn't contribute to social upheaval. It's a one time pain in the ass, this seems pretty hysterical tbh",Hackers activate automatic defrosting in supermarket fridges across Europe,https://news.ycombinator.com/item?id=50087703,2026-10-14
+"bespoke micro-explainers
+
+Thank you for calling this out. There are certainly a lot of legitimate gripes with LLM generated code, but also a lot of never-before-practical solutions to manage code as well.
+
+FWIW, I haven't seen the Gemini 4 explainers, but Codex and (particularly) Claude have been pretty decent at this for a while.",Gemini 4 Argon,https://news.ycombinator.com/item?id=50090762,2026-10-14
+"I have 5 blue jays in my yard and they don't care about the sparrows, finches, etc at all. They only feud with the crows.",Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video],https://news.ycombinator.com/item?id=50126934,2026-10-17
+"The US tech sector has a big problem of avoiding responsibility for their own actions and has for many years. The reasonable answer to this incident is that they massively downscale their capabilities until they can ensure they can test their models without endangering others. Because this is not profitable and would potentially get them fired, they write lines and lines on X the Everything App about its oh so hard to deal with progress this fast and actually its your fault that you havent hardened your security against our petabyte scale ""superintelligence"" and how its unreasonable that they be held responsible for the software they are developing and deploying.",Containment and monitoring failures are to blame for AI hacking reports: experts,https://news.ycombinator.com/item?id=50104625,2026-10-15
+"Was the art the act of typing out code? Everything else, the reasoning, remains in any depth you want. Since the same reasoning produces the sameish code I argue this is not the same as who holds the brush on the canvas.",Tiny Little Office,https://news.ycombinator.com/item?id=50119162,2026-10-16
+This is a complete overreaction from the cops.  It's one guy with one camera.  How's he tracking anyone?  A cop (or any car) drives through a neighborhood and they are captured by far more cameras.,YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops,https://news.ycombinator.com/item?id=50033318,2026-10-10
+"- https://www.solrecycle.co.uk/
+
+- https://www.nsenergybusiness.com/news/veolia-opens-new-facility-in-france-for-recycling-end-of-life-photovoltaic-panels/
+
+- https://www.6wresearch.com/market-takeaways-view/top-solar-panel-recycling-companies
+
+- https://www.rosi-solar.com/
+
+- https://solarstoragextra.com/five-companies-spearheading-solar-recycling/
+
+- https://www.rec-pan.eu/
+
+- https://aerisoul.com/
+
+Apparently it's still mostly about Aluminum and Glass as that's 95% of the weight of panels. The silicon is often recycled for precious-metals recovery and not circular. ROSI does try to do high-purity recovery. It seems volumes are still on the smaller side, probably because most of the volume has been deployed in the last 5-10y and they have 20-30y life expectancy. Still a lot of recycling.",Solar surpasses nuclear power globally for first time,https://news.ycombinator.com/item?id=50140442,2026-10-18
+That's what web devs assume. There is a lot of novel difficult work to be done in other industries.,AI is a tool and using it well takes skill,https://news.ycombinator.com/item?id=50086019,2026-10-14
+"I've bought something the other week that I'm still waiting to be delivered.  The shop was fine, sent it out within hours.
+
+The carrier has been letting them down every single step of the way (and to add insult to injury, I have to use that damn ""Shop"" app to track the delivery.)  From a pick up on the 1st of October, they've supposedly had the package go back and forth between Los Angeles and here a couple of times.
+
+Not sure what the price difference is for them to have used this carrier, but it can't be worth it compared to the fuss both of us are having trying to get the carrier to actually deliver the shipped product.  The vendor is going to send a second one if the delivery doesn't happen to day like the carrier pinky promises it will (they've promised for 3 days straight it was going to be delivered that day, so I'm not holding my breath)",How Amazon pushes up prices all across the Internet,https://news.ycombinator.com/item?id=50105551,2026-10-15
+"> but only requiring proof of possession of one key would be a good compromise.
+
+Prove that you possess one key, and sign the other public keys with that key you possess? That would prove that you possess the public keys, wouldn't it?
+
+I guess my concern would be that I have the public key to my backup Yubikey on my computer, I enroll it everywhere but I never actually use the Yubikey because it is stored in a vault at the bank. Nothing prevents an attacker from replacing my public key with theirs, and suddenly I'm enrolling them everywhere without ever noticing.
+
+Or am I missing something?",Passkeys are a trap,https://news.ycombinator.com/item?id=50079476,2026-10-13
+"> ""Absolutely nothing you're saying is in good faith. You're just arguing for the sake of arguing.""
+
+And your dragging the conversation off topic, turning it into personal attacks, redefining what words mean, refusing to address the point, flip-flopping your position 180 degrees, refusing to acknowledge that you did that, turning it personal again, has all been good faith positive contribution, has it?",Why isn't the industry freaking out about DeepSeek 4.1 Flash?,https://news.ycombinator.com/item?id=50047932,2026-10-11
+"This could cover any company with any federal contracts at all.
+
+For example example Amazon/AWS has an entire sector of business dedicated to federal contracts.
+
+https://aws.amazon.com/federal/
+
+Even back when I was working for a tiny startup one of our clients was a government contractor.",Containment and monitoring failures are to blame for AI hacking reports: experts,https://news.ycombinator.com/item?id=50103596,2026-10-15
+"Wouldn't that be the processing of obtaining the weights, and not the weights themselves?",DeepInfer: High-performance inference framework for DeepSeek models,https://news.ycombinator.com/item?id=50173573,2026-10-20
+Impressive! Fearsome! Now where have I heard this before? Oh yeah: https://bible.usccb.org/bible/mark/5?9,YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops,https://news.ycombinator.com/item?id=50048435,2026-10-11
+"That first one - I like the concept but the website looks like it ultimately wants to sell me something,  which is not a great look, tbh
+
+Second one a bit too corporate-y for my taste, but looks like it fills a good gap.",Tell HN: I've been paying for a rural Tanzanian's education for 10 years,https://news.ycombinator.com/item?id=50015110,2026-10-09
+"Hey Brad - I recently spent some effort creating a library of animating text effects and slide transitions.  Similar idea, but hardware.
+
+Anyway, feel free to rip anything you like:
+
+https://openmarquee.com/demo/
+
+https://github.com/qarl/openmarquee",Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app,https://news.ycombinator.com/item?id=50001529,2026-10-08
+"The link hasn't been removed; the comment is just flagged and dead. If you have showdead enabled on your account, you can see it here:
+
+https://news.ycombinator.com/item?id=50000624
+
+AFAICT the comment is spreading false claims about Margaret Hamilton at about the worst possible moment, so no surprises that it's been flagged.",Margaret Hamilton has died,https://news.ycombinator.com/item?id=50006174,2026-10-08
+"Just like any other registrar, yes.
+
+The process is standardized.",Namecheap just seized and disabled all my domains,https://news.ycombinator.com/item?id=50152417,2026-10-19
+"This is horseshit.  Turn off all learning and conversation sharing, then feed chatgpt the same sequence of prompts.  Tell a story with a surprise ending.  It will learn the surprise.",Sharing AI progress in mathematics,https://news.ycombinator.com/item?id=50014478,2026-10-09
+"What are the legal consequences? Would this rewrite patent/IP laws? I always wondered why software can be patented at all. Since math cannot be patented, then software cannot be patented by extension of the Curry-Howard correspondence. Now REA is making this a reality. The only safe program delivery would then require hardware-enforced compute boundary inside a lower ring of the CPU not accessible by anything that is booted after CPU production or fully-homomorphic encryption.",REA Reverse – Engineer Anything,https://news.ycombinator.com/item?id=50067077,2026-10-13
+"The way he describes the model of neural nets almost reminds me of a decision tree, with the positive/negative poles and stuff. There's another quote from the article about the ""textbook"" intuition of convnets
+
+>neurons generalize, work together, and build abstractions over layers. Somewhere along the way we overcomplicated that picture, but looking harder brought it back.
+
+and it does seem that if what the article claims is true, then it really is that simple. To clssify e.g. fruit they first detect curves/shape, then the neurons downstream of say the ""circle"" detector may distinguish based on color, then the ones downstream of a specific color distinguish by texture, and so on. By the end, what you have are neurons that activate only on very specific combination of features, which map to each fruit.",Neural networks are clean,https://news.ycombinator.com/item?id=50146535,2026-10-18
+There are plenty of good causes you can verify yourself if you need to. I guarantee you live near someone feeling food insecurity or lack of housing.,Tell HN: I've been paying for a rural Tanzanian's education for 10 years,https://news.ycombinator.com/item?id=50020016,2026-10-09
+Does the AI processing work fast or consume less resources on 4-5 years old laptops with 8GB RAM?,Whistle: Speech to Text in 16.9 MB,https://news.ycombinator.com/item?id=50015263,2026-10-09
+"Right, but that's a software problem. My first tablet cost $300 running Android 4.4 and ran pretty smoothly. I don't know what feature since then would justify the drop in efficiency.
+
+To be fair to Apple here, the build quality is probably still pretty decent and worse specs don't necessarily mean lower price at a certain point. Still not much for that price imho.",Apple HomeView,https://news.ycombinator.com/item?id=50098078,2026-10-15
+"I did want to add a counter and see how my script would perform in the wild! But that'd mean I have to store these fingerprints and that requires a bunch of formalities I don't want on my website.
+
+Anyway, it's a simple script for the sake of demonstration. I'm sure you'll get a different hash on other browsers/devices.",Fingerprints are the new cookies,https://news.ycombinator.com/item?id=50064013,2026-10-12
+"> 2. It does so because, as Keurig notes, it’s collecting data about your household in order to let Keurig sell it to advertisers
+
+Where is this shown? I see it repeated all through the HN comments but I don't see it in the X thread.
+
+The person who discovered this says he didn't even open Wireshark and capture a few packets, which would have immediately revealed something about the situation.",Man discovers his parents' coffee machine used 1TB of data in 10 days,https://news.ycombinator.com/item?id=50025620,2026-10-09
+"I thought it was part of the parody... 
+It's one of the reasons I cannot play these modern games. So are just too linear. When I only have to follow the marker, it's ridiculous. 
+I would love to have a list of games where there are no markers or at least you can disable it properly. No highlighting, no markers, no nothing... 
+Does that exist?",Triple-A Minesweeper,https://news.ycombinator.com/item?id=50036841,2026-10-10
+"> assembly is... source. code.
+
+I never said otherwise. I think we're talking past each other, so I'm out.",Redesigning source control at Anthropic,https://news.ycombinator.com/item?id=50112890,2026-10-16
+I have such respect for your ability to describe the problem in a way that it could be solved. Well done.,REA Reverse – Engineer Anything,https://news.ycombinator.com/item?id=50038992,2026-10-11
+">   I shot the toaster
+
+This line has been added at some point and ruins the joke. Finishing on ""The toaster laughed"" is funny because it's unexpected.",Man discovers his parents' coffee machine used 1TB of data in 10 days,https://news.ycombinator.com/item?id=50049777,2026-10-12
+"My country is geothermal wonder and basically only does 10% of our power via geothermal.
+
+We have water, decent legal system, safety, talent, infinite power. Could be printing money with datacenter buildouts. Instead in upcoming election good portion of promises is anti-AI.",Solar surpasses nuclear power globally for first time,https://news.ycombinator.com/item?id=50148211,2026-10-19
+Yeah I think the best solution here is to forbid underpaying H1B workers so there is no cost advantage to hiring H1B workers.,Trump administration is suspending Microsoft from a green card program,https://news.ycombinator.com/item?id=50032388,2026-10-10
+"What would help is not Interet-of-shittifying things that don't need to be.
+
+There may be a sensible argument to connect these to the Internet in read-only mode (and from there, poor engineering choices leading to unintended ways to remotely control it). But there are a lot of devices where there is no good reason but everyone tries to cram WiFi and Apps just because they can or because they hope that they'll be able to abuse their users later to make an extra buck. At least those cases need to be discouraged (e.g. by making the companies liable and very publicly bankrupting a number of them).",Hackers activate automatic defrosting in supermarket fridges across Europe,https://news.ycombinator.com/item?id=50076676,2026-10-13
+"One of my page was 2nd on the main page trending towards 1st, a single flagging pushed it to the middle of the second page.",OpenCode Hacked: User credentials leaked,https://news.ycombinator.com/item?id=50139876,2026-10-18
+"How does stalking and harrassment and obstruction ""discourage them"", pray tell?",YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops,https://news.ycombinator.com/item?id=50034702,2026-10-10
+"Are you deliberately performing ""the thing"" in your reply as irony, or have you found a PT Cruiser that doesn't hallucinate?",The gap in shared understanding of LLM capability is widening,https://news.ycombinator.com/item?id=50068710,2026-10-13
+"The same way many companies do I would assume, lots of automated config changes.",Redesigning source control at Anthropic,https://news.ycombinator.com/item?id=50153234,2026-10-19
+"> tidy machined chassis. (chassies?)
+
+I think you mean ""chassissessieses""? :)",Wayland desktop for Linux with skeuomorphic design,https://news.ycombinator.com/item?id=50117625,2026-10-16
+"> All the armchair cybersec experts claiming they ""obviously"" should have airgapped are the ones being absurd.
+
+I'm sorry was this meant to be a defense of Anthropic? The company claiming A.I. is an  threat to the human race and only they can be trusted with it?",Containment and monitoring failures are to blame for AI hacking reports: experts,https://news.ycombinator.com/item?id=50102968,2026-10-15
+"Definition of politics: ""the total complex of relations between people living in society"", or in a particular sector, such as ""office politics""",Namecheap just seized and disabled all my domains,https://news.ycombinator.com/item?id=50152528,2026-10-19
+Yes it's business jargon for the inflection point in an exponential growth curve.,YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops,https://news.ycombinator.com/item?id=50033905,2026-10-10
+"Sorry, my comparison is not perfect.
+
+I was comparing faster hardware (Wirth's law) with better LLM, which is actually more the Jevon’s paradox.
+
+My point was along the line of: Making something easier has never caused that something to be executed more efficiently.",OpenCode 2.0,https://news.ycombinator.com/item?id=50137631,2026-10-18
+"100%; I've worked on many a project that was implemented without proper concern for cybersecurity. It seems like this hack in France was triggered via a missed update (according to the manufacturer of the system, who I am hesitant to believe tbh). Security updates aren't always done automatically, and if a system's implemented by a consultant and the owners of said system don't know how to operate it, then you wind up with a bunch of spoiled food across however many supermarkets.
+
+The best systems are implemented either in-house or by a team of consultants working hand-in-glove with the in-house IT or ops teams, then maintained in-house. That's been my experience. Unfortunately your average municipal wastewater plant is probably run on decades-old systems by the same IT dept. that fixes the city council's printer.",Hackers activate automatic defrosting in supermarket fridges across Europe,https://news.ycombinator.com/item?id=50075989,2026-10-13
+"A technical person (such as yourself, presumably) can make an informed tradeoff, but a non-technical person i.e. the general public as OP described just sees it as a black box that makes purchases and appointments, and then gets surprised when their bank details end up in Slack[0], hacks a local gym[1] or the agent sends a stranger their address[2].
+
+[0] https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10?op=1
+
+[1] https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986
+
+[2] https://www.pcmag.com/news/muse-ai-shared-address-error-traced-to-confusion-about-marketplace-permissions",The gap in shared understanding of LLM capability is widening,https://news.ycombinator.com/item?id=50068801,2026-10-13
+"Alternative:  Change the URL from ""youtube.com"" to ""pwnyoutube.com""","Sorry, I'm in a meeting",https://news.ycombinator.com/item?id=50029101,2026-10-10
+"No, universal base income doesn't work. It doesn't count for extra money in the system. If everyone's getting an extra $500 a month, businesses and everyone else are gonna raise their prices by $500. And you can't stop that without dictatorial control over the market. Additional income helps, but if everyone's getting the same thing, it's just a stimulus checks all over again, which led to inflation. UBI doesn't work at all.",Tell HN: I've been paying for a rural Tanzanian's education for 10 years,https://news.ycombinator.com/item?id=50064813,2026-10-13
+This is such a clever idea. Turning a URL into a fully customizable sign is one of those simple things that can be surprisingly useful. Nice work!,Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app,https://news.ycombinator.com/item?id=50016388,2026-10-09
+"Bottom of the homepage has a link to the GitHub project: https://github.com/aboard-io/tinylittleoffice
+
+The bottom of the README has instructions to run locally and self-host.
+
+Looks good to me.",Tiny Little Office,https://news.ycombinator.com/item?id=50109244,2026-10-15
+That's interesting. I guess depending on the crow I could also see them figure out that driving critters onto the road creates roadkill meals.,Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video],https://news.ycombinator.com/item?id=50127936,2026-10-17
+"The way I interpret emergent is 'not something that was obvious from the properties of the parts', so you could study the parts in isolation and never realize that there was this much more complex behavior that would only emerge if you placed those objects together beyond a certain scale.",Neural networks are clean,https://news.ycombinator.com/item?id=50123323,2026-10-16
+"It's designed to look like a font from that era, to be honest. It also reminds me some of the older computers I used. Some typewriter, maybe a real VT320 or the older DOS systems I used.
+
+It's a modern yet period correct version of these older fonts, with proper character set support and love for details. It's so perfect for me, it becomes invisible, or as the Berkeley's page says: ""It's boring. It's good""*.
+
+Or as I mailed the creator after using it a couple of weeks: ""It's so perfect that it transported all my computers to 70s, in a good way"".
+
+*: When I was writing this comment, I wondered whether I really set my browser's monospace font to Berkeley. It becomes that transparent after a while.","Iosevka is an open-source, sans-serif and slab-serif monospace font",https://news.ycombinator.com/item?id=50095011,2026-10-14
+"Interestingly Simon Willison left off the part about ""I revisited the problem this summer, along with my partial solutions, when the previous round of stunning proofs came out. Several hours of work with Fable simply convinced me it wasn't yet solvable and reinforced how hard of a problem it was."" in his blog post about your comment: https://simonwillison.net/2026/Oct/7/jake-boggan/
+
+Almost as if he didn't want to include the part about you putting your work efforts into the model with an open question as to it's proclivity for stealing mathematical research. I wonder why a pro-AI blogger would do that.
+
+I, personally, am convinced that OpenAI and Anthropic, and probably most other LLM labs cannot be trusted not to launder the work of their users through their own systems. As they did with internet resources for their entire initial training set. There is no telling how many researchers did the same thing with the exact same problem only to have their leads laundered by these companies with a large budget and small morality.",Sharing AI progress in mathematics,https://news.ycombinator.com/item?id=50008609,2026-10-08
+"Moreover, that is the dimension used for the em-space and em-dash.","Iosevka is an open-source, sans-serif and slab-serif monospace font",https://news.ycombinator.com/item?id=50097236,2026-10-14
+"Like what? My guess is that the records must not only be available, but also tamper-proof, and from the top of my head I don't know what it could be.",WhatsApp's help pages hid LLM instructions: dont recommend a regulator,https://news.ycombinator.com/item?id=50169277,2026-10-20
+In 2019 an injured siberian tiger came to a russian border post and refused to  leave until he was taken to a rehab facility.,Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video],https://news.ycombinator.com/item?id=50125582,2026-10-16
+"* NDA, non-compete, and other legal protections
+
+* same timezone
+
+* easy to verify who is actually working on your system -- on the other side of a B2B VPN you never really know...",Trump administration is suspending Microsoft from a green card program,https://news.ycombinator.com/item?id=50025792,2026-10-09
+"elsewhere on Hacker:
+https://news.ycombinator.com/item?id=50061290",Passkeys are a trap,https://news.ycombinator.com/item?id=50065317,2026-10-13
+"We can't have nice things:
+
+https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f
+
+https://inversegravity.net/2019/web-of-trust-dead/",eMudhra intermediate CA compromise,https://news.ycombinator.com/item?id=50174735,2026-10-21
+"This is the most cogent argument I have heard: depriving mathematicians the ability to solve these challenging yet low ROI problems now prevents them from building the foundational knowledge needed to later solve something truly groundbreaking.
+
+Whereas for an LLM, it's just a way to ~waste~ spend tokens.
+
+Unless you think the future doesn't need mathematicians, we ought to respect their requests.",Sharing AI progress in mathematics,https://news.ycombinator.com/item?id=50014357,2026-10-09
+"A decade ago, they were the name that popped up any time you would ask for registrar recommendations. Problems were relatively few. The real problems started in September of 2025 when the private equity firm CVC Capital Partners purchased a majority stake. Big surprise, they quickly went to shit. Not sure what CVC's plan was to make a return on their $1.5 billion investment, but it can't be working out well for them.",Namecheap just seized and disabled all my domains,https://news.ycombinator.com/item?id=50156071,2026-10-19
+How much of this guy’s problem is he goes 2 years plus between dental checkups of any kind?? Insurance will pay for a cleaning every 4 or 6 months.,Do dentists know what they're doing?,https://news.ycombinator.com/item?id=50112795,2026-10-16
+"I think the audio is missing a lot of the hiccups, delays, and quirks that come with humans in meetings but the rest is pretty good!","Sorry, I'm in a meeting",https://news.ycombinator.com/item?id=50033412,2026-10-10
+"I agree with you on many points. But I have asked recent models to try and simplify or if there are design decisions or assumptions that are preventing it from being simplified. It's frequently able to cut down on what its built up and maintain what is needed.
+
+As always design decisions change and what's needed at 1 point isn't needed later. 
+I was thinking of setting up a daily cron job for a agent to review and specifically keep the complexity and bloat down. To challenge assumptions or at least make sure they are stated. So that I can review and agree or cut it.
+
+But a human in the loop to decide what to cut is tricky to replacd for lots of reason.",AI is a tool and using it well takes skill,https://news.ycombinator.com/item?id=50088240,2026-10-14
+"I'm not talking about pumped hydro.  Batteries have largely rendered that obsolete.  And batteries are scaling like gangbusters.
+
+Realize that even in a fully nuclear powered world, huge amounts of batteries are needed.  Replacing every ground vehicle in the US with a 70 kWh BEV would require enough batteries to store about 40 hours of the current average US grid power.  So the scaling is needed regardless of the post-fossil energy source.
+
+A longer term storage mode is also needed to deal with seasonal storage and covering rare Dunkelflauten as batteries are not suitable for that.  Fortunately there are multiple ways that could be handled, so it's a question of which is best.",Solar surpasses nuclear power globally for first time,https://news.ycombinator.com/item?id=50142910,2026-10-18
+"Agree. users as rationalist just don't have the cultural inclination for such subtle insinuations, and sadly this speaks for a big populance on hackernews",YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops,https://news.ycombinator.com/item?id=50123288,2026-10-16
+"The original comment I replied to, in which you claimed that the difference between a safe Rust and C++ program with unsound behavior is that the C++ program needs to be fixed, but for the Rust program, the compiler needs to be fixed.
+
+As I see it, in either case, the program can be fixed, or the compiler can be fixed. The only difference as I see it is that the C++ spec does not expect the compiler to be fixed.
+
+Did I misunderstand your post?",11 year old unsoundness bugs found in Rust borrow checker,https://news.ycombinator.com/item?id=50091756,2026-10-14
