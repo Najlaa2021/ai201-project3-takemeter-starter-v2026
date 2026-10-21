@@ -42,94 +42,176 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
+TakeMeter sorts comments from **Hacker News** (news.ycombinator.com), a
+public tech and startup forum, into three labels by *what a comment offers to
+back up what it says*:
 
+- **`evidence`:** something you could check yourself.
+- **`experience`:** the commenter's own first-hand account.
+- **`take`:** nothing at all; opinions, jokes, jabs and quick reactions.
+
+It doesn't judge whether a comment is right or well written, only what kind
+of support it rests on.
+
+### Notes from reading (Milestone 1)
+
+These came from reading the first 70 comments in `data/hn_pool.csv`
+(`reading_sample.md` has the first 40), plus the 270 after them while
+labelling:
+
+1. **Some comments link to, quote or name something outside themselves.**
+   For example a doc page, a CVE-style incident, a named standard ("CAA
+   records"), or a number with a source. Most don't.
+2. **Some comments are first-person accounts.** "My $dayJob was poking at
+   the unifi controller", "I have 5 blue jays in my yard". These feel
+   substantial even with no link, because the commenter was there.
+3. **Many comments are aimed at another commenter, not the topic.** "Surely
+   you can concede…", "Respectfully: you are out of your depth." They carry
+   heat but no support.
+4. **A large share are one-line quips or reactions.** "They're selling
+   delegated responsibility as a service. Seriously?" These make a point,
+   but don't argue it.
+
+Distinctions 3 and 4 turned out to be the same label, because what they have
+in common is that nothing backs them up. Splitting them would have made a
+fourth label that was hard to tell apart from the third.
 
 ---
 
 ## Label Taxonomy
 
-<!-- Each label: a one-sentence definition and two real examples from your
-     reading. Then your decision rule for the hardest boundary.
+### `evidence`
 
-     The decision rule is worth a point on its own and it's the thing most
-     people leave out. Every taxonomy has a hardest boundary. Name yours. -->
-
-### `label_one`
-
-**Definition:**
+**Definition:** The comment backs its point with something a reader could
+check without taking the commenter's word: a link offered as support, a
+published number, a quote, or a named document, standard or public event.
 
 **Example 1:**
+> > Why isn't there a mechanism where a domain owner can specify which CA it allows?
 >
+> CAA records do this, but only for issuance, not for use, so it only protects against eg. unexpected domain validation, because the CA has to respect the CAA record.  Extending that to use seems like a logical step to me.
 
 **Example 2:**
+> Yes, we're discussing though in safe (non-unsafe/normal) Rust here. There is no safe C++, everything in C++ is unsafe by default. Even more unsafe than Rust unsafe, because Rust unsafe still does a lot of the safety measures of normal Rust, but allows only a handful extra things and doesn't disable the borrow checker:
 >
+> https://doc.rust-lang.org/book/ch20-01-unsafe-rust.html
+>
+> But getting back to the point, the C++ compiler doesn't have a borrow checker, so it can't have a bug in it. So it's on you, as the developer, to take care of all unsoundness. […]
 
-### `label_two`
+### `experience`
 
-**Definition:**
+**Definition:** The comment's support is the commenter's own first-hand
+account (something they did, built, used, measured or saw), with nothing a
+reader could check independently.
 
 **Example 1:**
+> > unifi seems to have some bug
 >
+> Maybe things have changed in the past few years but prior to covid a decent chunk of my $dayJob was poking about the internals of the unifi controller to support an API.
+>
+> They used MongoDB for stats. If they still do, that might explain the bug :)
 
 **Example 2:**
->
+> I have 5 blue jays in my yard and they don't care about the sparrows, finches, etc at all. They only feud with the crows.
+
+### `take`
+
+**Definition:** An opinion, prediction, joke, jab or quick reaction with no
+support offered, neither something checkable nor a first-hand account.
+
+**Example 1:**
+> They're selling delegated responsibility as a service. Seriously?
+
+**Example 2:**
+> If the main effort is trawling through forums or poorly written documentation the main thing you've learned is how to trawl through these things. I'm of the opinion these should've never been useful skills to begin with.
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `evidence` and `experience`. Lots of HN comments are
+personal stories that also contain numbers or links, like the M1 MacBook
+comment in hard case 1 below.
 
-**The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+**The decision rule I used every time:** If the comment gives the reader
+*anything they could check without taking the commenter's word* (a link
+offered as support, a published number, a quote, or a named document,
+standard or public event), it's `evidence`, even if it's told as a
+personal story. If its only support is the commenter's own account, it's
+`experience`, however many numbers it contains; the commenter's own
+electricity bill isn't checkable. A link to the commenter's own project, or
+a link that is the subject of a joke or reaction, doesn't count as support.
 
-
+A second, smaller rule for `take` versus `evidence`: a technical claim
+stated with confidence ("On Windows it always goes in the order of what was
+used last") is still `take` unless it names something checkable. Being
+specific isn't the same as offering support.
 
 ---
 
 ## The Dataset
 
-<!-- Where you collected from, how you labelled, your counts, and three hard
-     cases. -->
+**Where the posts came from:** Public Hacker News comments, pulled from
+the HN Algolia search API: 9 comments each from 40 popular stories (150+
+points, 80+ comments) posted in the three weeks before October 20, 2026.
+Comments under 60 or over 1,200 characters were skipped. All 360 are in
+`data/hn_pool.csv`, with a link to each original. No login is needed to
+read any of them.
 
-**Where the posts came from:**
+**How I labelled them:**
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+- **Pre-labelling.** Claude read and pre-labelled comments 1–250 of the
+  pool, then 251–340 keeping only the `evidence` and `experience` ones,
+  because `evidence` was my thinnest label (41) after the first 250.
+  Every pre-labelled row says `pre-labelled by Claude` in the `note` column.
+  One comment (#31, in Romanian) was dropped.
+- **The rule changed partway.** It began as "label by whichever support
+  comes first", then became the presence test above. All earlier rows were
+  re-checked against it, which moved 4 labels. An audit of every row
+  containing a link then moved 4 more (see How I Used AI).
+- **Cold labels.** Comments 341–360 were set aside unread for my 20 cold
+  labels.
 
-**Counts per label:**
+**Counts per label** (pre-labelled rows, before the 20 cold rows are added):
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| `take` | 159 | 58% |
+| `experience` | 59 | 21% |
+| `evidence` | 57 | 21% |
+| **Total** | 275 | 100% |
 
 **Three hard cases**
 
-<!-- Any post that made you pause: what it was, which two labels it could have
-     been, and what you chose. These are worth more than the easy 190. -->
-
 **1.**
-> *The post:*
+> *The post:* "Here's an anecdote. I have repurposed my 6 year old 32gb M1 MacBook Pro to run Qwen 3.6 35b a3b … My MBP consumes 0.1w idle and about 10w running inference. I pay $0.33/kwh. If it runs for 2 hours a day over 365 days - it will cost $2.41/year …"
 >
-> *Could have been:*
+> *Could have been:* `evidence` or `experience`.
 >
-> *I chose, because:*
+> *I chose `experience`, because:* every number in it comes from the
+> commenter's own machine and electricity bill. A reader can't check any of
+> it without trusting them. This is the post that made me write the
+> decision rule.
 
 **2.**
-> *The post:*
+> *The post:* "I did my thesis on this back in 2018, around 566k fingerprints, mostly phones. Can confirm they change a lot. Almost 10% of returning devices had a new one within a day. … Data is old now though: https://virpo.sk/browser-fingerprinting-hraska-diploma-thesis.pdf"
 >
-> *Could have been:*
+> *Could have been:* `experience` or `evidence`.
 >
-> *I chose, because:*
+> *I chose `evidence`, because:* it reads like hard case 1, a personal
+> story with numbers, but the last line links the published thesis, so a
+> reader can check every figure. I first had it as `experience`, and
+> relabelled it when I re-checked every row containing a link.
 
 **3.**
-> *The post:*
+> *The post:* "Honestly, it shouldn't even be possible to suspect and be unable to prove. They should be prohibited from using customers data as training data. That is copyright theft and corporate espionage. … https://youtu.be/GweKOBSJvEY…"
 >
-> *Could have been:*
+> *Could have been:* `take` or `evidence`.
 >
-> *I chose, because:*
+> *I chose `evidence`, because:* the rule says a link offered as support
+> counts, and the video is posted as backing for the argument. It doesn't
+> feel like `evidence`, because the text is a rant and the link is
+> unexplained. This is where the rule is weakest: it checks whether support
+> is *offered*, not whether it's any good. I kept it anyway, because a rule
+> that bent for posts I didn't like would stop being a rule.
 
 ---
 
@@ -153,26 +235,37 @@ of next unit's variance. -->
 
 ## How I Used AI
 
-<!-- Two specific moments — what you asked, what came back, what you changed.
+**Moment 1: stress-testing the boundary**
 
-     ⚠️ Plus disclosure of any pre-labelling. If you had a model pre-label a
-     batch and then read and corrected every one, say that. It's an allowed
-     workflow and disclosing it costs you nothing. Not disclosing it is the
-     problem. -->
+- *What I asked for:* posts written to sit on the `evidence`/`experience`
+  line, to see whether my first rule ("label by whichever support comes
+  first") gave clean answers.
+- *What came back:* posts like *"At my last job we used Kafka and it was a
+  nightmare; LinkedIn's own postmortem (link) says the same."* Under the
+  first-support rule that's `experience`, but reverse the two sentences
+  and it becomes `evidence`. Same content, different label.
+- *What I changed:* I replaced the ordering rule with a presence test
+  (anything checkable makes it `evidence`), then re-checked every
+  pre-labelled row against it. 4 labels moved.
 
-**Moment 1**
+**Moment 2: auditing links against my own rule**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* a list of every row that contains a link but isn't
+  labelled `evidence`.
+- *What came back:* 10 rows. Four of them (a published thesis, a benchmark
+  write-up, a GitHub PR, a video posted as backing) were links offered as
+  support that I had labelled `experience` or `take` from the overall feel
+  of the post.
+- *What I changed:* I relabelled those four as `evidence`, and kept the six
+  where the link was a product recommendation, the commenter's own project
+  or earlier comment, or the subject of a reaction. That's why hard
+  cases 2 and 3 are `evidence`.
 
-**Moment 2**
-
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
-
-**Pre-labelling disclosure:**
+**Pre-labelling disclosure:** All 275 non-cold rows were pre-labelled by
+Claude (Anthropic), and marked `pre-labelled by Claude` in the `note`
+column. The 20 rows marked `cold` were labelled by me alone, with no tools,
+before I looked at any pre-label. Claude also collected the posts through
+the HN API and drafted this README.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
