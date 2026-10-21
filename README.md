@@ -170,14 +170,14 @@ read any of them.
 - **Cold labels.** Comments 341–360 were set aside unread for my 20 cold
   labels.
 
-**Counts per label** (pre-labelled rows, before the 20 cold rows are added):
+**Counts per label** (all 295 rows: 275 pre-labelled plus 20 cold):
 
 | Label | Count | Share |
 |---|---|---|
-| `take` | 159 | 58% |
-| `experience` | 59 | 21% |
-| `evidence` | 57 | 21% |
-| **Total** | 275 | 100% |
+| `take` | 167 | 57% |
+| `experience` | 65 | 22% |
+| `evidence` | 63 | 21% |
+| **Total** | 295 | 100% |
 
 **Three hard cases**
 

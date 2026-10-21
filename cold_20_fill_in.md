@@ -25,13 +25,13 @@ LABEL: experience
 > 
 > Looks good to me.
 
-LABEL:task
+LABEL: take
 
 ## 3
 
 > That's interesting. I guess depending on the crow I could also see them figure out that driving critters onto the road creates roadkill meals.
 
-LABEL:  label
+LABEL: experience
 
 ## 4
 
@@ -59,7 +59,7 @@ LABEL: take
 > 
 > I, personally, am convinced that OpenAI and Anthropic, and probably most other LLM labs cannot be trusted not to launder the work of their users through their own systems. As they did with internet resources for their entire initial training set. There is no telling how many researchers did the same thing with the exact same problem only to have their leads laundered by these companies with a large budget and small morality.
 
-LABEL: expecrince 
+LABEL: experience
 
 ## 7
 
@@ -77,7 +77,7 @@ LABEL: take
 
 > In 2019 an injured siberian tiger came to a russian border post and refused to  leave until he was taken to a rehab facility.
 
-LABEL: 
+LABEL: evidence
 evidence
 ## 10
 
@@ -143,7 +143,7 @@ LABEL: evidence
 > 
 > But a human in the loop to decide what to cut is tricky to replacd for lots of reason.
 
-LABEL: label
+LABEL: evidence
 
 ## 18
 
@@ -159,7 +159,7 @@ LABEL: experience
 
 > Agree. users as rationalist just don't have the cultural inclination for such subtle insinuations, and sadly this speaks for a big populance on hackernews
 
-LABEL:task
+LABEL: take
 
 ## 20
 
@@ -169,4 +169,4 @@ LABEL:task
 > 
 > Did I misunderstand your post?
 
-LABEL: task
+LABEL: take
