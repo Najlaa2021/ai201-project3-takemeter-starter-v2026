@@ -37,7 +37,7 @@ LABEL: experience
 
 > The way I interpret emergent is 'not something that was obvious from the properties of the parts', so you could study the parts in isolation and never realize that there was this much more complex behavior that would only emerge if you placed those objects together beyond a certain scale.
 
-LABEL: experience
+LABEL: take
 
 ## 5
 

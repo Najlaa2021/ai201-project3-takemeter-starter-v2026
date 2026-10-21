@@ -174,8 +174,8 @@ read any of them.
 
 | Label | Count | Share |
 |---|---|---|
-| `take` | 167 | 57% |
-| `experience` | 65 | 22% |
+| `take` | 168 | 57% |
+| `experience` | 64 | 22% |
 | `evidence` | 63 | 21% |
 | **Total** | 295 | 100% |
 
