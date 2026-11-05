@@ -219,15 +219,19 @@ read any of them.
 
 <!-- Your starting model, your settings, and anything you changed and why. -->
 
-**Base model:**
+**Base model:** `distilbert-base-uncased`
 
-**Settings:** <!-- epochs, learning rate, batch size, seed -->
+**Settings:** 3 epochs, learning rate `2e-5`, batch size 16, seed 42 for the
+unit 5 run. Unit 6 retrains on seeds 42, 7 and 2024.
 
-**Anything I changed from the defaults, and why:**
+**Anything I changed from the defaults, and why:** Only `LABELS`, to
+`evidence` / `experience` / `take` so they match `labels.csv`. Training
+settings stayed at the notebook defaults.
 
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
-split. If a label had fewer than about 8 in test, say so — it explains a lot
-of next unit's variance. -->
+**Split sizes:** 70 / 15 / 15, stratified. With 295 rows that is about 206
+train / 45 val / 44 test. `evidence` and `experience` each get about 9–10
+test examples — under the "about 8" warning line, so their F1 will jump
+between seeds.
 
 
 
@@ -267,6 +271,18 @@ column. The 20 rows marked `cold` were labelled by me alone, with no tools,
 before I looked at any pre-label. Claude also collected the posts through
 the HN API and drafted this README.
 
+**Moment 3: unit 6 runs and write-up (Cursor / Claude)**
+
+- *What I asked for:* help running the baseline, the three-seed retrains,
+  and filling the unit 6 README from the JSON the scripts wrote.
+- *What came back:* a headless `run_unit6.py` that copies the notebook's
+  train/eval functions so the three seeds could finish without a kernel
+  restart; the Baseline vs. Trained table from `baseline.py`; and a draft
+  of the verdicts that I checked against the three-seed JSON.
+- *What I changed:* I kept the numbers the scripts produced. I wrote the
+  diagnoses and the staff-set labels myself. I used the model to argue the
+  opposite verdict on criterion 3 (beats baseline) before I locked MET.
+
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
      Don't fill these in during unit 5.
@@ -276,23 +292,32 @@ the HN API and drafted this README.
 
 ## Baseline vs. Trained
 
-<!-- Both models on the same posts. `python baseline.py --trained results.json`
-     prints this table for you. -->
+Same 45 held-out posts (`test_split.csv`, seed 42). Baseline used
+`label_definitions.txt`. Device: Apple Silicon GPU (MPS), torch 2.14.1.
 
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
+| Overall accuracy | 0.222 | 0.578 | +0.356 |
+| Macro F1 | 0.138 | 0.244 | +0.106 |
+| F1 — `evidence` | 0.340 | 0.000 | -0.340 |
+| F1 — `experience` | 0.000 | 0.000 | +0.000 |
+| F1 — `take` | 0.074 | 0.732 | +0.658 |
 
 **What I predicted before I looked:**
-<!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
-     prediction made afterwards isn't one. -->
+The trained model will beat the baseline most on `take`, because that
+label is 57% of the data and often looks like a short jab. It will gain
+less on `evidence` vs `experience`, because that is the boundary I already
+had to write a decision rule for.
 
 **What the gap actually means:**
-<!-- If the baseline matched your trained model, your fine-tuning added
-     nothing — and that is a real finding, not a failure. Say it plainly. -->
+Fine-tuning added something, but only for `take`. The trained model is a
+majority classifier: it called every test post `take` (26/45, accuracy
+0.578). The baseline was the opposite — it over-called `evidence` (recall
+1.0, precision 0.20) and almost never said `take` (recall 0.038). So the
++0.356 accuracy is "learned the common label," not "learned the taxonomy."
+The baseline actually beat the trained model on `evidence` F1 (0.340 vs
+0.000). That matches the prediction in direction (`take` is where training
+won) and is worse than I hoped on the hard boundary.
 
 
 
@@ -300,32 +325,33 @@ the HN API and drafted this README.
 
 ## Run Log — Before
 
-<!-- Five criteria across three seeds. The notebook's section 6 prints the
-     spread table; the Target and Verdict columns are yours. -->
+Device: Apple Silicon GPU (MPS). Three epochs, lr 2e-5, batch 16.
+Accuracy did **not** swing across seeds — it stuck at 0.578 all three times
+because every seed collapsed to always-`take`.
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | ≥ 0.65 | 0.578 | 0.578 | 0.578 | MISSED |
+| 2. Every label F1 | ≥ 0.50 | ev 0.00 / ex 0.00 / take 0.73 | ev 0.00 / ex 0.00 / take 0.73 | ev 0.00 / ex 0.00 / take 0.73 | MISSED |
+| 3. Beats the baseline on accuracy | yes (baseline 0.222) | yes (0.578) | yes (0.578) | yes (0.578) | MET |
+| 4. Precision on `evidence` | ≥ 0.60 | 0.00 | 0.00 | 0.00 | MISSED |
+| 5. Recall on `take` | ≥ 0.70 | 1.00 | 1.00 | 1.00 | MET |
 
 ### Confusion matrix
 
-<!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
-     An image of a matrix earns nothing. -->
+Seed 42 (seeds 7 and 2024 produced the same matrix):
 
-| true \ predicted |  |  |  |
+| true \ predicted | evidence | experience | take |
 |---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+| **evidence** | 0 | 0 | 9 |
+| **experience** | 0 | 0 | 10 |
+| **take** | 0 | 0 | 26 |
 
 **My biggest off-diagonal number, and what it means:**
-<!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
-     direction. "7 real analysis posts were called hot_take and only 3 went the
-     other way" is a direction, not just an error rate. -->
+19 real support posts (9 `evidence` + 10 `experience`) were called `take`,
+and 0 went the other way. The model did not learn either support boundary.
+It learned one direction: when unsure, say `take`. That is a collapse to
+the majority class, not an `evidence`/`experience` mix-up.
 
 
 
@@ -333,27 +359,41 @@ the HN API and drafted this README.
 
 ## Verdicts and Diagnoses
 
-<!-- MET or MISSED against LAST UNIT's target. The target has to hold across
-     all three seeds, not turn up sometimes. -->
-
 | # | Criterion | Target | Verdict | How I decided |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+| 1 | Overall accuracy | ≥ 0.65 | MISSED | 0.578 on every seed. 0.65 has to hold on all three, and it held on none. |
+| 2 | Every label F1 | ≥ 0.50 | MISSED | `evidence` and `experience` F1 are 0.00 on every seed. `take` is 0.73, which is not enough — the criterion says every label. |
+| 3 | Beats the baseline on accuracy | yes | MET | Baseline accuracy on the seed-42 held-out set is 0.222. Every trained seed is 0.578. |
+| 4 | Precision on `evidence` | ≥ 0.60 | MISSED | The model never predicted `evidence`, so precision is 0.00. |
+| 5 | Recall on `take` | ≥ 0.70 | MET | Recall is 1.00 on every seed — it called every post `take`. |
 
 **Diagnoses**
 
-<!-- For each miss: the cause, and how you know. The four common causes are:
-     too few examples for a label, a boundary you applied inconsistently, a
-     genuinely hard label pair, and a task the model can't reach from this
-     much data.
+**1 and 2 and 4 — training never left the majority class.** Val macro-F1
+stayed at 0.238 for all three epochs on seed 42, and the test matrix is
+all-`take` on every seed. This is not "too few examples" in the sense of a
+jumpy F1 on 9 rows — the model produced *zero* minority predictions. 63
+`evidence` and 64 `experience` rows exist in the file. Three epochs at
+2e-5 with a 57% majority was not enough training for DistilBERT to use
+them. That is a training-setting cause, with the stuck val curve as
+evidence.
 
-     ⚠️ Use your agreement report as evidence. It is the only instrument you
-     have that can tell a LABELLING problem from a MODEL problem, and this
-     section is graded on whether you used it that way. -->
+**Not a labelling-boundary diagnosis, as far as I can tell from the
+staff set I have.** I labelled the 30 staff posts under *their* taxonomy
+(`analysis` / `hot_take` / `reaction`) and applied their four rules
+without flipping back and forth on the obvious ones (1–10 analysis,
+11–20 hot_take except the "3% shoes" example which is their own
+hot_take, 21–30 reaction). I do not yet have `data/staff_labels.csv`
+from the TF, so I cannot compute an agreement rate or point at a pair I
+applied two ways. The trained matrix also does **not** show
+`evidence`↔`experience` confusion — it shows no `evidence` or
+`experience` predictions at all. If my own 295 labels were noisy on that
+boundary, this run never got far enough to reveal it.
+
+**The task is reachable from 200+ examples in principle** (the baseline
+already got `evidence` F1 0.340 with no training). The miss is that
+fine-tuning for 3 epochs on this imbalance erased that and replaced it
+with always-`take`.
 
 
 
@@ -367,7 +407,26 @@ the HN API and drafted this README.
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** ___ / 30 = ___%
+**Agreement rate:** not computed yet — `my_staff_labels.csv` is filed (30
+rows, staff taxonomy). `data/staff_labels.csv` has not arrived from the
+TF, so `agreement.py` cannot run. I labelled first and stopped, as the
+brief requires.
+
+I applied the staff rules as:
+
+- **sp_001–sp_010 → `analysis`.** Each one uses a load-bearing number,
+  date, or comparison (rule 1). Even the first-person ones (sleep log,
+  heat loop, carbon plates) argue *from* the measurement.
+- **sp_011–sp_020 → `hot_take`.** Confident general claims, no
+  load-bearing fact. sp_014 is their own worked example: "times are down
+  3%" is decoration on a conclusion already reached.
+- **sp_021–sp_030 → `reaction`.** About the writer, just now. sp_027's
+  "20 degrees" and sp_028's "third DNF this year" are not load-bearing
+  arguments (rule 2).
+
+Once `staff_labels.csv` is in `data/`, the command is `python agreement.py`.
+I will adjudicate every disagreement from those four rules, including
+wins, and will not write "staff is right" as a default.
 
 <!-- Nobody grades this number. A 60% who argues every disagreement from the
      stated rules beats a 95% who wrote "staff was right" nine times. Several
@@ -408,6 +467,10 @@ the HN API and drafted this README.
 > *Which pile:*
 
 **What the pattern in my disagreements tells me:**
+I cannot use agreement as evidence yet. The pattern I *can* use is the
+confusion matrix: the model never reached the `evidence`/`experience`
+boundary my unit 5 hard cases were about. Until it predicts those labels,
+a labelling-inconsistency story is not supported by this run.
 
 
 
@@ -416,23 +479,46 @@ the HN API and drafted this README.
 ## The Improvement
 
 **What I changed:**
+One training setting: **3 epochs → 8 epochs**. Labels, taxonomy, criteria,
+learning rate, batch size, and the three seeds stayed the same.
 
 **Which diagnosis pointed at it:**
+The before-run val macro-F1 sat at 0.238 for every epoch, and the test
+matrix was always-`take`. That is the brief's "change one training
+setting" case: the diagnosis named training, not a boundary I applied two
+ways (I still do not have staff labels to prove a labelling inconsistency).
 
 ### Run Log — After
 
+From `results_three_seeds_after.json`. Device: Apple Silicon GPU (MPS).
+Eight epochs, lr 2e-5, batch 16. Same three seeds, same splits.
+
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | ≥ 0.65 | 0.644 | 0.622 | 0.644 | MISSED (close) |
+| 2. Every label F1 | ≥ 0.50 | ev 0.50 / ex 0.29 / take 0.77 | ev 0.38 / ex 0.38 / take 0.76 | ev 0.63 / ex 0.27 / take 0.75 | MISSED |
+| 3. Beats the baseline on accuracy | yes (0.222) | yes (0.644) | yes (0.622) | yes (0.644) | MET |
+| 4. Precision on `evidence` | ≥ 0.60 | 0.571 | 0.429 | 0.714 | MISSED |
+| 5. Recall on `take` | ≥ 0.70 | 0.885 | 0.846 | 0.846 | MET |
+
+**Confusion matrix — after, seed 42** (rows = true, columns = predicted)
+
+| true \ predicted | `evidence` | `experience` | `take` |
+|---|---|---|---|
+| `evidence` | 4 | 1 | 4 |
+| `experience` | 1 | 2 | 7 |
+| `take` | 2 | 1 | 23 |
 
 **Did it help, and how do I know:**
-
-<!-- If it didn't, say so. Relabelling that didn't help is a genuinely
-     interesting result and earns full credit. -->
+Yes, by the test I set beforehand: `evidence` and `experience` F1 left
+0.00 and accuracy left 0.578 on all three seeds. Macro F1 went from 0.244
+to 0.50–0.55 (0.518 / 0.503 / 0.546), and every seed now predicts all three labels. It did not
+help enough to flip a criterion: accuracy sits just under 0.65 on every
+seed, and `experience` F1 (0.27–0.38) is the weakest number in the table.
+The matrix shows where it still fails. Most `experience` posts (7 of 10
+on seed 42) go to `take`, not to `evidence`. So the boundary the model is
+missing is `experience`/`take`, not the `evidence`/`experience` one I
+wrote my unit 5 rule for.
 
 
 
@@ -440,13 +526,21 @@ the HN API and drafted this README.
 
 ## What's Still Broken
 
-<!-- For each criterion still missed: what you'd do, and why you stopped. -->
+**1 / 2 / 4 (accuracy, every-label F1, evidence precision).** Next I would
+either train longer still, or add ~30 more `evidence` and `experience`
+rows and keep 8 epochs. I stopped at one change (epochs) because the
+brief allows one. I ran out of the second change.
 
-
+**Agreement.** `staff_labels.csv` is still with the TF. The 30 labels I
+wrote are in `my_staff_labels.csv`. I will adjudicate as soon as the
+answer key is in `data/`.
 
 **The gap between what I meant my labels to capture and what the model
 learned:**
-<!-- Two sentences. Your confusion matrix is the evidence. -->
+I meant three kinds of *support*: checkable, first-hand, or none. The
+confusion matrix shows the model learned one kind: `take`. It never
+predicted `evidence` or `experience`, so the hard boundary I spent unit 5
+on is not something this run can have learned.
 
 
 
