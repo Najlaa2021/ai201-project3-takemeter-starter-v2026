@@ -1,0 +1,259 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 45,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": true,
+  "scores": {
+    "n": 45,
+    "accuracy": 0.2,
+    "f1_macro": 0.11111111111111112,
+    "per_label": {
+      "evidence": {
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1": 0.33333333333333337,
+        "support": 9
+      },
+      "experience": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 10
+      },
+      "take": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 26
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "Is that true?\n\nIn the United States, it is routine to get your mouth X-Ray\u2019ed every 6 months when you go in for a cleaning. Dental plans include these checkups at no extra charge.",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Every profession has terms of art in it, including engineering, science, and construction.\n\nHaving engineers in HN complain that they need to learn something in order to understand it is a pretty bad look.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "> No daemon needed for that. Like, at all.\n\nThere is, for the same reasons that people use screen or tmux (which some people do use for this).  If I were queueing a prompt I expected to take hours to finish, it would be nice to be able to run it another computer so I don't have to worry about closing my laptop lid or the battery dying.\n\nIt's not world-changing, but I have had agents do `grep -r /` commands before and it would have been nice to be able to detach and let it run rather than having to kill it because I have to leave before it'll actually finish (WSL is sooo slow on that).  It would be better if the agent did a better grep, but sometimes I'd rather wait 20 minutes than spend 7 minutes setting it all back up again.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Youve essentially listed the same point four different ways... Rust merely kicks the UB can down the road.\n\n1. And? The unsafe code could still be memory unsafe\n\n2. But coders can't be trusted to manually manage memory, otherwise you'd just use c++ right? Doesn't matter whether it's marked unsafe or not, you could do that on c code.\n\n3. Not in unsafe rust, that's my whole point. There is only vague guidance on correct unsafe rust. (Because they haven't managed to crack the problem, just draw a perimeter around them)\n\n4. See point 2 rebuttal",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "The only way to prevent leaks and abuse is to not collect the data.\n\nSince there can not be any trust in the supply chain and operations, the only way is to ban ALPR outright.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "The fun thing is that IRL my elderly neighbour keeps sheep: he keeps adding higher fences, electric bands, a second dog... Every day he messages me about how this time he guarantees the beasties will stay in his pastures; and every morning I find them grazing in my arbour, having found yet another hole in the fence.\n\nThis is a true story, but may also be a fable.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "iPads in general aren't expensive, just the Pro + keyboard.\n\nThis year I wanted a new iPad but decided against the Pro and just got the base model which is extremely affordable, IMHO.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Sure there is.\n\nSuppose the condition is that temperature in the freezers is rising, producing active concern for the contents.\n\nA smart person with the right access can see that, and also correlate it with other things.\n\nLike:\n\nThe doors to the building are open, while the HVAC takes a break because the weather is temperate and isn't dehumidifying as it would be on a hot day?\n\nAnd it's a holiday food-buying week, so the freezers' doors are open for buying and restocking more than usual?\n\nIf the refrigerant pressures and other stats also fit the scenario, then:  The evap coils may just be iced up.  If they can be defrosted from the comfort of your desk a thousand miles away, then that's pretty great.  Just like what was done (to malicious extreme) here.\n\n(You're a smart person.  You could correlate these things yourself if this were your trade, save a trip [or many, many trips across a chain], and get paid to make these kinds of things happen remotely.)",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "> How does dental (or medical) care differ when the person recommending the procedure directly benefits financially from it?\n\nMost of the big DI (diagnostic imaging) providers (GE, Siemens, Philips, etc.) have financing programs for physicians who want to buy CT, MRI, etc.\n\nThey have consultants who'll help you with your Certificates of Need (the documentation that you need when opening a new healthcare facility that is, cynically, \"will your competitors choose to shut down or accept less revenue if we let you open\"). They'll even connect you with other physicians so you can form your own partnership on a facility.\n\nAnd then, you'll go on to refer your regular patients for DI at a rate somewhere between 1 and 2 standard deviations above what other providers do for the same ICD-10 codes.\n\nNot problematic at all!",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "No, that is \"archived in any known library\". Source is the Video Game History Foundation.\n\nhttps://gamehistory.org/87percent/\n\nhttps://insider-gaming.com/study-classic-games-unavailable/",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I've bought something the other week that I'm still waiting to be delivered.  The shop was fine, sent it out within hours.\n\nThe carrier has been letting them down every single step of the way (and to add insult to injury, I have to use that damn \"Shop\" app to track the delivery.)  From a pick up on the 1st of October, they've supposedly had the package go back and forth between Los Angeles and here a couple of times.\n\nNot sure what the price difference is for them to have used this carrier, but it can't be worth it compared to the fuss both of us are having trying to get the carrier to actually deliver the shipped product.  The vendor is going to send a second one if the delivery doesn't happen to day like the carrier pinky promises it will (they've promised for 3 days straight it was going to be delivered that day, so I'm not holding my breath)",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "With all due respect, you gotta make that way easier if you want to drive Firefox adoption. Use AI to triage reports, but most people are just going to silently switch to something that works, rather than jump through any hoops.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I think it\u2019s purely a community size issue. When a community is small, everyone\u2019s an owner. Dealing with bad actors is straightforward. When it grows into the hundreds or thousands the scale means you can\u2019t know everyone anymore, you need hall monitors, need to be more guarded and intentional about how you communicate.\n\nIt\u2019s not bad or wrong, just different. When the changes forced by a group who didn\u2019t build it, it\u2019s frustrating.\n\n\u201cHey, here\u2019s this thing you love doing, but now a computer does it and you don\u2019t have to any more. See, same!\u201d Thanks for allowing me to not do the thing I like to do?",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "elsewhere on Hacker:\nhttps://news.ycombinator.com/item?id=50061290",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "So my take is that video hosting is pretty expensive and that it's hard to compete with Google because:  (1) Google owns tons of fiber everywhere and has peering agreements with everybody so it has a better cost structure and (2) of course Google has a great advertising system to turn views into $ so (3) they can kick some money back to creators and still profit in a big way.\n\nI have looked at the question of building something YouTube-like based on AWS where people could upload videos,  they get re-encoded,  hosted in S3,  and sent out through CloudFront.  It wouldn't be that hard and the system would be bulletproof and not require a lot of operational attention but it would be expensive...  You could build something cheaper in terms of hosting costs but you'll pay it back in development and ops expenses until you get big.\n\nAnd then there's the moderation issue:  if you run an image hosting site people will try to upload CSAM and it's not hard to to enforce a no-ero policy but between that and hate speech and other problems who wants to deal with it?",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "We can't have nice things:\n\nhttps://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f\n\nhttps://inversegravity.net/2019/web-of-trust-dead/",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "The context of this thread is AI-assisted code.  There's no \"people\" involved, the AI can reconstruct just the parts of the ecosystem that it needs as easily as it can use the ecosystem.  That's one of the big sea changes with AI: a lot of the best practices we've developed for coding really focus on creating good user interfaces and abstraction boundaries for coders so we can work in teams and have reasonable PL ergonomics, but when there is no team and no human, many of those considerations disappear.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Indeed. Ergo the best consumer defense is portability and open platforms.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "> How do you feel about WordPress / Hugo themes?\n\nI knew a web dev who exclusively made WordPress websites for local small businesses. They always looked great. The themes were put together by hand with care from a designer, and the developer/end user filled them and tweaked them *purposefully*.\n\nSure if you have some web dev experience you start spotting them, but that never turned me off from a business in the same way that the above page does. I expected every business to have a website, but not for every business to commission a wholly bespoke design system. The themes available were numerous and of high enough quality that they were fit for purpose and didn't have this nauseating effect, at least for me.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Maybe some of the idea comes from Europe, where contractors can earn maybe twice the income of a similar regular employee?",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Yes.\nI had tech edited like 3 or 4 books by then, and through somewhat of serendipity, they asked me to write one.\n\nTheir head technical editor back then wrote one of my college recommendation letters too.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Here's just one example:\nhttps://www.itechguides.com/elon-says-hes-working-to-fix-grok-after-ai-disagrees-with-him-on-right-wing-violence/\n\nAFAIK X published their algorithm which more or less just says: \"we use grok to decide which posts to show\".",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I think the audio is missing a lot of the hiccups, delays, and quirks that come with humans in meetings but the rest is pretty good!",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I want to understand this more - are you saying \"would pay for itself\" if you are offering chatbot commercially? Or using it yourself in lieu of ChatGPT etc..?",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Perhaps unrelated to this - a few days ago we had communications from a TLS certificate provider that we need to reissue all of our certificates by 21st 8PM before they will stop working. We pressed _why_ and was only told that Godaddy 'had a compliance issue with a batch of certificates'. Which doesn't make much sense for us as we have a few dozen and their renewals vary throughout the year.\n\nI've only found one other person talking about this online.\n\nWhat's very strange is that we don't use Godaddy directly and it's signed by Starfield G2 (now R1) - not the Godaddy root CA.\n\nHas anyone else had the same communications around their TLS certificates?",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "As I've mentioned elsewhere, the delta is control over login/logout, much easier/low friction deployment of policies, live policy changes, centralized security related logging, additional features like built-in DLP, corporate VPN/proxy, device posture checks, profile encryption, forced update/restart, guaranteed support, etc etc.\n\nYou also get the ability to deploy all browser infrastructure on-premise, to effectively decouple yourselves from us and get sync data, telemetry, and so on all stored on-prem, serve updates from your own servers, etc. This is something that wasn't really practical before.\n\nI'm not sure why we would be okay with breaking a browser's trust in that way\n\nI'm not sure what you mean here. If we accept that this is something a lot of Enterprise deployments require, wouldn't you prefer to have things like DLP, VPN and security logging be built-in in the browser, rather than being provided by third-party products that intercept or hook the browser traffic somehow?",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "The human race is going to be really bummed to learn that currency didn't exist before the advent of US regulation and legislation! We were doing it wrong this whole time!!",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "i mean, all webauthn is digital tokens.  if you mean software-based, you're incorrect.\n\npasskeys are hardware backed.  it's the term for the browser or password manager exposing the secure enclave in your phone or computer as a webauthn credential store, just like a standalone security key.",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "> including but not limited to systemd\n\nAs someone who admins several Linux boxes professionally and personally and has spent so little time working with systemd it's a rounding error, what are you talking about?",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "A decade ago, they were the name that popped up any time you would ask for registrar recommendations. Problems were relatively few. The real problems started in September of 2025 when the private equity firm CVC Capital Partners purchased a majority stake. Big surprise, they quickly went to shit. Not sure what CVC's plan was to make a return on their $1.5 billion investment, but it can't be working out well for them.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I think it only supports 30 seconds of dialogue, so you could try chunking it.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "How much of this guy\u2019s problem is he goes 2 years plus between dental checkups of any kind?? Insurance will pay for a cleaning every 4 or 6 months.",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "> spontaneous, unintended cooperation\n\nOn what basis do you believe these words accurately reflect what happened?\n\nSome counter points\n\n- One of the Chinese LLMs (forget which) has on occasion shown thinking traces where it simulates calling and running a subagent.\n\n- There are some people who believe the models being evaluated during the HF incident were trained to collaborate. It's a very natural next step to produce more effective agentic teams.\n\nIf we consider each new generation of models has a more advanced training regime\n\nnext word -> chat -> CoT -> tools -> agentic -> teams\n\nWith each generation, we see what people do with them, get traces of the helpful ones, and then use that train the next generation, thereby pushing more capabilities down into the model, or at least making them more amenable to that usage pattern after training.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I'm not talking about pumped hydro.  Batteries have largely rendered that obsolete.  And batteries are scaling like gangbusters.\n\nRealize that even in a fully nuclear powered world, huge amounts of batteries are needed.  Replacing every ground vehicle in the US with a 70 kWh BEV would require enough batteries to store about 40 hours of the current average US grid power.  So the scaling is needed regardless of the post-fossil energy source.\n\nA longer term storage mode is also needed to deal with seasonal storage and covering rare Dunkelflauten as batteries are not suitable for that.  Fortunately there are multiple ways that could be handled, so it's a question of which is best.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "> Wish code editors would support different fonts per semantic region\n\nThey absolutely do. In Emacs I use different faces for comments, tables in literate sections, and code blocks. I use the same font for all those faces, but different attributes (size, weight, etc).\n\nI also have configured different fonts for different unicode code points, so that when I include Cyrillic or Japanese text I can use a font with better code point coverage that my preferred fonts.\n\nIt always astounds me how unconfigurable most editors are.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "This is a violation of the spec you cited above and criticized by FIDO devs here:\n\nhttps://github.com/keepassxreboot/keepassxc/issues/10407#issuecomment-1994923493",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Which is probably why they  will merge it. You can get a lot done in chat mode, especially if you connect custom MCPs to it. I can't see that continuing.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "OpenCode Go is the best thing they have going. Pi is the way to go for coding harnesses, IMHO. But despite all the BS messaging, something like glm-5.3-flash on $10/month OpenCode Go plan is a great deal if they have a Come to Jesus moment about security and do a bit of team attitude adjustment.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Huh? Mate (formerly known as Gnome 2) is pretty functional and almost as lightweight as Xfce.\n\nCinnamon (comes with Linux Mint) is a modern refresh that's very functional and not at all heavy or slow.\n\nIf you don't want a desktop, I guess there are many good WMs to choose from.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "So if the profit margin is low, capitalism is bad cuz the workers are exploited..\n... and if the profit margin is high, capitalism is bad cuz the workers are exploited?\n\ngot it!\n\nMeanwhile under communism.. the workers are exploited everywhere and the profit margin is 0 everywhere, except the black market, and the black market is the only place you can find anything.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Ok now take all of your arguments and reverse them. Two random people on the Internet claiming they aren\u2019t considering a purchase is completely meaningless and has no bearing or relationship to the market opportunity for this or other products. Software engineers, particular on this forum, are very often and usually wrong precisely because what they consider in products isn\u2019t what others care about.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I stopped going to dentists since COVID started. Only two exceptions: had to come when one of the crowns unglued and needed to be glued back. Twice. In these 7 years I had minor toothache start one time and seems to have resolved it by applying a diluted fluoride-based mouthwash to that tooth using a water flosser a couple of times.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "It's a large niche because it was unexploited before us, but our niche is in the resources and strategies accessible to generalized intelligence.\n\nHumans used to have other niches, when there were resources differentially accessible to persistence hunting, but that niche basically no longer exists.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Not in the US either and it feels like Amazon is the only choice for some things.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I didn't say it was better, just that there was no \"roguness\" nor some magical surprise.",
+      "gold": "take",
+      "predicted": "evidence"
+    }
+  ]
+}

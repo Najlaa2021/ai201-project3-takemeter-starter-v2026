@@ -293,7 +293,14 @@ the HN API and drafted this README.
 ## Baseline vs. Trained
 
 Same 45 held-out posts (`test_split.csv`, seed 42). Baseline used
-`label_definitions.txt`. Device: Apple Silicon GPU (MPS), torch 2.14.1.
+`label_definitions.txt`.
+
+Criterion 3 says "on that seed's held-out posts", so the baseline was also
+run on the seed 7 and seed 2024 test splits (`test_split_seed7.csv`,
+`test_split_seed2024.csv`, rebuilt with the same split function as the
+retrain). Accuracy: 0.222 (seed 42), 0.200 (seed 7), 0.244 (seed 2024).
+Results are in `baseline_results_seed7.json` and
+`baseline_results_seed2024.json`. Device: Apple Silicon GPU (MPS), torch 2.14.1.
 
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
@@ -333,7 +340,7 @@ because every seed collapsed to always-`take`.
 |---|---|---|---|---|---|
 | 1. Overall accuracy | ≥ 0.65 | 0.578 | 0.578 | 0.578 | MISSED |
 | 2. Every label F1 | ≥ 0.50 | ev 0.00 / ex 0.00 / take 0.73 | ev 0.00 / ex 0.00 / take 0.73 | ev 0.00 / ex 0.00 / take 0.73 | MISSED |
-| 3. Beats the baseline on accuracy | yes (baseline 0.222) | yes (0.578) | yes (0.578) | yes (0.578) | MET |
+| 3. Beats the baseline on accuracy | yes, on each seed's own posts | 0.578 vs 0.222 | 0.578 vs 0.200 | 0.578 vs 0.244 | MET |
 | 4. Precision on `evidence` | ≥ 0.60 | 0.00 | 0.00 | 0.00 | MISSED |
 | 5. Recall on `take` | ≥ 0.70 | 1.00 | 1.00 | 1.00 | MET |
 
@@ -363,7 +370,7 @@ the majority class, not an `evidence`/`experience` mix-up.
 |---|---|---|---|---|
 | 1 | Overall accuracy | ≥ 0.65 | MISSED | 0.578 on every seed. 0.65 has to hold on all three, and it held on none. |
 | 2 | Every label F1 | ≥ 0.50 | MISSED | `evidence` and `experience` F1 are 0.00 on every seed. `take` is 0.73, which is not enough — the criterion says every label. |
-| 3 | Beats the baseline on accuracy | yes | MET | Baseline accuracy on the seed-42 held-out set is 0.222. Every trained seed is 0.578. |
+| 3 | Beats the baseline on accuracy | yes | MET | The baseline was run on each seed's own held-out posts (0.222 / 0.200 / 0.244). The trained model is 0.578 on every seed. |
 | 4 | Precision on `evidence` | ≥ 0.60 | MISSED | The model never predicted `evidence`, so precision is 0.00. |
 | 5 | Recall on `take` | ≥ 0.70 | MET | Recall is 1.00 on every seed — it called every post `take`. |
 
@@ -497,7 +504,7 @@ Eight epochs, lr 2e-5, batch 16. Same three seeds, same splits.
 |---|---|---|---|---|---|
 | 1. Overall accuracy | ≥ 0.65 | 0.644 | 0.622 | 0.644 | MISSED (close) |
 | 2. Every label F1 | ≥ 0.50 | ev 0.50 / ex 0.29 / take 0.77 | ev 0.38 / ex 0.38 / take 0.76 | ev 0.63 / ex 0.27 / take 0.75 | MISSED |
-| 3. Beats the baseline on accuracy | yes (0.222) | yes (0.644) | yes (0.622) | yes (0.644) | MET |
+| 3. Beats the baseline on accuracy | yes, on each seed's own posts | 0.644 vs 0.222 | 0.622 vs 0.200 | 0.644 vs 0.244 | MET |
 | 4. Precision on `evidence` | ≥ 0.60 | 0.571 | 0.429 | 0.714 | MISSED |
 | 5. Recall on `take` | ≥ 0.70 | 0.885 | 0.846 | 0.846 | MET |
 

@@ -1,0 +1,174 @@
+text,label,note
+"Is that true?
+
+In the United States, it is routine to get your mouth X-Ray’ed every 6 months when you go in for a cleaning. Dental plans include these checkups at no extra charge.",evidence,pre-labelled by Claude
+"Every profession has terms of art in it, including engineering, science, and construction.
+
+Having engineers in HN complain that they need to learn something in order to understand it is a pretty bad look.",take,pre-labelled by Claude
+"> No daemon needed for that. Like, at all.
+
+There is, for the same reasons that people use screen or tmux (which some people do use for this).  If I were queueing a prompt I expected to take hours to finish, it would be nice to be able to run it another computer so I don't have to worry about closing my laptop lid or the battery dying.
+
+It's not world-changing, but I have had agents do `grep -r /` commands before and it would have been nice to be able to detach and let it run rather than having to kill it because I have to leave before it'll actually finish (WSL is sooo slow on that).  It would be better if the agent did a better grep, but sometimes I'd rather wait 20 minutes than spend 7 minutes setting it all back up again.",take,pre-labelled by Claude
+"Youve essentially listed the same point four different ways... Rust merely kicks the UB can down the road.
+
+1. And? The unsafe code could still be memory unsafe
+
+2. But coders can't be trusted to manually manage memory, otherwise you'd just use c++ right? Doesn't matter whether it's marked unsafe or not, you could do that on c code.
+
+3. Not in unsafe rust, that's my whole point. There is only vague guidance on correct unsafe rust. (Because they haven't managed to crack the problem, just draw a perimeter around them)
+
+4. See point 2 rebuttal",take,pre-labelled by Claude
+"The only way to prevent leaks and abuse is to not collect the data.
+
+Since there can not be any trust in the supply chain and operations, the only way is to ban ALPR outright.",take,pre-labelled by Claude
+"The fun thing is that IRL my elderly neighbour keeps sheep: he keeps adding higher fences, electric bands, a second dog... Every day he messages me about how this time he guarantees the beasties will stay in his pastures; and every morning I find them grazing in my arbour, having found yet another hole in the fence.
+
+This is a true story, but may also be a fable.",experience,pre-labelled by Claude
+"iPads in general aren't expensive, just the Pro + keyboard.
+
+This year I wanted a new iPad but decided against the Pro and just got the base model which is extremely affordable, IMHO.",experience,pre-labelled by Claude
+"Sure there is.
+
+Suppose the condition is that temperature in the freezers is rising, producing active concern for the contents.
+
+A smart person with the right access can see that, and also correlate it with other things.
+
+Like:
+
+The doors to the building are open, while the HVAC takes a break because the weather is temperate and isn't dehumidifying as it would be on a hot day?
+
+And it's a holiday food-buying week, so the freezers' doors are open for buying and restocking more than usual?
+
+If the refrigerant pressures and other stats also fit the scenario, then:  The evap coils may just be iced up.  If they can be defrosted from the comfort of your desk a thousand miles away, then that's pretty great.  Just like what was done (to malicious extreme) here.
+
+(You're a smart person.  You could correlate these things yourself if this were your trade, save a trip [or many, many trips across a chain], and get paid to make these kinds of things happen remotely.)",take,pre-labelled by Claude
+"> How does dental (or medical) care differ when the person recommending the procedure directly benefits financially from it?
+
+Most of the big DI (diagnostic imaging) providers (GE, Siemens, Philips, etc.) have financing programs for physicians who want to buy CT, MRI, etc.
+
+They have consultants who'll help you with your Certificates of Need (the documentation that you need when opening a new healthcare facility that is, cynically, ""will your competitors choose to shut down or accept less revenue if we let you open""). They'll even connect you with other physicians so you can form your own partnership on a facility.
+
+And then, you'll go on to refer your regular patients for DI at a rate somewhere between 1 and 2 standard deviations above what other providers do for the same ICD-10 codes.
+
+Not problematic at all!",evidence,pre-labelled by Claude
+"No, that is ""archived in any known library"". Source is the Video Game History Foundation.
+
+https://gamehistory.org/87percent/
+
+https://insider-gaming.com/study-classic-games-unavailable/",evidence,pre-labelled by Claude
+"I've bought something the other week that I'm still waiting to be delivered.  The shop was fine, sent it out within hours.
+
+The carrier has been letting them down every single step of the way (and to add insult to injury, I have to use that damn ""Shop"" app to track the delivery.)  From a pick up on the 1st of October, they've supposedly had the package go back and forth between Los Angeles and here a couple of times.
+
+Not sure what the price difference is for them to have used this carrier, but it can't be worth it compared to the fuss both of us are having trying to get the carrier to actually deliver the shipped product.  The vendor is going to send a second one if the delivery doesn't happen to day like the carrier pinky promises it will (they've promised for 3 days straight it was going to be delivered that day, so I'm not holding my breath)",experience,pre-labelled by Claude
+"With all due respect, you gotta make that way easier if you want to drive Firefox adoption. Use AI to triage reports, but most people are just going to silently switch to something that works, rather than jump through any hoops.",take,pre-labelled by Claude
+"I think it’s purely a community size issue. When a community is small, everyone’s an owner. Dealing with bad actors is straightforward. When it grows into the hundreds or thousands the scale means you can’t know everyone anymore, you need hall monitors, need to be more guarded and intentional about how you communicate.
+
+It’s not bad or wrong, just different. When the changes forced by a group who didn’t build it, it’s frustrating.
+
+“Hey, here’s this thing you love doing, but now a computer does it and you don’t have to any more. See, same!” Thanks for allowing me to not do the thing I like to do?",take,pre-labelled by Claude
+"elsewhere on Hacker:
+https://news.ycombinator.com/item?id=50061290",take,cold
+"So my take is that video hosting is pretty expensive and that it's hard to compete with Google because:  (1) Google owns tons of fiber everywhere and has peering agreements with everybody so it has a better cost structure and (2) of course Google has a great advertising system to turn views into $ so (3) they can kick some money back to creators and still profit in a big way.
+
+I have looked at the question of building something YouTube-like based on AWS where people could upload videos,  they get re-encoded,  hosted in S3,  and sent out through CloudFront.  It wouldn't be that hard and the system would be bulletproof and not require a lot of operational attention but it would be expensive...  You could build something cheaper in terms of hosting costs but you'll pay it back in development and ops expenses until you get big.
+
+And then there's the moderation issue:  if you run an image hosting site people will try to upload CSAM and it's not hard to to enforce a no-ero policy but between that and hate speech and other problems who wants to deal with it?",take,pre-labelled by Claude
+"We can't have nice things:
+
+https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f
+
+https://inversegravity.net/2019/web-of-trust-dead/",take,cold
+"The context of this thread is AI-assisted code.  There's no ""people"" involved, the AI can reconstruct just the parts of the ecosystem that it needs as easily as it can use the ecosystem.  That's one of the big sea changes with AI: a lot of the best practices we've developed for coding really focus on creating good user interfaces and abstraction boundaries for coders so we can work in teams and have reasonable PL ergonomics, but when there is no team and no human, many of those considerations disappear.",take,pre-labelled by Claude
+Indeed. Ergo the best consumer defense is portability and open platforms.,take,pre-labelled by Claude
+"> How do you feel about WordPress / Hugo themes?
+
+I knew a web dev who exclusively made WordPress websites for local small businesses. They always looked great. The themes were put together by hand with care from a designer, and the developer/end user filled them and tweaked them *purposefully*.
+
+Sure if you have some web dev experience you start spotting them, but that never turned me off from a business in the same way that the above page does. I expected every business to have a website, but not for every business to commission a wholly bespoke design system. The themes available were numerous and of high enough quality that they were fit for purpose and didn't have this nauseating effect, at least for me.",experience,pre-labelled by Claude
+"Maybe some of the idea comes from Europe, where contractors can earn maybe twice the income of a similar regular employee?",take,pre-labelled by Claude
+"Yes.
+I had tech edited like 3 or 4 books by then, and through somewhat of serendipity, they asked me to write one.
+
+Their head technical editor back then wrote one of my college recommendation letters too.",experience,pre-labelled by Claude
+"Here's just one example:
+https://www.itechguides.com/elon-says-hes-working-to-fix-grok-after-ai-disagrees-with-him-on-right-wing-violence/
+
+AFAIK X published their algorithm which more or less just says: ""we use grok to decide which posts to show"".",evidence,pre-labelled by Claude
+"I think the audio is missing a lot of the hiccups, delays, and quirks that come with humans in meetings but the rest is pretty good!",evidence,cold
+"I want to understand this more - are you saying ""would pay for itself"" if you are offering chatbot commercially? Or using it yourself in lieu of ChatGPT etc..?",take,pre-labelled by Claude
+"Perhaps unrelated to this - a few days ago we had communications from a TLS certificate provider that we need to reissue all of our certificates by 21st 8PM before they will stop working. We pressed _why_ and was only told that Godaddy 'had a compliance issue with a batch of certificates'. Which doesn't make much sense for us as we have a few dozen and their renewals vary throughout the year.
+
+I've only found one other person talking about this online.
+
+What's very strange is that we don't use Godaddy directly and it's signed by Starfield G2 (now R1) - not the Godaddy root CA.
+
+Has anyone else had the same communications around their TLS certificates?",experience,pre-labelled by Claude
+"As I've mentioned elsewhere, the delta is control over login/logout, much easier/low friction deployment of policies, live policy changes, centralized security related logging, additional features like built-in DLP, corporate VPN/proxy, device posture checks, profile encryption, forced update/restart, guaranteed support, etc etc.
+
+You also get the ability to deploy all browser infrastructure on-premise, to effectively decouple yourselves from us and get sync data, telemetry, and so on all stored on-prem, serve updates from your own servers, etc. This is something that wasn't really practical before.
+
+I'm not sure why we would be okay with breaking a browser's trust in that way
+
+I'm not sure what you mean here. If we accept that this is something a lot of Enterprise deployments require, wouldn't you prefer to have things like DLP, VPN and security logging be built-in in the browser, rather than being provided by third-party products that intercept or hook the browser traffic somehow?",evidence,pre-labelled by Claude
+The human race is going to be really bummed to learn that currency didn't exist before the advent of US regulation and legislation! We were doing it wrong this whole time!!,take,pre-labelled by Claude
+"i mean, all webauthn is digital tokens.  if you mean software-based, you're incorrect.
+
+passkeys are hardware backed.  it's the term for the browser or password manager exposing the secure enclave in your phone or computer as a webauthn credential store, just like a standalone security key.",evidence,pre-labelled by Claude
+"> including but not limited to systemd
+
+As someone who admins several Linux boxes professionally and personally and has spent so little time working with systemd it's a rounding error, what are you talking about?",experience,pre-labelled by Claude
+"A decade ago, they were the name that popped up any time you would ask for registrar recommendations. Problems were relatively few. The real problems started in September of 2025 when the private equity firm CVC Capital Partners purchased a majority stake. Big surprise, they quickly went to shit. Not sure what CVC's plan was to make a return on their $1.5 billion investment, but it can't be working out well for them.",take,cold
+"I think it only supports 30 seconds of dialogue, so you could try chunking it.",take,pre-labelled by Claude
+How much of this guy’s problem is he goes 2 years plus between dental checkups of any kind?? Insurance will pay for a cleaning every 4 or 6 months.,evidence,cold
+"> spontaneous, unintended cooperation
+
+On what basis do you believe these words accurately reflect what happened?
+
+Some counter points
+
+- One of the Chinese LLMs (forget which) has on occasion shown thinking traces where it simulates calling and running a subagent.
+
+- There are some people who believe the models being evaluated during the HF incident were trained to collaborate. It's a very natural next step to produce more effective agentic teams.
+
+If we consider each new generation of models has a more advanced training regime
+
+next word -> chat -> CoT -> tools -> agentic -> teams
+
+With each generation, we see what people do with them, get traces of the helpful ones, and then use that train the next generation, thereby pushing more capabilities down into the model, or at least making them more amenable to that usage pattern after training.",take,pre-labelled by Claude
+"I'm not talking about pumped hydro.  Batteries have largely rendered that obsolete.  And batteries are scaling like gangbusters.
+
+Realize that even in a fully nuclear powered world, huge amounts of batteries are needed.  Replacing every ground vehicle in the US with a 70 kWh BEV would require enough batteries to store about 40 hours of the current average US grid power.  So the scaling is needed regardless of the post-fossil energy source.
+
+A longer term storage mode is also needed to deal with seasonal storage and covering rare Dunkelflauten as batteries are not suitable for that.  Fortunately there are multiple ways that could be handled, so it's a question of which is best.",experience,cold
+"> Wish code editors would support different fonts per semantic region
+
+They absolutely do. In Emacs I use different faces for comments, tables in literate sections, and code blocks. I use the same font for all those faces, but different attributes (size, weight, etc).
+
+I also have configured different fonts for different unicode code points, so that when I include Cyrillic or Japanese text I can use a font with better code point coverage that my preferred fonts.
+
+It always astounds me how unconfigurable most editors are.",experience,pre-labelled by Claude
+"This is a violation of the spec you cited above and criticized by FIDO devs here:
+
+https://github.com/keepassxreboot/keepassxc/issues/10407#issuecomment-1994923493",evidence,pre-labelled by Claude
+"Which is probably why they  will merge it. You can get a lot done in chat mode, especially if you connect custom MCPs to it. I can't see that continuing.",take,pre-labelled by Claude
+"OpenCode Go is the best thing they have going. Pi is the way to go for coding harnesses, IMHO. But despite all the BS messaging, something like glm-5.3-flash on $10/month OpenCode Go plan is a great deal if they have a Come to Jesus moment about security and do a bit of team attitude adjustment.",take,pre-labelled by Claude
+"Huh? Mate (formerly known as Gnome 2) is pretty functional and almost as lightweight as Xfce.
+
+Cinnamon (comes with Linux Mint) is a modern refresh that's very functional and not at all heavy or slow.
+
+If you don't want a desktop, I guess there are many good WMs to choose from.",take,pre-labelled by Claude
+"So if the profit margin is low, capitalism is bad cuz the workers are exploited..
+... and if the profit margin is high, capitalism is bad cuz the workers are exploited?
+
+got it!
+
+Meanwhile under communism.. the workers are exploited everywhere and the profit margin is 0 everywhere, except the black market, and the black market is the only place you can find anything.",take,pre-labelled by Claude
+"Ok now take all of your arguments and reverse them. Two random people on the Internet claiming they aren’t considering a purchase is completely meaningless and has no bearing or relationship to the market opportunity for this or other products. Software engineers, particular on this forum, are very often and usually wrong precisely because what they consider in products isn’t what others care about.",take,pre-labelled by Claude
+I stopped going to dentists since COVID started. Only two exceptions: had to come when one of the crowns unglued and needed to be glued back. Twice. In these 7 years I had minor toothache start one time and seems to have resolved it by applying a diluted fluoride-based mouthwash to that tooth using a water flosser a couple of times.,experience,pre-labelled by Claude
+"It's a large niche because it was unexploited before us, but our niche is in the resources and strategies accessible to generalized intelligence.
+
+Humans used to have other niches, when there were resources differentially accessible to persistence hunting, but that niche basically no longer exists.",take,pre-labelled by Claude
+Not in the US either and it feels like Amazon is the only choice for some things.,take,pre-labelled by Claude
+"I didn't say it was better, just that there was no ""roguness"" nor some magical surprise.",take,pre-labelled by Claude

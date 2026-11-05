@@ -1,0 +1,259 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 45,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": true,
+  "scores": {
+    "n": 45,
+    "accuracy": 0.24444444444444444,
+    "f1_macro": 0.163003663003663,
+    "per_label": {
+      "evidence": {
+        "precision": 0.20930232558139536,
+        "recall": 1.0,
+        "f1": 0.3461538461538462,
+        "support": 9
+      },
+      "experience": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 10
+      },
+      "take": {
+        "precision": 1.0,
+        "recall": 0.07692307692307693,
+        "f1": 0.14285714285714288,
+        "support": 26
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "I hope you don't sell your electrician services for $200/month...",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "When I was a child among the ashes I heard it said that in Belfast there was a sports store that sold a dozen baseball bats every week but never once sold a ball or glove. I always thought it was apocryphal but there's a few quotes here and there if you search.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Both the \"100% of of your code has the potential to trigger a similar bug\" and \"there's no path for the underlying cause to ever be fixed\" are just nonsense.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Agree. users as rationalist just don't have the cultural inclination for such subtle insinuations, and sadly this speaks for a big populance on hackernews",
+      "gold": "take",
+      "predicted": "take"
+    },
+    {
+      "text": "Agreed, it's mad.\n\nBut overtime I'm sure it would arrive at a solid, user tested bill splitter that you can just tweak and customise as much or as little as you like, saves it to your profile and there you are, a reusable, fully customisable tool.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "OpenRouter routes traffic through many different providers\n\nhttps://openrouter.ai/deepseek/deepseek-v4.1-flash-1017#providers",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "The fact that Ledger uses resellers is crazy.\n\nThe fact that some people can put million dollars worth of crypto on a device, but can't buy a plane ticket to someone to get the device straight from the factory is crazy.\n\nThe fact that puri.sm has better anti interdiction practices than Ledger is crazy : https://puri.sm/posts/anti-interdiction-update-six-month-retrospective/\n\n> Before Ledger publicly confirmed the hardware implant, former Mt. Gox CEO Mark Karpel\u00e8s reported examining a suspicious Ledger Nano X device obtained from Malaysia. On October 9, Karpel\u00e8s described finding an additional electronic component hidden behind the device\u2019s display, inside material normally used to protect the screen.\n\n> He reported that the wallet had arrived in packaging that appeared intact, raising questions about whether customers could identify a modified device through a routine visual inspection. In photographs shared publicly, the component appeared to contain electronic circuitry separate from the wallet\u2019s original hardware\n\nCome on.",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Does your keyboard have an abacus attached to it on the right hand side?  Perhaps your keyboard is actually a slate tablet 8)\n\nWhat kind of mad keyboard compose effort would conjure up a thorn?  I used it very deliberately.\n\nThorn used to be a letter of the English alphabet and I fancied using it to imply \"ye olde ...\" (y replaced thorn in that sort of thing)",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Yes, so you are against the proposed idea.\n\nWhat is your alternative idea?\n\nNo idea why you\u2019re being so hostile here.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": ">You can always use third-party DNS if that's what you wish to do\n\nOh boy, you don't know how many bad registrars won't let you customize the nameserver...",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "elsewhere on Hacker:\nhttps://news.ycombinator.com/item?id=50061290",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "A decade ago, they were the name that popped up any time you would ask for registrar recommendations. Problems were relatively few. The real problems started in September of 2025 when the private equity firm CVC Capital Partners purchased a majority stake. Big surprise, they quickly went to shit. Not sure what CVC's plan was to make a return on their $1.5 billion investment, but it can't be working out well for them.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I know. I\u2019ve been poking at just writing a middleware for my ACP proxy that transparently rewrites them to ./ but they\u2019re often piped to something that expects an absolute path.\n\nMaybe that\u2019ll be my weekend project, I\u2019m sure no one has ever been mad to spend a weekend trying to parse bash.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Moreover, that is the dimension used for the em-space and em-dash.",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "We can't have nice things:\n\nhttps://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f\n\nhttps://inversegravity.net/2019/web-of-trust-dead/",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "If I need to daily use this Samsung phone later*, and there's a viable way to downgrade this thing to an older Android and still run whatever apps it needs, I'll do it gladly.\n\n* It was a burner for a trip cause my phone semi-broke, long story, now it's just a backup phone",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I do not go on X any more (or any big social for that matter)\n\nI've heard Dax has a number of \"social media stunt\" kinds of posts and others showing them being rather unprofessional (eg. something that appears to be excessive drinking at a company event)",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "iPads in general aren't expensive, just the Pro + keyboard.\n\nThis year I wanted a new iPad but decided against the Pro and just got the base model which is extremely affordable, IMHO.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I am not sure what you mean to say with this but reading back through this thread I'm not sure if what is implied here has come through very well. The idea is that well outside the range of where people died from being evaporated, there was a much larger range of people who were exposed to a lot of ionizing radiation from various sources like black rain. But, then, there's a range where people exposed to relatively low doses but higher than background radiation seem to have lower cancer incidence than average. So there is a distance where it is higher than average, then further away from that, it becomes lower than average, before finally going back to average.\n\nThis doesn't necessarily imply that radiation hormesis is the only possible explanation, but the easy hand-waves are all basically out. Something weird is happening here and it seems to repeat in different circumstances, too. There is not much to go on other than confounding results and proposed mechanisms as far as I can tell.",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "> however the ability to leak memory is pretty demonstrable, no?\n\nThis bug wouldn't be nearly as interesting if it \"just\" resulted in a memory leak. Memory leaks aren't considered unsafe in Rust because they can't result in UB in the same way as e.g., OOB writes. In fact, there are APIs accessible in safe Rust which explicitly leak memory! [0]\n\nThis bug is effectively a use-after-free, which is definitely something that the Rust compiler should catch.\n\n> Would be cool to see clippy pick up on this bug in older versions!\n\nNo need for that. A future version of the Rust compiler that incorporates a fix should reject the incorrect code, so all you'd need to do is compile older code with that new compiler.\n\n[0]: https://doc.rust-lang.org/std/mem/fn.forget.html",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Or that's how they got around your corporate IT browser blocks",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "That's interesting. I guess depending on the crow I could also see them figure out that driving critters onto the road creates roadkill meals.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Yeah, I'm prioritizing the issue and PR then pre-reviewing them in an active open source repository absolutely drowned in LLM contributions.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "The only way to prevent leaks and abuse is to not collect the data.\n\nSince there can not be any trust in the supply chain and operations, the only way is to ban ALPR outright.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I submitted one of those originally and do think that incident is relevant. Not related, but it does qualify as a red flag generally for the company and their attention to their system designs with respect to security.\n\nOur read on the situation is too much eyes and brain free coding, that they assumed the ai redesign of the configuration system was sound. It took a couple of PRs and explanations for them to bring the system to a better place, such that MDM config was respected at the highest priority.\n\nI do give the OpenCode team a lot of credit, at least Aiden, for the handling of this case.\n\nhttps://github.com/anomalyco/opencode/pull/51337#issuecomment-6157485903\n\nI'm now trying to get the Pi harness to support MDM, but it is not going well... see this and please consider sharing your perspectives or support there\n\nhttps://github.com/earendil-works/pi/issues/10895",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I don't know if the MOPD patch still loops. I do know that whichever model Xiaomi is running on their own API as of two days ago does still loop (it's not clear if they're running the MOPD or not, but it would seem odd that they wouldn't).",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I've been testing the models against data analysis tasks, and found that the recent Luna & Haiku releases from the last month have really reset the narrative around price x quality.\n\nDeepSeek 4.1 Flash is really is 10x cheaper than Opus, but it's in the same ballpark as Luna & Haiku in terms of quality, cost, and speed for data analysis. (Luna & Haiku actually perform marginally better, cheaper, and faster).\n\nHere's a breakdown: https://plotly.com/blog/deepseek-v4-1-flash-data-analysis-benchmark/\n\nNote that this benchmark is for data analysis, not general software development. So the tasks are shorter and more constrained.",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Why try when you have shale oil and gas?\n\nBut look on the bright side solar is not complicated. If America ever changes it's policies they can switch pretty fast.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I think \u201cThe URL is the app.\u201d Is AI generated and it weakens the title but that\u2019s ultimately only so important.\n\nYou are classifying well and optimizing poorly.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Well, first of all, why does a coffee machine even need internet access? Can you play Doom on it too?",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "In 2019 an injured siberian tiger came to a russian border post and refused to  leave until he was taken to a rehab facility.",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "And I wouldn't discount the value of her being a role model for kids, especially girls. Might make them push in directions and achieve things they otherwise wouldn't.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Why would I assume it would be credible? Instead, I simply proposed some designs and had it find out if such hardware existed / was feasible.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Surely you can concede that your statement as written was wrong, that there's no possible charitable understanding where it wasn't, and that at the time of writing the comment you indeed didn't posess the knowledge that it was only for enterprise accounts; otherwise you would have specified it, because then it becomes a completely different claim with different consequences. Unless you misinterpreted it intentionally, in order to derive the implication you wanted, but I'll go with the first interpretation.\n\nMy annoyance was about you not acknowledging your wrongness and instead trying to hold on to your statement by shifting the goalpost, and furthermore replying to the commenter that corrected you by correcting *them*.\n\nFurthermore, there seems to be some emotion/bias from your side between the lines of your original comment.\n\nIf you think I'm being too harsh, then sorry, but I really dislike this manner of discussing.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "The link hasn't been removed; the comment is just flagged and dead. If you have showdead enabled on your account, you can see it here:\n\nhttps://news.ycombinator.com/item?id=50000624\n\nAFAICT the comment is spreading false claims about Margaret Hamilton at about the worst possible moment, so no surprises that it's been flagged.",
+      "gold": "evidence",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Your comment is halfway towards shameless whataboutism, but I'll bite.\n\nThe huge difference here is that for these billionaires, everybody else is a \"far away consequence\". It's as if I kept tossing my garbage into my direct neighbor's window and flushing my toilet into their kitchen sink.",
+      "gold": "take",
+      "predicted": "take"
+    },
+    {
+      "text": "I don't know. I haven't heard loud complaints about it, at least. It certainly has taken me a few days to get used to it.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "> The Google Gemini subscription landscape is such a mess...\n\nThe others are quite bad as well in that regard, but on this particular metric, Google has always been top dog. Goes back to way before AI ever took off, BTW.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "I don't work with many of the smaller players, but you're right. They're far more likely to not have their own teams building and managing these systems, so they're susceptible to the  Lyle Lanleys of the industry who come in and show them how they can control everything from their phone. They get sold off-the-shelf products and told that they're plug-and-play, but they're usually not.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Here's an anecdote. I have repurposed my 6 year old 32gb M1 MacBook Pro to run Qwen 3.6 35b a3b and I used to give it nightly maintenance tasks that span my OSS github repos.\n\nI gave it mundane tasks like updating dependencies, writing changelogs, etc. It ran about 2 hours a night.\n\nMy MBP consumes 0.1w idle and about 10w running inference. I pay $0.33/kwh. If it runs for 2 hours a day over 365 days - it will cost $2.41/year (excluding idle time).\n\nExcluding the cost of hardware - the running costs alone are more expensive than DeepSeek's API and the inference quality is much lower. The economics are even worse on AMD AI Max mini PCs and worse still with a dedicated GPU setup.\n\nThat said - my Apple Silicon example is orders of magnitude cheaper than western inference providers and offers unrivaled privacy.\n\nPerhaps a local AI setup would be compelling for small/medium business users... and it would be practical if the hyperscalers didn't buy all of the potatoes on Earth.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "> An industry asking for regulation to stop a race to the bottom is not atypical\n\nI didn't say, or even imply, that it is. Just that it is unusual, historically speaking, to see it being pushed for so strongly just a couple of years\u00b9 into general public awareness. Either because previously things didn't move so quickly or, more likely, because the leading companies had more moat initially to keep other adopters moving slower.\n\n--------\n\n[1] talking about LLMs and related tech, image targetting models have been in the public awareness for a fair while longer but they are not the primary concern for most.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "That has always been my experience with Google and how they work their datasets. I think it's already well known how their picture post-processing is close to the best for people with darker skin tones as their post-processing models are trained with more varied datasets in an intentional way. Which is somewhat close to what you're mentioning here.",
+      "gold": "experience",
+      "predicted": "evidence"
+    },
+    {
+      "text": "Huh? Mate (formerly known as Gnome 2) is pretty functional and almost as lightweight as Xfce.\n\nCinnamon (comes with Linux Mint) is a modern refresh that's very functional and not at all heavy or slow.\n\nIf you don't want a desktop, I guess there are many good WMs to choose from.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "You either see the long term ramifications of data collection, Or you don't.",
+      "gold": "take",
+      "predicted": "evidence"
+    },
+    {
+      "text": "> No daemon needed for that. Like, at all.\n\nThere is, for the same reasons that people use screen or tmux (which some people do use for this).  If I were queueing a prompt I expected to take hours to finish, it would be nice to be able to run it another computer so I don't have to worry about closing my laptop lid or the battery dying.\n\nIt's not world-changing, but I have had agents do `grep -r /` commands before and it would have been nice to be able to detach and let it run rather than having to kill it because I have to leave before it'll actually finish (WSL is sooo slow on that).  It would be better if the agent did a better grep, but sometimes I'd rather wait 20 minutes than spend 7 minutes setting it all back up again.",
+      "gold": "take",
+      "predicted": "evidence"
+    }
+  ]
+}
