@@ -1,0 +1,154 @@
+text,label,note
+"Surely you can concede that your statement as written was wrong, that there's no possible charitable understanding where it wasn't, and that at the time of writing the comment you indeed didn't posess the knowledge that it was only for enterprise accounts; otherwise you would have specified it, because then it becomes a completely different claim with different consequences. Unless you misinterpreted it intentionally, in order to derive the implication you wanted, but I'll go with the first interpretation.
+
+My annoyance was about you not acknowledging your wrongness and instead trying to hold on to your statement by shifting the goalpost, and furthermore replying to the commenter that corrected you by correcting *them*.
+
+Furthermore, there seems to be some emotion/bias from your side between the lines of your original comment.
+
+If you think I'm being too harsh, then sorry, but I really dislike this manner of discussing.",take,pre-labelled by Claude
+"A technical person (such as yourself, presumably) can make an informed tradeoff, but a non-technical person i.e. the general public as OP described just sees it as a black box that makes purchases and appointments, and then gets surprised when their bank details end up in Slack[0], hacks a local gym[1] or the agent sends a stranger their address[2].
+
+[0] https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10?op=1
+
+[1] https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986
+
+[2] https://www.pcmag.com/news/muse-ai-shared-address-error-traced-to-confusion-about-marketplace-permissions",evidence,pre-labelled by Claude
+"That's not what happened. Companies that did maintenance and had physical access to the facility were targeted, which then pushed the worm on to the laptops and flash drives they would take with them into the air gapped facility.",evidence,pre-labelled by Claude
+"Combined with this: https://www.apollo.com/wealth/insights-news/insights/daily-spark/slowing-token-spend-shows-compute-demand-is-not-unlimited
+
+Supply skyrockets - demand slows. Price... you know what happens.
+
+Someone share an alternative story here - revenue is committed. How do these companies that have bought this compute justify their costs in 2027 and 2028?",evidence,pre-labelled by Claude
+"I think there's a middle position, too.  I'm a software guy and a lot of my house is automated.  But unlike the non-software tech enthusiasts I know, my automation has some strict guardrails.  Like it does not rely on the cloud (in fact is not allowed to communicate with it), local only.  And every device must fail back into no worse a state than the manual equivalent.  E.g. the door locks are electronic, but still have a knob for the deadbolt and a key on the outside.  The light switches are all momentary switches but if the controller fails they fail to just being plain switches.
+
+But ... I kinda feel the sentiment, I routinely joke (and feels like less of a joke every year) that when I retire in a few years, I'm removing every last computer from my life.",experience,pre-labelled by Claude
+">i.e. 0.02677/kWh. Where would this measure as too high?
+
+Well, there are a few plants in the US (for example Kewaunee, rancho seco)  that were closed for not being profitable. In one instance the owner took an over 300M usd write-off instead of continuing operations. So it measured too high there.
+
+The explanation is likely that the 0.02677 is not the actual total costs of operations. In fact the report states it plainly on page 2: ""not the full cost of owning and operating a nuclear plant.""
+
+I fully support your idea to identify ALL the costs not just for nuclear, but let's start with nuclear, since that's clearly where the largest misconception exists today.
+
+>Proposing e-fuels is basically saying we should use a battery with higher conversion losses.
+
+Thats dismissive, it is also a basically limitless capacity battery. We already have periods of 0 electricity costs, more electricity than we know what we can do with. This will increase, and having it generate e-fuel would be a nice option for it.",evidence,pre-labelled by Claude
+"They're training on trillions of tokens. Isn't it highly unlikely that the under a thousand tokens about your ""new science"" would surface in a meaningful way?",take,pre-labelled by Claude
+"Sounds like a shit system then.
+
+In my personal experience, Canada and Australia don’t suffer from this.",experience,pre-labelled by Claude
+That's interesting. I guess depending on the crow I could also see them figure out that driving critters onto the road creates roadkill meals.,experience,cold
+"I'm seeing a lot of recommendations for joker, but they have 3rd party google scripts on their site",evidence,pre-labelled by Claude
+"> unifi seems to have some bug
+
+Maybe things have changed in the past few years but prior to covid a decent chunk of my $dayJob was poking about the internals of the unifi controller to support an API.
+
+They used MongoDB for stats. If they still do, that might explain the bug :)",experience,pre-labelled by Claude
+"So much of what you list is about controlling employees, it's just depressing. I would imagine the market wants surveillance of employees too?",take,pre-labelled by Claude
+"Yes, so you are against the proposed idea.
+
+What is your alternative idea?
+
+No idea why you’re being so hostile here.",take,pre-labelled by Claude
+If the main effort is trawling through forums or poorly written documentation the main thing you've learned is how to trawl through these things. I'm of the opinion these should've never been useful skills to begin with.,take,pre-labelled by Claude
+"Here's just one example:
+https://www.itechguides.com/elon-says-hes-working-to-fix-grok-after-ai-disagrees-with-him-on-right-wing-violence/
+
+AFAIK X published their algorithm which more or less just says: ""we use grok to decide which posts to show"".",evidence,pre-labelled by Claude
+Can't you just buy a plug-in battery with like 5kWh for cheap? I think variable electricity prices aren't a big deal anymore. Plug-in makes them viable even for rental apartments.,take,pre-labelled by Claude
+"Bottom of the homepage has a link to the GitHub project: https://github.com/aboard-io/tinylittleoffice
+
+The bottom of the README has instructions to run locally and self-host.
+
+Looks good to me.",take,cold
+"Very interesting read and nice animation. One thing though is that the solution seems ""too good to be true"". Lots of smart people have worked on intepretability problems before and tried the simple ideas he is talking about.
+
+If those results hold, it is a real breakthrough in the sense that it is a sharp simplification of an actually complicated problem.",take,pre-labelled by Claude
+I really hope my new neighbor turns out to be a casual backyard roboticist.,take,pre-labelled by Claude
+"Not trying to throw shade at curl, although I don’t think this feature can realistically be done by a drive-by contributor.
+
+No, the article listed some apps that were not vulnerable, and the first question to me is “so what is vulnerable?” And the answer is “every curl | sh installer on the internet since April 2025” (among assuredly many other less prolific apps).",evidence,pre-labelled by Claude
+Finally we can learn once and for all what those LG TVs are really up to.,take,pre-labelled by Claude
+"How small is small? Runbox is very small but very responsive, they’ve been great to me.",experience,pre-labelled by Claude
+"Well, first of all, why does a coffee machine even need internet access? Can you play Doom on it too?",take,pre-labelled by Claude
+"How do you expect a hierarchy to function? Should the assistant to the SVP ask the managers to let the employees reschedule? That’s like a lot of bureaucracy for exactly the same flexibility.
+
+(Am open to better approaches though! Not saying I particularly enjoy last minute urgent meetings you can’t say no to. But most often those are important and with people whose agendas need more care than mine.)",take,pre-labelled by Claude
+"That’s one way to avoid use after free bugs!
+
+Most of my initial foray in programming was on microcontrollers, of which dynamic memory allocation came late.
+
+Atmel ATMega didn’t support it at all. Rabbits supported allocation but not freeing, so, static memory with extra steps. It wasn’t until I was using cortex’s that the idea of using malloc was even entertained.
+
+Even still today, I pretty much stuck with static global with reference passing or allocate everything at initialisation time. It’s a surprisingly robust strategy.",experience,pre-labelled by Claude
+You are misreading my sentiment. I don't lament it. It is however a concern the average vibe coder should have but likely doesn't.,take,pre-labelled by Claude
+"Name one password manager with an ""autofill and remember..."" action that fills passwords from unrelated domains.
+
+You're spreading nothing more than FUD. This is a completely imaginary threat vector that doesn't exist. And even threats that do exist don't always justfity security at every cost. The optimum amount of security is never 100%.",take,pre-labelled by Claude
+"Here's an anecdote. I have repurposed my 6 year old 32gb M1 MacBook Pro to run Qwen 3.6 35b a3b and I used to give it nightly maintenance tasks that span my OSS github repos.
+
+I gave it mundane tasks like updating dependencies, writing changelogs, etc. It ran about 2 hours a night.
+
+My MBP consumes 0.1w idle and about 10w running inference. I pay $0.33/kwh. If it runs for 2 hours a day over 365 days - it will cost $2.41/year (excluding idle time).
+
+Excluding the cost of hardware - the running costs alone are more expensive than DeepSeek's API and the inference quality is much lower. The economics are even worse on AMD AI Max mini PCs and worse still with a dedicated GPU setup.
+
+That said - my Apple Silicon example is orders of magnitude cheaper than western inference providers and offers unrivaled privacy.
+
+Perhaps a local AI setup would be compelling for small/medium business users... and it would be practical if the hyperscalers didn't buy all of the potatoes on Earth.",experience,pre-labelled by Claude
+"The context of this thread is AI-assisted code.  There's no ""people"" involved, the AI can reconstruct just the parts of the ecosystem that it needs as easily as it can use the ecosystem.  That's one of the big sea changes with AI: a lot of the best practices we've developed for coding really focus on creating good user interfaces and abstraction boundaries for coders so we can work in teams and have reasonable PL ergonomics, but when there is no team and no human, many of those considerations disappear.",take,pre-labelled by Claude
+Which is good because certificates not in CT logs are treated as invalid/untrusted.,evidence,pre-labelled by Claude
+"Huh? Mate (formerly known as Gnome 2) is pretty functional and almost as lightweight as Xfce.
+
+Cinnamon (comes with Linux Mint) is a modern refresh that's very functional and not at all heavy or slow.
+
+If you don't want a desktop, I guess there are many good WMs to choose from.",take,pre-labelled by Claude
+"""seems to be the best"" weasel wording from author with vested interest.",take,pre-labelled by Claude
+That has always been my experience with Google and how they work their datasets. I think it's already well known how their picture post-processing is close to the best for people with darker skin tones as their post-processing models are trained with more varied datasets in an intentional way. Which is somewhat close to what you're mentioning here.,experience,pre-labelled by Claude
+"* NDA, non-compete, and other legal protections
+
+* same timezone
+
+* easy to verify who is actually working on your system -- on the other side of a B2B VPN you never really know...",experience,cold
+Sure and how do you outlaw this behavior. It’s near impossible is my remark.,take,pre-labelled by Claude
+"using those ads for anything more than putting a picture in front of my face is also unethical. So it balances out.
+
+Could you imagine phoning every company you saw an ad for just to inform them that you have watched the ad. Every single time?",take,pre-labelled by Claude
+"They told the agents to run a capture the flag, but did not give specific limits on the scope of that activity.
+
+If an organization runs a capture the flag, but the rules don't specify that they have to stay on certain networks and can't hack into the org's own network that has the CTF solutions, then it's pretty obviously on the org running the CTF because they did not appropriately scope the challenge.",take,pre-labelled by Claude
+"Error rate is crazy high.
+And comparing to low models and omit a lot of other bigger open models.",take,pre-labelled by Claude
+"The training data set is a huge corpus of text from a wide variety of styles and time period. A human writer knows to adjust their writing style to fit their intended audience. A skilled LLM user knows to direct the LLM to generate in the appropriate style. A naive LLM user doesn't, so that's how we get this uncanny valley ick, where the text feels wrong.",take,pre-labelled by Claude
+"Every time I see a cool new font like this, I want to switch to it.
+
+But, almost always, I end up switching back to DejaVu Sans Mono for just about everything monospaced.",experience,pre-labelled by Claude
+"elsewhere on Hacker:
+https://news.ycombinator.com/item?id=50061290",take,cold
+Gold is worth much more per kilogram than water... But it's also much more expensive.,take,pre-labelled by Claude
+"I know the moment we all start paying, they will add the higher tier of subscription without ads and basic tier would have ads again",take,pre-labelled by Claude
+I was going to ask why it’s not the first result in Google but the expired cert and invalid CN explains it.,take,pre-labelled by Claude
+"mmh what is going on?
+
+anyone knows?
+
+source:virustotal
+
+https://opencode.ai/update/api/latest/desktop/opencode/opencode-desktop-mac-x64.dmg
+
+application/x-apple-diskimage
+Last Analysis Date
+3 days ago
+Summary
+Detection
+---
+SOCRadar
+Malicious
+---
+ZeroCERT
+Malicious
+----
+Gridinsoft
+Suspicious
+---
+??",evidence,pre-labelled by Claude
